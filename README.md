@@ -12,10 +12,10 @@ Schematic settings & layout settings are described in the guide, as well as comp
 ## Branch Guide
 You should be working on a new branch for each revision of your board. It is only when your board gets ordered on JLC that it should be merged with the main branch.
 
-<ins>Branch naming structure:</ins> [boardname]_rev[0X]
+<ins>Branch naming structure:</ins> [boardname]_v[X]
 
 Example:
-> main_board_rev01
+> main_board_v1
 
 <ins>How-To Create a Branch:</ins>
 
@@ -24,4 +24,11 @@ git checkout -b [your_branch] main
 git push -u origin [your_branch]
 ```
 
-Only add your files, **AFTER** closing out of your KiCad project to prevent the temporary files from being added.
+## KiCad Project Name
+
+Create your KiCad project on YOUR branch, within your current project folder.
+
+<ins>Project filepath:</ins> [your_folder]/[boardname]_v[X]
+
+Example Path:
+> 01_main_board/main_board_v1
