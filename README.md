@@ -23,3 +23,5 @@ Example:
 git checkout -b [your_branch] main
 git push -u origin [your_branch]
 ```
+
+Only add your files, **AFTER** closing out of your KiCad project to prevent the temporary files from being added.
