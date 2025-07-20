@@ -8,3 +8,10 @@ Here is a very simple GitHub & KiCad Installation tutorial: https://docs.google.
 As a summary, you should be using **KiCad Version 9**. All project will be modular as well. 
 
 Schematic settings & layout settings are described in the guide, as well as component derating.
+
+## Branch Guide
+Branch naming structure: [boardname]_rev[0X]
+
+How-To Create a Branch:
+git checkout -b your_branch
+git push -u origin your_branch
