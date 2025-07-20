@@ -11,7 +11,10 @@ Schematic settings & layout settings are described in the guide, as well as comp
 
 ## Branch Guide
 Branch naming structure: [boardname]_rev[0X]
+Example: main_board_rev01
 
-How-To Create a Branch:
-git checkout -b your_branch
-git push -u origin your_branch
+<ins>How-To Create a Branch:</ins>
+```
+git checkout -b [your_branch] main
+git push -u origin [your_branch]
+```
