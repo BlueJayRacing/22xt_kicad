@@ -10,6 +10,8 @@ As a summary, you should be using **KiCad Version 9**. All project will be modul
 Schematic settings & layout settings are described in the guide, as well as component derating.
 
 ## Branch Guide
+You should be working on a new branch for each revision of your board. It is only when your board gets ordered on JLC that it should be merged with the main branch.
+
 Branch naming structure: [boardname]_rev[0X]
 
 Example:
