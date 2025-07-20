@@ -29,10 +29,10 @@ cplfiles
 *.ses
 
 # Exported BOM files
-# *.xml
-# *.csv
+*.xml
+*.csv
 
-# */gerbers/
-# */cplfiles/
-# */drillfiles/
-# */grbrdrillfiles/
+*/gerbers/
+*/cplfiles/
+*/drillfiles/
+*/grbrdrillfiles/
