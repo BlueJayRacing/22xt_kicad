@@ -12,7 +12,7 @@ Schematic settings & layout settings are described in the guide, as well as comp
 ## Branch Guide
 Branch naming structure: [boardname]_rev[0X]
 
-Example: main_board_rev01
+> Example: main_board_rev01
 
 <ins>How-To Create a Branch:</ins>
 ```
