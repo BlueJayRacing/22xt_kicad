@@ -12,12 +12,13 @@ Schematic settings & layout settings are described in the guide, as well as comp
 ## Branch Guide
 You should be working on a new branch for each revision of your board. It is only when your board gets ordered on JLC that it should be merged with the main branch.
 
+<ins>How-To Create a Branch:</ins>
+
 Branch naming structure: [boardname]_rev[0X]
 
 Example:
 > main_board_rev01
 
-<ins>How-To Create a Branch:</ins>
 ```
 git checkout -b [your_branch] main
 git push -u origin [your_branch]
