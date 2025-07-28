@@ -2071,6 +2071,10 @@
 		(uuid "4c4a7639-83d0-43ab-8f57-6d1cd1f961b9")
 	)
 	(no_connect
+		(at 49.53 57.15)
+		(uuid "67ddf5df-93ea-4251-bc42-d9da4bfe115f")
+	)
+	(no_connect
 		(at 49.53 67.31)
 		(uuid "6c93f13d-d638-46c5-aded-b4049e7302bf")
 	)
@@ -2085,6 +2089,10 @@
 	(no_connect
 		(at 49.53 69.85)
 		(uuid "7554b2f4-f066-4f47-99c3-9009015dda5e")
+	)
+	(no_connect
+		(at 49.53 54.61)
+		(uuid "9443c2f7-0bfb-41b2-b3b0-c332cd8e8e89")
 	)
 	(no_connect
 		(at 36.83 64.77)
@@ -2372,29 +2380,6 @@
 			)
 		)
 	)
-	(global_label "mag_3_FL"
-		(shape bidirectional)
-		(at 49.53 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5acc6ae7-a198-4246-ad41-3f8772dadf70")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.8792 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "linpot_3_RL"
 		(shape output)
 		(at 36.83 54.61 180)
@@ -2439,7 +2424,7 @@
 			)
 		)
 	)
-	(global_label "mag_1_RL"
+	(global_label "SCL"
 		(shape bidirectional)
 		(at 49.53 49.53 0)
 		(fields_autoplaced yes)
@@ -2452,7 +2437,7 @@
 		)
 		(uuid "6b1b8fbb-000d-48c9-8419-bcb0967b48c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.0606 49.53 0)
+			(at 57.1341 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,29 +2627,6 @@
 			)
 		)
 	)
-	(global_label "mag_4_FR"
-		(shape bidirectional)
-		(at 49.53 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b11f5f82-2af6-40ae-9c70-8aff16cb9450")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.1211 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "steering_encoder"
 		(shape output)
 		(at 36.83 62.23 180)
@@ -2798,7 +2760,7 @@
 			)
 		)
 	)
-	(global_label "mag_2_RR"
+	(global_label "SDA"
 		(shape bidirectional)
 		(at 49.53 52.07 0)
 		(fields_autoplaced yes)
@@ -2811,7 +2773,7 @@
 		)
 		(uuid "f1d4387b-3d9a-4108-a27a-08074f2bd43d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.3025 52.07 0)
+			(at 57.1946 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
