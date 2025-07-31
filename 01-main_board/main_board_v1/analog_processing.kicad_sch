@@ -2613,7 +2613,7 @@
 	)
 	(global_label "MISO1"
 		(shape output)
-		(at 74.93 128.27 270)
+		(at 74.93 123.19 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2623,7 +2623,7 @@
 		)
 		(uuid "814b9aad-b6ff-47d3-a729-97b81ab83fa8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.93 137.0609 90)
+			(at 74.93 131.9809 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,75 +4241,6 @@
 			(project "main_board_v1"
 				(path "/12c2237c-5932-49af-9119-92b28c846ae7/3932ebef-992a-45fd-a214-7d9aa3b763ff"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 74.93 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a83ee47b-3a5a-4066-a7b5-292f06a6cdac")
-		(property "Reference" "R11"
-			(at 69.596 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20R"
-			(at 69.596 127.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 74.93 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "524b3ef9-6a95-4ad0-bf5d-5bc79b1a2649")
-		)
-		(pin "1"
-			(uuid "9014da72-bd6c-4d27-9aa1-a068bb6b4d14")
-		)
-		(instances
-			(project "main_board_v1"
-				(path "/12c2237c-5932-49af-9119-92b28c846ae7/3932ebef-992a-45fd-a214-7d9aa3b763ff"
-					(reference "R11")
 					(unit 1)
 				)
 			)

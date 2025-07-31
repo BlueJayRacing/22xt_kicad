@@ -2596,7 +2596,7 @@
 		(dnp no)
 		(uuid "017abf03-0671-4a39-8e69-cc541193b05b")
 		(property "Reference" "R10"
-			(at 143.764 111.506 0)
+			(at 148.59 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2604,8 +2604,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "36.785k"
-			(at 143.764 114.046 0)
+		(property "Value" "36.5k"
+			(at 147.32 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1595,7 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 77.47) (xy 144.78 77.47)
+			(xy 132.08 77.47) (xy 144.78 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1665,7 +1665,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 82.55) (xy 143.51 82.55)
+			(xy 132.08 82.55) (xy 143.51 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1875,7 +1875,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 85.09) (xy 139.7 85.09)
+			(xy 132.08 85.09) (xy 139.7 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2055,7 +2055,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 80.01) (xy 140.97 80.01)
+			(xy 132.08 80.01) (xy 140.97 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2135,7 +2135,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 87.63) (xy 142.24 87.63)
+			(xy 132.08 87.63) (xy 142.24 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2195,7 +2195,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 72.39) (xy 149.86 72.39)
+			(xy 132.08 72.39) (xy 149.86 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2215,7 +2215,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 74.93) (xy 152.4 74.93)
+			(xy 132.08 74.93) (xy 152.4 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2235,7 +2235,7 @@
 	)
 	(global_label "SCL"
 		(shape bidirectional)
-		(at 134.62 72.39 180)
+		(at 132.08 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2246,7 +2246,7 @@
 		)
 		(uuid "05430477-70d0-43b2-a782-af5e77b9f1a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.0159 72.39 0)
+			(at 124.4759 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2302,7 +2302,7 @@
 	)
 	(global_label "D5"
 		(shape output)
-		(at 134.62 87.63 180)
+		(at 132.08 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2312,7 +2312,7 @@
 		)
 		(uuid "19b0839d-30a3-4f1b-9974-8847ee15343d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.1553 87.63 0)
+			(at 126.6153 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2346,7 +2346,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 134.62 74.93 180)
+		(at 132.08 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2357,7 +2357,7 @@
 		)
 		(uuid "20657c17-3502-4769-8c89-4a083b4dfc85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.9554 74.93 0)
+			(at 124.4154 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2459,7 @@
 	)
 	(global_label "D2"
 		(shape output)
-		(at 134.62 80.01 180)
+		(at 132.08 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2469,7 +2469,7 @@
 		)
 		(uuid "6bd3da40-29c7-459e-a27c-263e697fec1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.1553 80.01 0)
+			(at 126.6153 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,7 +2526,7 @@
 	)
 	(global_label "D1"
 		(shape output)
-		(at 134.62 77.47 180)
+		(at 132.08 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2536,7 +2536,7 @@
 		)
 		(uuid "855194ba-dc15-4a05-99a0-ab639cf2a5f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.1553 77.47 0)
+			(at 126.6153 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,7 +2570,7 @@
 	)
 	(global_label "D3"
 		(shape output)
-		(at 134.62 82.55 180)
+		(at 132.08 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2580,7 +2580,7 @@
 		)
 		(uuid "8fb2e022-e409-4a69-96d0-e277930eb967")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.1553 82.55 0)
+			(at 126.6153 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +2657,7 @@
 	)
 	(global_label "D4"
 		(shape output)
-		(at 134.62 85.09 180)
+		(at 132.08 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2667,7 +2667,7 @@
 		)
 		(uuid "c47e9337-e2cf-47a5-8571-cf5835c762b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.1553 85.09 0)
+			(at 126.6153 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2777,7 @@
 		(dnp no)
 		(uuid "0a7d8692-ec3f-48db-a5c9-3a4d520c3650")
 		(property "Reference" "R55"
-			(at 145.542 76.708 0)
+			(at 145.542 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,8 +2785,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 145.542 79.248 0)
+		(property "Value" "1.07k"
+			(at 145.542 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +3083,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.7k"
+		(property "Value" "1.69k"
 			(at 200.914 76.962 0)
 			(effects
 				(font
@@ -3144,7 +3144,7 @@
 		(dnp no)
 		(uuid "3453fa7b-0671-4e3b-9162-11d0ddf460cb")
 		(property "Reference" "R7"
-			(at 146.304 68.834 0)
+			(at 154.94 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3152,8 +3152,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 146.304 71.374 0)
+		(property "Value" "1.07k"
+			(at 153.162 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +3282,7 @@
 		(dnp no)
 		(uuid "41a72fa3-d92a-443e-a583-db3c5757eddc")
 		(property "Reference" "R57"
-			(at 135.636 83.82 0)
+			(at 133.604 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,8 +3290,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 135.636 86.36 0)
+		(property "Value" "1.07k"
+			(at 133.604 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,7 +3549,7 @@
 		(dnp no)
 		(uuid "512303c1-49cb-4c21-967f-0aec31e35cc5")
 		(property "Reference" "R23"
-			(at 135.89 73.406 0)
+			(at 133.858 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,8 +3557,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 135.89 75.946 0)
+		(property "Value" "1.07k"
+			(at 133.858 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3685,7 +3685,7 @@
 		(dnp no)
 		(uuid "5799f768-7890-4a5a-88e5-8e80189b5a0b")
 		(property "Reference" "R9"
-			(at 135.128 68.072 0)
+			(at 133.096 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,8 +3693,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 135.128 70.612 0)
+		(property "Value" "1.07k"
+			(at 133.096 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,7 +4411,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.07k"
 			(at 154.432 73.66 0)
 			(effects
 				(font
@@ -4809,7 +4809,7 @@
 		(dnp no)
 		(uuid "c93e58a7-c9bf-44c1-b4b6-17de790a1a9c")
 		(property "Reference" "R56"
-			(at 135.128 78.74 0)
+			(at 133.096 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,8 +4817,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 135.128 81.28 0)
+		(property "Value" "1.07k"
+			(at 133.096 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +5020,7 @@
 				)
 			)
 		)
-		(property "Value" "52.5R"
+		(property "Value" "52.3R"
 			(at 215.9 124.46 90)
 			(effects
 				(font
@@ -5088,7 +5088,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.7k"
+		(property "Value" "1.69k"
 			(at 207.01 68.326 0)
 			(effects
 				(font
@@ -5293,7 +5293,7 @@
 				)
 			)
 		)
-		(property "Value" "52.5R"
+		(property "Value" "52.3R"
 			(at 215.9 111.76 90)
 			(effects
 				(font
