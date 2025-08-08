@@ -2656,7 +2656,7 @@
 			)
 		)
 	)
-	(global_label "D2"
+	(global_label "D2_shift"
 		(shape input)
 		(at 238.76 67.31 0)
 		(fields_autoplaced yes)
@@ -2668,7 +2668,7 @@
 		)
 		(uuid "080897da-236e-4efe-a2a7-b5fc74985cd5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.2247 67.31 0)
+			(at 249.4256 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,7 +2988,7 @@
 			)
 		)
 	)
-	(global_label "D4"
+	(global_label "D4_shift"
 		(shape input)
 		(at 238.76 52.07 0)
 		(fields_autoplaced yes)
@@ -3000,7 +3000,7 @@
 		)
 		(uuid "848aedf7-2f31-47b6-9d0c-70452b8aa839")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.2247 52.07 0)
+			(at 249.4256 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +3010,7 @@
 			)
 		)
 	)
-	(global_label "D1"
+	(global_label "D1_shift"
 		(shape input)
 		(at 238.76 69.85 0)
 		(fields_autoplaced yes)
@@ -3022,7 +3022,7 @@
 		)
 		(uuid "92a1f24d-3113-49c1-be2a-236b154bf401")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.2247 69.85 0)
+			(at 249.4256 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3120,7 @@
 			)
 		)
 	)
-	(global_label "D5"
+	(global_label "D5_shift"
 		(shape input)
 		(at 238.76 49.53 0)
 		(fields_autoplaced yes)
@@ -3132,7 +3132,7 @@
 		)
 		(uuid "a1bb5f63-2d9a-48e0-9d70-c1480164ccb2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.2247 49.53 0)
+			(at 249.4256 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3164,7 +3164,7 @@
 			)
 		)
 	)
-	(global_label "D3"
+	(global_label "D3_shift"
 		(shape input)
 		(at 238.76 54.61 0)
 		(fields_autoplaced yes)
@@ -3176,7 +3176,7 @@
 		)
 		(uuid "b6ad6f00-8be4-4e1a-a8f3-8a81fe9fafc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.2247 54.61 0)
+			(at 249.4256 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
