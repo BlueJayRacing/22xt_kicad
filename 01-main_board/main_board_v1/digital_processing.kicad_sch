@@ -558,24 +558,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 17.78 270)
-					(length 5.08)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 7.62 -20.32 90)
 					(length 5.08)
@@ -4436,7 +4418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "22XT_Main:SOP65P640X120-20N"
+		(property "Footprint" "QFN50P450X250X100-21N-D"
 			(at 94.31 93.98 0)
 			(effects
 				(font
@@ -4538,9 +4520,6 @@
 		)
 		(pin "17"
 			(uuid "5472f722-13ef-48d6-b896-bb61b95f8f52")
-		)
-		(pin "21"
-			(uuid "b6c49a59-c3bb-4f6d-a2ee-b81eb7545a97")
 		)
 		(pin "10"
 			(uuid "b067771b-a932-4dfe-a472-ebefbca6f17f")
@@ -4988,71 +4967,6 @@
 			(project "msm"
 				(path "/12c2237c-5932-49af-9119-92b28c846ae7/1c0fa17f-7333-433d-8099-fbcba82c3572"
 					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 196.85 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ade61e66-ffaa-4ffe-a2f2-659203042638")
-		(property "Reference" "#PWR064"
-			(at 196.85 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 196.342 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 196.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fac81e90-f586-47b9-8f7a-eac8f82306d9")
-		)
-		(instances
-			(project "main_board_v1"
-				(path "/12c2237c-5932-49af-9119-92b28c846ae7/1c0fa17f-7333-433d-8099-fbcba82c3572"
-					(reference "#PWR064")
 					(unit 1)
 				)
 			)
