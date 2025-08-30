@@ -2228,6 +2228,16 @@
 		)
 		(uuid "77390c12-722f-480b-9746-0861f3199396")
 	)
+	(text "current limiting resistor (47R) for gpi/o pins ?"
+		(exclude_from_sim no)
+		(at 133.096 62.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6cb02fb-d754-42ba-86ec-cc3aad07c096")
+	)
 	(junction
 		(at 242.57 36.83)
 		(diameter 0)

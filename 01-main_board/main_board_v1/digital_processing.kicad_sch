@@ -1525,6 +1525,16 @@
 		)
 		(uuid "4c31b3d8-fbae-425c-8623-011458fcf54e")
 	)
+	(text "dnp resistors whyyy"
+		(exclude_from_sim no)
+		(at 244.602 84.582 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a3f74737-8e03-4e73-90a7-bf66b8f9ae4b")
+	)
 	(text "TVS Diode for Ethernet\n"
 		(exclude_from_sim no)
 		(at 207.264 147.066 0)
@@ -1787,26 +1797,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 85.09) (xy 207.01 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c665cca-b1a6-400c-b7fb-970addff5f85")
-	)
-	(wire
-		(pts
-			(xy 205.74 80.01) (xy 208.28 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cde90d9-4e50-40bf-a590-8b3e6a555230")
-	)
-	(wire
-		(pts
 			(xy 207.01 69.85) (xy 209.55 69.85)
 		)
 		(stroke
@@ -1834,6 +1824,16 @@
 			(type default)
 		)
 		(uuid "28778423-f059-4b3c-b5e7-b80872bdfe2b")
+	)
+	(wire
+		(pts
+			(xy 196.85 82.55) (xy 208.28 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c57fd5-a6c4-457c-a52f-958a84cbe64a")
 	)
 	(wire
 		(pts
@@ -1927,7 +1927,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 90.17) (xy 196.85 90.17)
+			(xy 196.85 90.17) (xy 208.28 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1987,7 +1987,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 85.09) (xy 196.85 85.09)
+			(xy 196.85 85.09) (xy 208.28 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2147,7 +2147,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 80.01) (xy 196.85 80.01)
+			(xy 196.85 80.01) (xy 208.28 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2187,13 +2187,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 82.55) (xy 201.93 82.55)
+			(xy 196.85 87.63) (xy 208.28 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b06ce2a0-93c9-4668-9bba-af970a6002e8")
+		(uuid "ba874e73-a759-4d24-9f26-a707d9954d3a")
 	)
 	(wire
 		(pts
@@ -2294,26 +2294,6 @@
 			(type default)
 		)
 		(uuid "d0f6b4d3-5dfa-4be8-bd6b-1ba3be6c294f")
-	)
-	(wire
-		(pts
-			(xy 208.28 87.63) (xy 201.93 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d30361c3-8f0c-4076-a72e-3e1454c634f0")
-	)
-	(wire
-		(pts
-			(xy 208.28 90.17) (xy 207.01 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7293f6a-7d54-44ca-8573-143ace3ab66a")
 	)
 	(wire
 		(pts
@@ -3141,73 +3121,6 @@
 			(project "main_board_v1"
 				(path "/12c2237c-5932-49af-9119-92b28c846ae7/1c0fa17f-7333-433d-8099-fbcba82c3572"
 					(reference "R55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 204.47 90.17 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "283a04f4-ecec-4e7c-a046-85394006fb5c")
-		(property "Reference" "R49"
-			(at 204.724 91.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 204.47 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 204.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 204.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d41e6f11-e58a-4f52-9cca-09144c6ff001")
-		)
-		(pin "2"
-			(uuid "014cc786-b2a7-435f-add0-f0ee95f04710")
-		)
-		(instances
-			(project "main_board_v1"
-				(path "/12c2237c-5932-49af-9119-92b28c846ae7/1c0fa17f-7333-433d-8099-fbcba82c3572"
-					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -4122,73 +4035,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 199.39 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "620ca2af-6274-4276-93b2-a9b395ec7993")
-		(property "Reference" "R32"
-			(at 199.644 84.328 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 199.39 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 199.39 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 199.39 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fef4d321-94ec-4c4c-98ba-ba495f86c442")
-		)
-		(pin "2"
-			(uuid "51e18e2a-b095-4d89-9676-57af61f945fd")
-		)
-		(instances
-			(project "main_board_v1"
-				(path "/12c2237c-5932-49af-9119-92b28c846ae7/1c0fa17f-7333-433d-8099-fbcba82c3572"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 77.47 133.35 180)
 		(unit 1)
@@ -4319,73 +4165,6 @@
 			(project "main_board_v1"
 				(path "/12c2237c-5932-49af-9119-92b28c846ae7/1c0fa17f-7333-433d-8099-fbcba82c3572"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 204.47 85.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ab29bf5-7ce2-4bb3-b225-05c0f368f7ce")
-		(property "Reference" "R34"
-			(at 204.724 86.868 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 204.47 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 204.47 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 204.47 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2222a607-54d8-4144-8319-c98887cb3691")
-		)
-		(pin "2"
-			(uuid "9f9bd170-fd9e-476e-be27-23f97ffd7cb3")
-		)
-		(instances
-			(project "main_board_v1"
-				(path "/12c2237c-5932-49af-9119-92b28c846ae7/1c0fa17f-7333-433d-8099-fbcba82c3572"
-					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -5179,73 +4958,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 203.2 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d44741db-6d58-4417-ab09-15b0783fce01")
-		(property "Reference" "R31"
-			(at 203.454 81.788 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 203.2 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 203.2 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 203.2 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c40725d-ff1f-4207-8e22-dfa2bd2aa422")
-		)
-		(pin "2"
-			(uuid "31224330-60ac-4494-9cfe-b21947fa69a6")
-		)
-		(instances
-			(project "main_board_v1"
-				(path "/12c2237c-5932-49af-9119-92b28c846ae7/1c0fa17f-7333-433d-8099-fbcba82c3572"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 151.13 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5512,73 +5224,6 @@
 			(project "msm"
 				(path "/12c2237c-5932-49af-9119-92b28c846ae7/1c0fa17f-7333-433d-8099-fbcba82c3572"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 199.39 87.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e3169897-04a1-4b07-be5a-adb5a8048a51")
-		(property "Reference" "R35"
-			(at 199.644 89.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 199.39 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 199.39 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 199.39 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aeb3256f-f101-4924-9323-6cdce069efa9")
-		)
-		(pin "2"
-			(uuid "90da1b64-aa4d-4b08-95df-c7e4d879bfb3")
-		)
-		(instances
-			(project "main_board_v1"
-				(path "/12c2237c-5932-49af-9119-92b28c846ae7/1c0fa17f-7333-433d-8099-fbcba82c3572"
-					(reference "R35")
 					(unit 1)
 				)
 			)
