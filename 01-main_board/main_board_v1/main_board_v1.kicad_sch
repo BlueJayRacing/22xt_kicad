@@ -5,7 +5,7 @@
 	(uuid "12c2237c-5932-49af-9119-92b28c846ae7")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x09"
+		(symbol "Connector_Generic:Conn_01x10"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,8 +21,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x09"
-				(at 0 -12.7 0)
+			(property "Value" "Conn_01x10"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,10 +74,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x09_1_1"
+			(symbol "Conn_01x10_1_1"
 				(rectangle
 					(start -1.27 11.43)
-					(end 1.27 -11.43)
+					(end 1.27 -13.97)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -177,6 +177,17 @@
 				(rectangle
 					(start -1.27 -10.033)
 					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -340,6 +351,24 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2046,7 +2075,7 @@
 		)
 		(uuid "20291296-2559-45e9-afc4-179e0d59785b")
 	)
-	(text "\"picoflex\" connector"
+	(text "Picoflex 2x5 Connector\n"
 		(exclude_from_sim no)
 		(at 111.506 29.718 0)
 		(effects
@@ -2087,6 +2116,10 @@
 	(no_connect
 		(at 60.96 68.58)
 		(uuid "d2083d06-549b-49cb-a465-88f87df5ee99")
+	)
+	(no_connect
+		(at 111.76 55.88)
+		(uuid "d4092526-e9be-4534-a96d-41c9e48d9e94")
 	)
 	(no_connect
 		(at 60.96 86.36)
@@ -3650,7 +3683,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x09")
+		(lib_id "Connector_Generic:Conn_01x10")
 		(at 116.84 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3660,7 +3693,7 @@
 		(fields_autoplaced yes)
 		(uuid "80f008a2-7275-41fb-bef2-003196924226")
 		(property "Reference" "J1"
-			(at 119.38 41.9099 0)
+			(at 119.38 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,7 +3702,7 @@
 			)
 		)
 		(property "Value" "Ethernet and USB"
-			(at 119.38 44.4499 0)
+			(at 119.38 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +3710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Picoflex_90325-0010_2x05_P1.27mm_Vertical"
 			(at 116.84 43.18 0)
 			(effects
 				(font
@@ -3695,7 +3728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 116.84 43.18 0)
 			(effects
 				(font
@@ -3730,6 +3763,9 @@
 		)
 		(pin "5"
 			(uuid "765b7c6b-0d65-4b46-aa18-1df5f971d032")
+		)
+		(pin "10"
+			(uuid "bc1c728d-22be-49a8-880b-58d2956279be")
 		)
 		(instances
 			(project ""
