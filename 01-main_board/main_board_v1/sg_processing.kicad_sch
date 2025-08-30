@@ -3495,7 +3495,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330R (1%)"
 			(at 83.82 59.6899 0)
 			(effects
 				(font
@@ -3744,7 +3744,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "20R (0.1%)"
 			(at 99.06 77.4699 0)
 			(effects
 				(font
@@ -3872,7 +3872,7 @@
 		(dnp no)
 		(uuid "85d6c973-2902-4b70-9826-b31fdbe91e22")
 		(property "Reference" "R12"
-			(at 176.276 52.07 0)
+			(at 176.022 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,8 +3880,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "64k"
-			(at 176.276 54.61 0)
+		(property "Value" "64.2k (0.1%)"
+			(at 172.466 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,7 +4158,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "20R (0.1%)"
 			(at 83.82 77.4699 0)
 			(effects
 				(font
@@ -4219,7 +4219,7 @@
 		(dnp no)
 		(uuid "b6ccdd3e-017a-478c-966c-057da26b395d")
 		(property "Reference" "R25"
-			(at 176.276 77.47 0)
+			(at 176.53 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,8 +4227,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "64k"
-			(at 176.276 80.01 0)
+		(property "Value" "64.2k (0.1%)"
+			(at 172.72 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +4297,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330R (1%)"
 			(at 99.06 72.3899 0)
 			(effects
 				(font
@@ -4367,7 +4367,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330R (1%)"
 			(at 83.82 72.3899 0)
 			(effects
 				(font
@@ -4507,7 +4507,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "20R (0.1%)"
 			(at 83.82 64.7699 0)
 			(effects
 				(font
