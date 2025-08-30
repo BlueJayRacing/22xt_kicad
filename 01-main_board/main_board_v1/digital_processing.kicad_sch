@@ -1741,7 +1741,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 100.33) (xy 176.53 100.33)
+			(xy 147.32 100.33) (xy 160.02 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2478,6 +2478,16 @@
 			(type default)
 		)
 		(uuid "f02eb820-90a1-4441-bca6-385ec14207a6")
+	)
+	(wire
+		(pts
+			(xy 165.1 100.33) (xy 176.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d2036a-ec94-4598-8b3e-46177c5da64a")
 	)
 	(wire
 		(pts
@@ -5139,6 +5149,73 @@
 			(project "main_board_v1"
 				(path "/12c2237c-5932-49af-9119-92b28c846ae7/1c0fa17f-7333-433d-8099-fbcba82c3572"
 					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 162.56 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c981c449-1d36-4d61-80af-b4d00945a497")
+		(property "Reference" "R62"
+			(at 162.814 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNP"
+			(at 162.56 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63bac977-50db-4858-b4a8-fcca72fb36c0")
+		)
+		(pin "2"
+			(uuid "266c76e8-ee37-48bd-af34-8579d911d22d")
+		)
+		(instances
+			(project "main_board_v1"
+				(path "/12c2237c-5932-49af-9119-92b28c846ae7/1c0fa17f-7333-433d-8099-fbcba82c3572"
+					(reference "R62")
 					(unit 1)
 				)
 			)
