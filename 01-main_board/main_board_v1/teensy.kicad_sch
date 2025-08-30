@@ -2400,10 +2400,6 @@
 		(at 238.76 64.77)
 		(uuid "f567b323-5863-4041-ae4a-25d3f13bc5ad")
 	)
-	(no_connect
-		(at 238.76 46.99)
-		(uuid "fbd5de11-607e-468a-b7d7-e1b2d9c80463")
-	)
 	(wire
 		(pts
 			(xy 156.21 44.45) (xy 156.21 45.72)
@@ -3214,6 +3210,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D6_shift"
+		(shape input)
+		(at 238.76 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6d2e13a-51e4-484f-bbdb-9e1019427857")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.4256 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
