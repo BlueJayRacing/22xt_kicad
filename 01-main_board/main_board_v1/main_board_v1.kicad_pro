@@ -649,6 +649,10 @@
     [
       "1c0fa17f-7333-433d-8099-fbcba82c3572",
       "Digital Processing"
+    ],
+    [
+      "e5005576-746e-4110-9aa7-21d70d5867f0",
+      "ESP32S3"
     ]
   ],
   "text_variables": {}

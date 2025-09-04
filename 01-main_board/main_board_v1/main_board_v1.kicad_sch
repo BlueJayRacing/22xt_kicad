@@ -2056,7 +2056,7 @@
 	)
 	(text "consider noise voltage and accuracy\nbuck converter: accuracy doesn't matter as much, noise matters more, line and load regulation matter more\nreferences: \nop-amp power supply: \n\nline regulation: if input to buck converter changes, how much will output chagne\nload regulation: if load changes, how much does voltage change\noutput noise voltage: within a frequency bandwidth, how many mV of noise can you expect to see\n- minimize all of these\n- things to consider later"
 		(exclude_from_sim no)
-		(at 198.628 137.922 0)
+		(at 215.646 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3560,7 +3560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-44-HD_Pins_Vertical_P2.29x1.98mm_MountingHoles"
+		(property "Footprint" "Connector_Dsub:DSUB-44-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles"
 			(at 66.04 58.42 0)
 			(effects
 				(font
@@ -4321,6 +4321,48 @@
 			(project "main_board_v1"
 				(path "/12c2237c-5932-49af-9119-92b28c846ae7"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 137.16)
+		(size 49.53 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e5005576-746e-4110-9aa7-21d70d5867f0")
+		(property "Sheetname" "ESP32S3"
+			(at 139.7 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32s3.kicad_sch"
+			(at 139.7 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main_board_v1"
+				(path "/12c2237c-5932-49af-9119-92b28c846ae7"
+					(page "7")
 				)
 			)
 		)
