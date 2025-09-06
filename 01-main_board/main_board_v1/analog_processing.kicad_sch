@@ -2656,28 +2656,6 @@
 			)
 		)
 	)
-	(global_label "steering_pot"
-		(shape input)
-		(at 162.56 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0f894dfe-a40f-4df1-a1c0-74669186a7ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.9635 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "2V5_ref"
 		(shape input)
 		(at 77.47 57.15 90)
@@ -2942,6 +2920,28 @@
 			)
 		)
 	)
+	(global_label "linpot_2_FR"
+		(shape input)
+		(at 162.56 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a478c0c-bcff-49be-85e4-6742a81ec216")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.6288 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A8_nyq"
 		(shape input)
 		(at 102.87 74.93 0)
@@ -3184,28 +3184,6 @@
 			)
 		)
 	)
-	(global_label "linpot_2_FR"
-		(shape input)
-		(at 162.56 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8d783aca-5186-4ac2-b04d-f58ef3008f95")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.6288 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOSI1"
 		(shape input)
 		(at 77.47 123.19 270)
@@ -3272,9 +3250,9 @@
 			)
 		)
 	)
-	(global_label "linpot_3_RL"
+	(global_label "linpot_1_FL"
 		(shape input)
-		(at 162.56 121.92 180)
+		(at 162.56 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3282,9 +3260,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a755ea11-803f-4d3c-8a49-7e7b2a77cd62")
+		(uuid "a42c724e-f3cf-40b0-811d-89d67ad72069")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.6893 121.92 0)
+			(at 148.8707 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3360,28 +3338,6 @@
 			)
 		)
 	)
-	(global_label "linpot_1_FL"
-		(shape input)
-		(at 162.56 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c221d676-509c-4a30-8067-d7fe2ec0299b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.8707 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "A1_nyq"
 		(shape output)
 		(at 176.53 59.69 0)
@@ -3448,28 +3404,6 @@
 			)
 		)
 	)
-	(global_label "linpot_4_RR"
-		(shape input)
-		(at 162.56 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d0b4b06f-4a52-41c9-9c07-1ec78ef7d134")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.4474 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3V3"
 		(shape input)
 		(at 57.15 74.93 180)
@@ -3483,6 +3417,28 @@
 		(uuid "d8de427c-601f-4374-a373-f5609b72afac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.6572 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "linpot_4_RR"
+		(shape input)
+		(at 162.56 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dede70ef-fbc0-4d4a-84d8-7cc5891ad4cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.4474 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,6 +3505,50 @@
 		(uuid "eee5c36c-0618-4046-aed6-6b6a1f634108")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 47.6335 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "steering_pot"
+		(shape input)
+		(at 162.56 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef688e47-af66-4639-98f2-2dc54045d6ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.9635 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "linpot_3_RL"
+		(shape input)
+		(at 162.56 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f58c35f3-8ade-4583-8481-740b36102ba3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.6893 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

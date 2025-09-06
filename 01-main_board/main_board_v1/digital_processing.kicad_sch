@@ -5544,7 +5544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QFN50P450X250X100-21N-D"
+		(property "Footprint" "22XT_Main:SOP65P640X120-20N"
 			(at 39.7 68.58 0)
 			(effects
 				(font

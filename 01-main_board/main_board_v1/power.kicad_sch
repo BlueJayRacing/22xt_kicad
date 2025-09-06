@@ -2570,7 +2570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "PGND"
 			(at 127 121.92 0)
 			(effects
 				(font
@@ -2960,7 +2960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "PGND"
 			(at 78.74 63.5 0)
 			(effects
 				(font
@@ -3960,7 +3960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "PGND"
 			(at 124.46 93.98 0)
 			(effects
 				(font
@@ -4231,7 +4231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "PGND"
 			(at 76.2 95.25 0)
 			(effects
 				(font
@@ -4560,7 +4560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "PGND"
 			(at 76.2 118.11 0)
 			(effects
 				(font

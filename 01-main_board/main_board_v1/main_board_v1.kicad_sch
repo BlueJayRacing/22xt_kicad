@@ -2528,7 +2528,7 @@
 			)
 		)
 	)
-	(global_label "sg_sense_2_FL"
+	(global_label "sg_sense_2_FR"
 		(shape output)
 		(at 73.66 73.66 0)
 		(fields_autoplaced yes)
@@ -2540,7 +2540,7 @@
 		)
 		(uuid "48a46e2b-7339-4bba-b46f-d67b97f1f89d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.4337 73.66 0)
+			(at 90.6756 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
