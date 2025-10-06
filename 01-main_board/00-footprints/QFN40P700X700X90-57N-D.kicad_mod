@@ -508,7 +508,7 @@
 		(uuid "52e5afe4-2055-4432-bd4c-d0f1caf5c827")
 	)
 	(embedded_fonts no)
-	(model "ESP32-S3.stp"
+	(model "C:/Users/Gwenyth/Desktop/Baja/2205/22xt_kicad/01-main_board/00-3dmodels/ESP32-S3--3DModel-STEP-510211.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -516,7 +516,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

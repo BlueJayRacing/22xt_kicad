@@ -1,36 +1,237 @@
-(module "SOT95P229X119-3N" (layer F.Cu)
-  (descr "U3+1-1")
-  (tags "Integrated Circuit")
-  (attr smd)
-  (fp_text reference IC** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "SOT95P229X119-3N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.875 -1.774) (end 1.875 -1.774) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.875 -1.774) (end 1.875 1.774) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.875 1.774) (end -1.875 1.774) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.875 1.774) (end -1.875 -1.774) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.648 -1.429) (end 0.648 -1.429) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.648 -1.429) (end 0.648 1.429) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.648 1.429) (end -0.648 1.429) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.648 1.429) (end -0.648 -1.429) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.648 -0.476) (end 0.305 -1.429) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.325 -1.429) (end 0.325 -1.429) (layer F.SilkS) (width 0.2))
-  (fp_line (start 0.325 -1.429) (end 0.325 1.429) (layer F.SilkS) (width 0.2))
-  (fp_line (start 0.325 1.429) (end -0.325 1.429) (layer F.SilkS) (width 0.2))
-  (fp_line (start -0.325 1.429) (end -0.325 -1.429) (layer F.SilkS) (width 0.2))
-  (fp_line (start -1.625 -1.528) (end -0.675 -1.528) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -1.15 -0.952 90) (size 0.65 0.95) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -1.15 0.952 90) (size 0.65 0.95) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 1.15 0 90) (size 0.65 0.95) (layers F.Cu F.Paste F.Mask))
-  (model MAX6105EUR+T.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SOT95P229X119-3N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "U3+1-1")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "dccfda01-ea6d-42ba-a825-61183cacb946")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOT95P229X119-3N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2f9ca01e-f49c-48a0-8cf6-77935f55bd86")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "141c2dcd-ce55-4ee5-ba8b-6f84574e2853")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e309da8b-9d28-4790-8aa0-8567660ca0eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.625 -1.528)
+		(end -0.675 -1.528)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25ce5471-892a-4484-a95f-cfda088acab2")
+	)
+	(fp_line
+		(start -0.325 -1.429)
+		(end 0.325 -1.429)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "398244eb-80f9-46ac-bb58-f2550cd4fa47")
+	)
+	(fp_line
+		(start -0.325 1.429)
+		(end -0.325 -1.429)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75154ae5-b39d-4012-ae6b-fc059fab29eb")
+	)
+	(fp_line
+		(start 0.325 -1.429)
+		(end 0.325 1.429)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c39bd232-7355-40bc-8281-cd8ae10c7f0a")
+	)
+	(fp_line
+		(start 0.325 1.429)
+		(end -0.325 1.429)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d66cfd9-bc05-4288-b879-eac48f527c80")
+	)
+	(fp_line
+		(start -1.875 -1.774)
+		(end 1.875 -1.774)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b87eae19-869c-4177-be98-4a8f80ca6092")
+	)
+	(fp_line
+		(start -1.875 1.774)
+		(end -1.875 -1.774)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3f51ef69-27b6-45f6-8d70-fd9ce57d22f0")
+	)
+	(fp_line
+		(start 1.875 -1.774)
+		(end 1.875 1.774)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e59fd125-2daf-4d42-b4ca-46f04ba0d5f3")
+	)
+	(fp_line
+		(start 1.875 1.774)
+		(end -1.875 1.774)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1573db2d-876e-416c-ac72-de40b37e3e49")
+	)
+	(fp_line
+		(start -0.648 -1.429)
+		(end 0.648 -1.429)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "834ab35e-37ad-4147-8eb9-4a3ee743e849")
+	)
+	(fp_line
+		(start -0.648 -0.476)
+		(end 0.305 -1.429)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a42521b5-480b-40cc-bb04-521c4efd8fc3")
+	)
+	(fp_line
+		(start -0.648 1.429)
+		(end -0.648 -1.429)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "790c181f-fa8d-4188-8ed0-be1595b02d56")
+	)
+	(fp_line
+		(start 0.648 -1.429)
+		(end 0.648 1.429)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2582047-7a88-4f90-883f-24ecd776cb18")
+	)
+	(fp_line
+		(start 0.648 1.429)
+		(end -0.648 1.429)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e355c324-6550-4d0d-b291-11ca9841c5ad")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a61f2c7b-9929-4e18-9aae-574cdc10ee47")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.15 -0.952 90)
+		(size 0.65 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "91d20b47-1db3-4376-8480-957eaa804379")
+	)
+	(pad "2" smd rect
+		(at -1.15 0.952 90)
+		(size 0.65 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "12c64f30-ae4f-4a81-9d94-4c0f4baf97f2")
+	)
+	(pad "3" smd rect
+		(at 1.15 0 90)
+		(size 0.65 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5e885c02-3ce7-42b0-aa40-020869dcb680")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Gwenyth/Desktop/Baja/2205/22xt_kicad/01-main_board/00-3dmodels/MAX6105EUR_T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
