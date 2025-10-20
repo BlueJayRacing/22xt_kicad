@@ -2468,10 +2468,6 @@
 		(uuid "97c61880-0339-4357-9585-9016c1c4b6c4")
 	)
 	(no_connect
-		(at 182.88 77.47)
-		(uuid "9bf80751-1022-47c3-a9d6-8f82828df6c8")
-	)
-	(no_connect
 		(at 182.88 46.99)
 		(uuid "a11d6815-c482-4291-b46a-9807e1389404")
 	)
@@ -2486,10 +2482,6 @@
 	(no_connect
 		(at 238.76 97.79)
 		(uuid "ba217e5a-d0dd-4ed4-9d76-5752edcad62a")
-	)
-	(no_connect
-		(at 182.88 80.01)
-		(uuid "c1f20058-4220-4a9d-9cf7-b6b7cf73690c")
 	)
 	(no_connect
 		(at 182.88 111.76)
@@ -2518,6 +2510,16 @@
 	(no_connect
 		(at 182.88 87.63)
 		(uuid "f1621b78-9e64-461e-8212-30147e76db05")
+	)
+	(wire
+		(pts
+			(xy 262.89 49.53) (xy 260.35 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04083236-2773-4535-8db3-2b82825d66ec")
 	)
 	(wire
 		(pts
@@ -2568,6 +2570,16 @@
 			(type default)
 		)
 		(uuid "24515f52-2a92-47d1-a657-d9c61b93fdef")
+	)
+	(wire
+		(pts
+			(xy 255.27 49.53) (xy 238.76 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcf223a-923a-40ef-9748-8368de96a048")
 	)
 	(wire
 		(pts
@@ -2638,6 +2650,26 @@
 			(type default)
 		)
 		(uuid "5fd5e37a-1e3f-480d-8b20-4fc0529b48de")
+	)
+	(wire
+		(pts
+			(xy 255.27 46.99) (xy 238.76 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62543a14-e348-4bc1-979d-ea1d467e2d94")
+	)
+	(wire
+		(pts
+			(xy 262.89 46.99) (xy 260.35 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ef7308-c731-4b4b-bbe5-b3871a2893e8")
 	)
 	(wire
 		(pts
@@ -2834,6 +2866,28 @@
 		(uuid "080897da-236e-4efe-a2a7-b5fc74985cd5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 249.4256 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CTX"
+		(shape input)
+		(at 262.89 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d3a0523-ebfd-4460-8811-543634d2e40c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.3223 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,6 +3207,28 @@
 			)
 		)
 	)
+	(global_label "D5_shift"
+		(shape input)
+		(at 182.88 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "814a397c-495c-42f6-929d-fb86888727d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.2144 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D4_shift"
 		(shape input)
 		(at 238.76 52.07 0)
@@ -3285,24 +3361,24 @@
 			)
 		)
 	)
-	(global_label "D5_shift"
+	(global_label "D6_shift"
 		(shape input)
-		(at 238.76 49.53 0)
+		(at 182.88 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "a1bb5f63-2d9a-48e0-9d70-c1480164ccb2")
+		(uuid "a0b778fa-f966-4322-8f57-6d17a432358f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.4256 49.53 0)
+			(at 172.2144 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3373,9 +3449,9 @@
 			)
 		)
 	)
-	(global_label "D6_shift"
+	(global_label "CRX"
 		(shape input)
-		(at 238.76 46.99 0)
+		(at 262.89 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3383,9 +3459,9 @@
 			)
 			(justify left)
 		)
-		(uuid "c6d2e13a-51e4-484f-bbdb-9e1019427857")
+		(uuid "c980ed28-669d-499b-89cb-1a889dac6d89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.4256 46.99 0)
+			(at 269.6247 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,6 +4912,140 @@
 			(project ""
 				(path "/12c2237c-5932-49af-9119-92b28c846ae7/f7990d3b-6f19-4c8f-ba4f-28eb9e1a3c51"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 257.81 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9f8cd66-8c48-430a-97c5-39237797062d")
+		(property "Reference" "R36"
+			(at 258.318 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNP"
+			(at 258.318 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 257.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 257.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "67ce7997-1cf4-47cd-816d-0369d2b1ec7d")
+		)
+		(pin "1"
+			(uuid "45f2459c-6610-41c1-9057-1193659293f9")
+		)
+		(instances
+			(project "main_board_v1"
+				(path "/12c2237c-5932-49af-9119-92b28c846ae7/f7990d3b-6f19-4c8f-ba4f-28eb9e1a3c51"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 257.81 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4b67797-3585-4647-85a1-8a85554ad1a6")
+		(property "Reference" "R35"
+			(at 258.064 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNP"
+			(at 258.064 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 257.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 257.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90cc6bc0-510f-4c2b-a4e2-c0d05a608e55")
+		)
+		(pin "1"
+			(uuid "afd09730-b286-41e9-bc61-06dbce505429")
+		)
+		(instances
+			(project "main_board_v1"
+				(path "/12c2237c-5932-49af-9119-92b28c846ae7/f7990d3b-6f19-4c8f-ba4f-28eb9e1a3c51"
+					(reference "R35")
 					(unit 1)
 				)
 			)
