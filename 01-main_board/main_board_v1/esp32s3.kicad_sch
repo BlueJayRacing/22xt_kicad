@@ -1277,10 +1277,6 @@
 		(uuid "0f25da1c-38b6-4f8d-b382-ecc563e4272a")
 	)
 	(no_connect
-		(at 139.7 105.41)
-		(uuid "12982514-1df1-4af7-80a7-ba05643db217")
-	)
-	(no_connect
 		(at 88.9 115.57)
 		(uuid "2c195feb-ca82-4664-8ad3-72105550712a")
 	)
@@ -1327,10 +1323,6 @@
 	(no_connect
 		(at 104.14 59.69)
 		(uuid "70725df3-e2f5-4037-a016-9ac01a80d1a2")
-	)
-	(no_connect
-		(at 139.7 100.33)
-		(uuid "7d2d1948-7165-4b24-bec2-ca95cf807e62")
 	)
 	(no_connect
 		(at 139.7 87.63)
@@ -1385,10 +1377,6 @@
 		(uuid "b7226413-8aca-4fe8-8c74-4878ef5886c9")
 	)
 	(no_connect
-		(at 139.7 107.95)
-		(uuid "b8c7018e-8a32-458f-b560-31b302f2706f")
-	)
-	(no_connect
 		(at 96.52 138.43)
 		(uuid "bb007a95-b556-406b-8706-ba0fb235ce85")
 	)
@@ -1439,10 +1427,6 @@
 	(no_connect
 		(at 88.9 92.71)
 		(uuid "ee4bcb2e-67c7-4a7f-9929-4e913426ccd4")
-	)
-	(no_connect
-		(at 139.7 102.87)
-		(uuid "f0fdd676-6a01-4668-9d45-658b051c1ccf")
 	)
 	(no_connect
 		(at 139.7 92.71)
@@ -1500,6 +1484,50 @@
 			)
 		)
 	)
+	(global_label "MOSI_ESP"
+		(shape input)
+		(at 139.7 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4de4417b-c822-4c09-8073-28434ffa173c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.8775 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCLK_ESP"
+		(shape input)
+		(at 139.7 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5134d743-2cae-43b5-b75d-518f45699c2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.0589 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3V3"
 		(shape input)
 		(at 101.6 59.69 90)
@@ -1513,6 +1541,50 @@
 		(uuid "5bf62e33-b061-4e10-a174-5a3e86fa53f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 101.6 53.1972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CS_ESP"
+		(shape input)
+		(at 139.7 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7554d055-dbde-4991-b880-c17fe6e9c090")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.7608 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO_ESP"
+		(shape output)
+		(at 139.7 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7721bdc3-e4a3-4b21-b21e-37c864b2bb4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.8775 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
