@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e7e6237c-7540-46ae-b94f-5609cdfd1d82")
 	(paper "A4")
 	(lib_symbols
@@ -173,16 +173,16 @@
 					)
 				)
 				(pin passive line
-					(at 30.48 -5.08 180)
+					(at 30.48 0 180)
 					(length 5.08)
-					(name "~{SHDN}"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -209,16 +209,16 @@
 					)
 				)
 				(pin passive line
-					(at 30.48 0 180)
+					(at 30.48 -5.08 180)
 					(length 5.08)
-					(name "VDD"
+					(name "~{SHDN}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -227,9 +227,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -302,7 +305,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -314,7 +317,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -363,11 +366,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:L"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -434,32 +442,8 @@
 			)
 			(symbol "L_0_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
+					(start 0 2.54)
+					(mid 0.6323 1.905)
 					(end 0 1.27)
 					(stroke
 						(width 0)
@@ -471,8 +455,32 @@
 				)
 				(arc
 					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -520,9 +528,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -641,12 +652,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -737,6 +753,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "wsg sym lib:TPS63002DRCR"
 			(pin_names
@@ -803,17 +820,17 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 17.78 15.24 180)
+				(pin input line
+					(at -17.78 15.24 0)
 					(length 5.08)
-					(name "VOUT"
+					(name "EN"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -832,114 +849,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -7.62 0)
-					(length 5.08)
-					(name "POWER_PAD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -2.54 0)
-					(length 5.08)
-					(name "L2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -12.7 180)
-					(length 5.08)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "L1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 15.24 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -966,6 +875,24 @@
 					)
 				)
 				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -17.78 5.08 0)
 					(length 5.08)
 					(name "VINA"
@@ -976,6 +903,96 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "L1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "L2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "POWER_PAD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 15.24 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -12.7 180)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1002,6 +1019,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "wsg sym lib:TPS70936DBVR"
 			(pin_names
@@ -1084,18 +1102,6 @@
 			(symbol "TPS70936DBVR_0_1"
 				(polyline
 					(pts
-						(xy 7.62 -10.16) (xy 33.02 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 5.08) (xy 7.62 -10.16)
 					)
 					(stroke
@@ -1108,7 +1114,7 @@
 				)
 				(polyline
 					(pts
-						(xy 33.02 -10.16) (xy 33.02 5.08)
+						(xy 7.62 -10.16) (xy 33.02 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -1121,6 +1127,18 @@
 				(polyline
 					(pts
 						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -10.16) (xy 33.02 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -1166,17 +1184,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 40.64 -5.08 180)
+				(pin output line
+					(at 40.64 0 180)
 					(length 7.62)
-					(name "EN"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1202,17 +1220,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 40.64 0 180)
+				(pin input line
+					(at 40.64 -5.08 180)
 					(length 7.62)
-					(name "OUT"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1221,6 +1239,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "wsg sym lib:TPS71550DCKR"
 			(pin_names
@@ -1287,24 +1306,6 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 17.78 -2.54 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -17.78 2.54 0)
 					(length 5.08)
@@ -1341,8 +1342,205 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 22.86 46.99)
+		(end 132.08 168.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 295367a9-72c6-48f6-be8e-e33b52af6e1f)
+	)
+	(rectangle
+		(start 158.115 112.395)
+		(end 255.27 148.59)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 64558581-ed29-4446-a003-77fcf9e7ba14)
+	)
+	(rectangle
+		(start 140.335 17.78)
+		(end 271.145 62.23)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7d572bd8-ade4-446d-a78b-5ac798aa514e)
+	)
+	(rectangle
+		(start 149.86 67.31)
+		(end 260.985 99.695)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f7281bb-5cb3-4a12-8205-7b54652aaad1)
+	)
+	(text "Boost converter"
+		(exclude_from_sim no)
+		(at 32.766 50.292 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
 		)
+		(uuid "15d8ab8a-e764-4ac2-bd0c-64867a81e547")
+	)
+	(text "LDO 5V"
+		(exclude_from_sim no)
+		(at 155.702 70.866 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "626e7588-f9e2-4e25-985e-33a913bd4e49")
+	)
+	(text "LDO 3V6"
+		(exclude_from_sim no)
+		(at 146.05 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "67a98706-731f-4e62-9703-a9639d149425")
+	)
+	(text "Equation: R1 = R2( (Vout/Vfb) - 1 )\nVout = 5.5\nVfb = 0.5 (from datasheet)\nR2 recommended = 200K\n\nR1 = 200k( (5.5/0.5) - 1 ) = 2M"
+		(exclude_from_sim no)
+		(at 79.502 58.166 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ffee738-6325-444b-bd92-f09f4688f167")
+	)
+	(text "Voltage reference"
+		(exclude_from_sim no)
+		(at 168.148 115.062 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ab2127c6-bdd0-4be7-bc7e-c5470079eb3c")
+	)
+	(text_box "- 5V5 from boost\n- EN set to high to enable device. EN set to low puts device into low\ncurrent shutdown\n- 3.6 V goes into ESP32C6\n- capacitor values from datasheet\n- 5V5 from boost"
+		(exclude_from_sim no)
+		(at 236.22 33.655 0)
+		(size 29.21 20.955)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a5b84102-3c92-4537-aeb7-9040aba762c4")
+	)
+	(text_box "Operating voltage: 5V2 to 5V5\n\n- main reason for LDO 5V because the boost converter had to go to 5V5\n- 5V5 from boost"
+		(exclude_from_sim no)
+		(at 226.06 119.38 0)
+		(size 20.955 23.495)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ab09bda0-5632-405c-98b3-dafa768143f8")
+	)
+	(text_box "- 5V5 from boost\n- 5V goes into DAC and ADC"
+		(exclude_from_sim no)
+		(at 231.775 73.025 0)
+		(size 27.305 23.495)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d5b60afe-9f1d-4fc4-bf1d-f35f1217f0c2")
+	)
+	(text_box "- used typical application from datasheet\n- used resistor, capacitor, inductor values from typical application\n- R8 and R9 values found using equation from datasheet\n- 3V7 from battery\n- goes into LDOs (both 3V6 and 5V), in amp, and volt ref\n- boosted to 5V5 instead of 5V because volt ref input has input\nrange from 5V2 to 5V5\n- 5v5 from boost"
+		(exclude_from_sim no)
+		(at 58.42 130.175 0)
+		(size 34.925 31.115)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f384031f-4114-4003-8a60-1188891f7368")
 	)
 	(junction
 		(at 209.55 85.09)
@@ -1893,180 +2091,6 @@
 			(type default)
 		)
 		(uuid "fc78ad12-55aa-491e-88d2-9d9b2834267a")
-	)
-	(rectangle
-		(start 22.86 46.99)
-		(end 132.08 168.91)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 295367a9-72c6-48f6-be8e-e33b52af6e1f)
-	)
-	(rectangle
-		(start 158.115 112.395)
-		(end 255.27 148.59)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 64558581-ed29-4446-a003-77fcf9e7ba14)
-	)
-	(rectangle
-		(start 140.335 17.78)
-		(end 271.145 62.23)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7d572bd8-ade4-446d-a78b-5ac798aa514e)
-	)
-	(rectangle
-		(start 149.86 67.31)
-		(end 260.985 99.695)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8f7281bb-5cb3-4a12-8205-7b54652aaad1)
-	)
-	(text_box "- 5V5 from boost\n- EN set to high to enable device. EN set to low puts device into low\ncurrent shutdown\n- 3.6 V goes into ESP32C6\n- capacitor values from datasheet\n- 5V5 from boost"
-		(exclude_from_sim no)
-		(at 236.22 33.655 0)
-		(size 29.21 20.955)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "a5b84102-3c92-4537-aeb7-9040aba762c4")
-	)
-	(text_box "Operating voltage: 5V2 to 5V5\n\n- main reason for LDO 5V because the boost converter had to go to 5V5\n- 5V5 from boost"
-		(exclude_from_sim no)
-		(at 226.06 119.38 0)
-		(size 20.955 23.495)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "ab09bda0-5632-405c-98b3-dafa768143f8")
-	)
-	(text_box "- 5V5 from boost\n- 5V goes into DAC and ADC"
-		(exclude_from_sim no)
-		(at 231.775 73.025 0)
-		(size 27.305 23.495)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "d5b60afe-9f1d-4fc4-bf1d-f35f1217f0c2")
-	)
-	(text_box "- used typical application from datasheet\n- used resistor, capacitor, inductor values from typical application\n- R8 and R9 values found using equation from datasheet\n- 3V7 from battery\n- goes into LDOs (both 3V6 and 5V), in amp, and volt ref\n- boosted to 5V5 instead of 5V because volt ref input has input\nrange from 5V2 to 5V5\n- 5v5 from boost"
-		(exclude_from_sim no)
-		(at 58.42 130.175 0)
-		(size 34.925 31.115)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "f384031f-4114-4003-8a60-1188891f7368")
-	)
-	(text "Boost converter"
-		(exclude_from_sim no)
-		(at 32.766 50.292 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "15d8ab8a-e764-4ac2-bd0c-64867a81e547")
-	)
-	(text "LDO 5V"
-		(exclude_from_sim no)
-		(at 155.702 70.866 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "626e7588-f9e2-4e25-985e-33a913bd4e49")
-	)
-	(text "LDO 3V6"
-		(exclude_from_sim no)
-		(at 146.05 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "67a98706-731f-4e62-9703-a9639d149425")
-	)
-	(text "Equation: R1 = R2( (Vout/Vfb) - 1 )\nVout = 5.5\nVfb = 0.5 (from datasheet)\nR2 recommended = 200K\n\nR1 = 200k( (5.5/0.5) - 1 ) = 2M"
-		(exclude_from_sim no)
-		(at 79.502 58.166 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9ffee738-6325-444b-bd92-f09f4688f167")
-	)
-	(text "Voltage reference"
-		(exclude_from_sim no)
-		(at 168.148 115.062 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ab2127c6-bdd0-4be7-bc7e-c5470079eb3c")
 	)
 	(global_label "5v5"
 		(shape input)

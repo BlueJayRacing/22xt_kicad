@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "7a921825-c999-478d-b9c7-e179e4489235")
 	(paper "A4")
 	(lib_symbols
@@ -86,18 +86,6 @@
 			(symbol "ADS1120IRVAR_0_1"
 				(polyline
 					(pts
-						(xy -17.78 -17.78) (xy 17.78 -17.78)
-					)
-					(stroke
-						(width 0.1016)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -17.78 17.78) (xy -17.78 -17.78)
 					)
 					(stroke
@@ -110,7 +98,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.78 -17.78) (xy 17.78 17.78)
+						(xy -17.78 -17.78) (xy 17.78 -17.78)
 					)
 					(stroke
 						(width 0.1016)
@@ -132,22 +120,16 @@
 						(type none)
 					)
 				)
-				(pin input line
-					(at 22.86 -5.08 180)
-					(length 5.08)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 17.78 -17.78) (xy 17.78 17.78)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0.1016)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin power_in line
@@ -186,35 +168,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 22.86 0 180)
+				(pin input line
+					(at -22.86 0 0)
 					(length 5.08)
-					(name "DRDY_N"
+					(name "REFP0"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 22.86 2.54 180)
-					(length 5.08)
-					(name "DOUT_DRDY_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -223,16 +187,106 @@
 					)
 				)
 				(pin input line
-					(at 22.86 7.62 180)
+					(at -22.86 -2.54 0)
 					(length 5.08)
-					(name "DIN"
+					(name "REFN0"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -7.62 0)
+					(length 5.08)
+					(name "AIN0_REFP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -10.16 0)
+					(length 5.08)
+					(name "AIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -12.7 0)
+					(length 5.08)
+					(name "AIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -15.24 0)
+					(length 5.08)
+					(name "AIN3_REFN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 12.7 180)
+					(length 5.08)
+					(name "CS_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -259,16 +313,16 @@
 					)
 				)
 				(pin input line
-					(at 22.86 12.7 180)
+					(at 22.86 7.62 180)
 					(length 5.08)
-					(name "CS_N"
+					(name "DIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "16"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -276,17 +330,53 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 22.86 -15.24 180)
+				(pin output line
+					(at 22.86 2.54 180)
 					(length 5.08)
-					(name "PAD"
+					(name "DOUT_DRDY_N"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "17"
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "DRDY_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -330,107 +420,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -22.86 -15.24 0)
+				(pin power_in line
+					(at 22.86 -15.24 180)
 					(length 5.08)
-					(name "AIN3_REFN1"
+					(name "PAD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 -12.7 0)
-					(length 5.08)
-					(name "AIN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 -2.54 0)
-					(length 5.08)
-					(name "REFN0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 0 0)
-					(length 5.08)
-					(name "REFP0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 -10.16 0)
-					(length 5.08)
-					(name "AIN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 -7.62 0)
-					(length 5.08)
-					(name "AIN0_REFP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -439,9 +439,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -514,7 +517,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -526,7 +529,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -575,12 +578,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -671,6 +679,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "wsg sym lib:AD5626BRMZ"
 			(pin_names
@@ -753,18 +762,6 @@
 			(symbol "AD5626BRMZ_0_1"
 				(polyline
 					(pts
-						(xy 7.62 -12.7) (xy 33.02 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 5.08) (xy 7.62 -12.7)
 					)
 					(stroke
@@ -777,7 +774,7 @@
 				)
 				(polyline
 					(pts
-						(xy 33.02 -12.7) (xy 33.02 5.08)
+						(xy 7.62 -12.7) (xy 33.02 -12.7)
 					)
 					(stroke
 						(width 0.127)
@@ -790,6 +787,18 @@
 				(polyline
 					(pts
 						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -12.7) (xy 33.02 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -872,34 +881,16 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 -7.62 180)
+					(at 40.64 0 180)
 					(length 7.62)
-					(name "LDAC#"
+					(name "VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 40.64 -5.08 180)
-					(length 7.62)
-					(name "CLR#"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -926,16 +917,34 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 0 180)
+					(at 40.64 -5.08 180)
 					(length 7.62)
-					(name "VOUT"
+					(name "CLR#"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -7.62 180)
+					(length 7.62)
+					(name "LDAC#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -944,7 +953,92 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 183.515 43.815)
+		(end 276.225 146.685)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3a3837c9-a854-457b-98b3-3ae968864681)
+	)
+	(rectangle
+		(start 44.45 57.785)
+		(end 156.845 145.415)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f5d5fe02-97f1-4048-abb5-82ae9c19dae3)
+	)
+	(text "DAC"
+		(exclude_from_sim no)
+		(at 49.53 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0de98771-ddc2-4afe-9a2e-1c6f3140c029")
+	)
+	(text "ADC"
+		(exclude_from_sim no)
+		(at 190.246 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b1b2d612-19c6-4db5-8b1c-6bef01b96598")
+	)
+	(text_box "Operating voltage: 2V3 to 5V5\n5V5 is absolute max\n\n- 5V from boost to AVDD pin\n- 5V from volt ref to REFP0 pin\n- amp out from in amp to AIN1 pin\n"
+		(exclude_from_sim no)
+		(at 217.805 109.855 0)
+		(size 27.94 23.495)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6c7a9a08-7a11-4ebf-8658-a11047dae4b0")
+	)
+	(text_box "Operating voltage: 2V7 to 5V5\n5V5 is absolute max\n\n- followed typical application from datasheet\n- LDAC pin connected to ESP32C6\n- CLR# pin connected to ESP32C6\n"
+		(exclude_from_sim no)
+		(at 84.455 107.95 0)
+		(size 29.21 23.495)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ab38da15-92f1-473c-9d52-860c1feecab8")
 	)
 	(junction
 		(at 67.31 85.09)
@@ -1217,88 +1311,6 @@
 			(type default)
 		)
 		(uuid "feda145d-fd65-4ff8-8e93-08098f81a0c4")
-	)
-	(rectangle
-		(start 183.515 43.815)
-		(end 276.225 146.685)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3a3837c9-a854-457b-98b3-3ae968864681)
-	)
-	(rectangle
-		(start 44.45 57.785)
-		(end 156.845 145.415)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f5d5fe02-97f1-4048-abb5-82ae9c19dae3)
-	)
-	(text_box "Operating voltage: 2V3 to 5V5\n5V5 is absolute max\n\n- 5V from boost to AVDD pin\n- 5V from volt ref to REFP0 pin\n- amp out from in amp to AIN1 pin\n"
-		(exclude_from_sim no)
-		(at 217.805 109.855 0)
-		(size 27.94 23.495)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "6c7a9a08-7a11-4ebf-8658-a11047dae4b0")
-	)
-	(text_box "Operating voltage: 2V7 to 5V5\n5V5 is absolute max\n\n- followed typical application from datasheet\n- LDAC pin connected to ESP32C6\n- CLR# pin connected to ESP32C6\n"
-		(exclude_from_sim no)
-		(at 84.455 107.95 0)
-		(size 29.21 23.495)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "ab38da15-92f1-473c-9d52-860c1feecab8")
-	)
-	(text "DAC"
-		(exclude_from_sim no)
-		(at 49.53 61.214 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0de98771-ddc2-4afe-9a2e-1c6f3140c029")
-	)
-	(text "ADC"
-		(exclude_from_sim no)
-		(at 190.246 48.768 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b1b2d612-19c6-4db5-8b1c-6bef01b96598")
 	)
 	(global_label "CS_adc"
 		(shape input)

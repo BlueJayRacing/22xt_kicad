@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "789464c3-131b-45f4-bc47-be63096fae91")
 	(paper "A4")
 	(lib_symbols
@@ -191,52 +191,16 @@
 					)
 				)
 				(pin passive line
-					(at 45.72 -7.62 180)
+					(at 22.86 -20.32 90)
 					(length 5.08)
-					(name "DI_(IO0_)"
+					(name "EP"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 45.72 -5.08 180)
-					(length 5.08)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 45.72 -2.54 180)
-					(length 5.08)
-					(name "~{HOLD_(IO3_)}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -263,16 +227,52 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -20.32 90)
+					(at 45.72 -2.54 180)
 					(length 5.08)
-					(name "EP"
+					(name "~{HOLD_(IO3_)}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 45.72 -5.08 180)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 45.72 -7.62 180)
+					(length 5.08)
+					(name "DI_(IO0_)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -281,9 +281,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -402,12 +405,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -498,7 +506,28 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text_box "Operating voltage range: 2V7 to 3V6\n- 3V3 comes from ESP32C6\n\n- input 3V3 into HOLD to resume device operations and so the HOLD\ninput doesn't float(randomly pause)\n- WP is active low so put high to disable, input 3V3\n- MISO and MOSI connected to ESP32C6"
+		(exclude_from_sim no)
+		(at 52.07 81.28 0)
+		(size 30.48 41.275)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c240b1db-ce99-4b86-894e-4ec0034cc038")
 	)
 	(junction
 		(at 110.49 83.82)
@@ -525,25 +554,6 @@
 			(type default)
 		)
 		(uuid "3b6ea1bd-2ca4-492b-b389-b8f913fc9a25")
-	)
-	(text_box "Operating voltage range: 2V7 to 3V6\n- 3V3 comes from ESP32C6\n\n- input 3V3 into HOLD to resume device operations and so the HOLD\ninput doesn't float(randomly pause)\n- WP is active low so put high to disable, input 3V3\n- MISO and MOSI connected to ESP32C6"
-		(exclude_from_sim no)
-		(at 52.07 81.28 0)
-		(size 30.48 41.275)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "c240b1db-ce99-4b86-894e-4ec0034cc038")
 	)
 	(global_label "MISO"
 		(shape output)

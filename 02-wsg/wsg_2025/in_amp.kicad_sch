@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "422cb596-8c02-4b93-a799-77809d021f62")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -125,12 +127,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -221,6 +228,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "wsg sym lib:INA827AIDGK"
 			(pin_names
@@ -303,18 +311,6 @@
 			(symbol "INA827AIDGK_0_1"
 				(polyline
 					(pts
-						(xy 7.62 -12.7) (xy 48.26 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 5.08) (xy 7.62 -12.7)
 					)
 					(stroke
@@ -327,7 +323,7 @@
 				)
 				(polyline
 					(pts
-						(xy 48.26 -12.7) (xy 48.26 5.08)
+						(xy 7.62 -12.7) (xy 48.26 -12.7)
 					)
 					(stroke
 						(width 0.127)
@@ -340,6 +336,18 @@
 				(polyline
 					(pts
 						(xy 48.26 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 -12.7) (xy 48.26 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -422,34 +430,16 @@
 					)
 				)
 				(pin power_in line
-					(at 55.88 -7.62 180)
+					(at 55.88 0 180)
 					(length 7.62)
-					(name "VS-"
+					(name "VS+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 55.88 -5.08 180)
-					(length 7.62)
-					(name "REF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -475,17 +465,35 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 55.88 0 180)
+				(pin input line
+					(at 55.88 -5.08 180)
 					(length 7.62)
-					(name "VS+"
+					(name "REF"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 55.88 -7.62 180)
+					(length 7.62)
+					(name "VS-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -494,7 +502,58 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Gain = 5 + (80k/Rg)\nG = 1\nVolt ref = 5\nGain = (5/0.01) = 500"
+		(exclude_from_sim no)
+		(at 67.31 61.595 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1dd60d56-f04b-4332-a0f1-d90a469cccd8")
+	)
+	(text_box "Operating voltage: 2V7 to 36V\n\n- connects to strain gauges\n- 5V reference from volt ref ic\n- resistor value found from equation in datasheet\n- 5V5 from boost"
+		(exclude_from_sim no)
+		(at 92.075 81.915 0)
+		(size 29.845 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b27bf3d1-2180-4be6-a30f-6125a21a2345")
+	)
+	(text_box "R2 = 161 but might use a 160 ohm resistor since it's easier to find."
+		(exclude_from_sim no)
+		(at 59.182 67.437 0)
+		(size 19.05 11.303)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c66e7bb9-c230-4400-8743-c3da034e65ac")
 	)
 	(wire
 		(pts
@@ -555,54 +614,6 @@
 			(type default)
 		)
 		(uuid "fcd12365-89c5-468b-8701-391eb638eefe")
-	)
-	(text_box "Operating voltage: 2V7 to 36V\n\n- connects to strain gauges\n- 5V reference from volt ref ic\n- resistor value found from equation in datasheet\n- 5V5 from boost"
-		(exclude_from_sim no)
-		(at 92.075 81.915 0)
-		(size 29.845 20.32)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "b27bf3d1-2180-4be6-a30f-6125a21a2345")
-	)
-	(text_box "R2 = 161 but might use a 160 ohm resistor since it's easier to find."
-		(exclude_from_sim no)
-		(at 59.182 67.437 0)
-		(size 19.05 11.303)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "c66e7bb9-c230-4400-8743-c3da034e65ac")
-	)
-	(text "Gain = 5 + (80k/Rg)\nG = 1\nVolt ref = 5\nGain = (5/0.01) = 500"
-		(exclude_from_sim no)
-		(at 67.31 61.595 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1dd60d56-f04b-4332-a0f1-d90a469cccd8")
 	)
 	(global_label "sg-"
 		(shape input)
