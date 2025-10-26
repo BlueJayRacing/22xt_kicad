@@ -1854,6 +1854,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "LSM115JE3/TR13:"
+		(exclude_from_sim no)
+		(at 91.186 42.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "075ebf7a-6da3-4a3a-af72-2e1acab341ce")
+	)
 	(text "5V to 3.3V\nLDO"
 		(exclude_from_sim no)
 		(at 148.844 116.332 0)
