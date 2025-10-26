@@ -3331,7 +3331,7 @@
 			)
 		)
 	)
-	(global_label "!CS"
+	(global_label "!CS_ADC"
 		(shape output)
 		(at 238.76 87.63 0)
 		(fields_autoplaced yes)
@@ -3343,7 +3343,7 @@
 		)
 		(uuid "9c31acde-d7a8-4e0b-8b27-87d9a32a5ad5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.8295 87.63 0)
+			(at 249.4257 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
