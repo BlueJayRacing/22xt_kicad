@@ -3161,7 +3161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "22XT_Main:DO-214BA_MCH"
 			(at 90.17 52.07 0)
 			(effects
 				(font
@@ -3503,7 +3503,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 100.33 168.58 0)
 			(effects
 				(font
@@ -3692,7 +3692,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 148.59 166.04 0)
 			(effects
 				(font
@@ -5710,7 +5710,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "22XT_Main:SOIC127P600X175-8N"
 			(at 160.02 196.52 0)
 			(effects
 				(font

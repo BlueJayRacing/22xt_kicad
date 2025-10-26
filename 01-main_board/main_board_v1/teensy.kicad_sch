@@ -4762,7 +4762,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "22XT_Main:SOT95P280X145-6N"
 			(at 149.86 140.64 0)
 			(effects
 				(font
