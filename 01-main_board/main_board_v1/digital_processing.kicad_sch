@@ -4846,7 +4846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "749013011"
+		(property "Footprint" ""
 			(at 146.05 223.19 0)
 			(effects
 				(font
@@ -7428,7 +7428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" ""
 			(at 215.9 229.54 0)
 			(effects
 				(font

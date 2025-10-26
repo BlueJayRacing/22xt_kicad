@@ -6443,7 +6443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P600X600X80-41N-D"
+		(property "Footprint" ""
 			(at 99.06 159.69 0)
 			(effects
 				(font

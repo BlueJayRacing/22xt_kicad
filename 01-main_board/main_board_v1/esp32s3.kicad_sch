@@ -2138,7 +2138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN40P700X700X90-57N-D"
+		(property "Footprint" ""
 			(at 135.89 162.23 0)
 			(effects
 				(font
