@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "22XT_Main")(type "KiCad")(uri "/Users/emma/Documents/JHU/22xt_kicad/01-main_board/22XT_Main.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "C:/Users/Gwenyth/Desktop/Baja/2205/22xt_kicad/01-main_board/22XT_Main.pretty/Library.pretty")(options "")(descr ""))
 )
