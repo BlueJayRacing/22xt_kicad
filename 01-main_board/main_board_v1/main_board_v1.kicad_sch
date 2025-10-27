@@ -3998,7 +3998,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Ethernet and USB"
+		(property "Value" "0907790004"
 			(at 119.38 45.7199 0)
 			(effects
 				(font
@@ -4007,7 +4007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Picoflex_90325-0010_2x05_P1.27mm_Vertical"
+		(property "Footprint" "22XT_Main:CONN_SDA-90779_10_MOL"
 			(at 116.84 43.18 0)
 			(effects
 				(font
