@@ -2626,6 +2626,16 @@
 		)
 		(uuid "16a58d6e-7dad-4b20-a068-114996318f48")
 	)
+	(text "multiple vias to ground"
+		(exclude_from_sim no)
+		(at 95.758 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "170f3404-5810-482d-a209-3922d9072a98")
+	)
 	(text "500R07S1R2BV4T"
 		(exclude_from_sim no)
 		(at 77.724 73.406 0)
@@ -2685,6 +2695,26 @@
 			)
 		)
 		(uuid "afb4d4d8-47f8-4ef5-8f44-3ad1612287bc")
+	)
+	(text "XDCR_2450AT18B100E"
+		(exclude_from_sim no)
+		(at 38.1 81.788 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b23442bb-1923-4367-9809-06fa717f805c")
+	)
+	(text "copper pour to GND\nmultiple vias to ground"
+		(exclude_from_sim no)
+		(at 69.088 100.076 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c1957ad7-a994-469f-810c-ae4aa731dfc5")
 	)
 	(junction
 		(at 132.08 39.37)
