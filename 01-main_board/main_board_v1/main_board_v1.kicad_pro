@@ -192,7 +192,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -224,6 +225,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": true
@@ -494,34 +499,27 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.375,
-        "via_drill": 0.125,
+        "via_drill": 0.15,
         "wire_width": 6
       },
       {
-        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.1,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.48,
-        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Diff Pair",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.96,
-        "via_drill": 0.48,
-        "wire_width": 6
+        "via_drill": 0.48
       },
       {
-        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
-        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
@@ -530,16 +528,22 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.375,
-        "via_drill": 0.15,
-        "wire_width": 6
+        "via_drill": 0.15
       },
       {
-        "bus_width": 12,
+        "clearance": 0.2,
+        "name": "power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
         "clearance": 0.2,
         "diff_pair_gap": 0.1,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.48,
-        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "usb",
@@ -548,8 +552,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.96,
-        "via_drill": 0.48,
-        "wire_width": 6
+        "via_drill": 0.48
       }
     ],
     "meta": {
@@ -597,6 +600,18 @@
       {
         "netclass": "Diff Pair",
         "pattern": "TD-"
+      },
+      {
+        "netclass": "power",
+        "pattern": "5V"
+      },
+      {
+        "netclass": "power",
+        "pattern": "3V3_teensy"
+      },
+      {
+        "netclass": "power",
+        "pattern": "Net-(BT1-+)"
       }
     ]
   },

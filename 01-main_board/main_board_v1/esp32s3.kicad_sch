@@ -4827,7 +4827,7 @@
 		(dnp no)
 		(uuid "aba1bbfb-d5c1-4499-8b17-1a0f8abe6c80")
 		(property "Reference" "TP2"
-			(at 200.66 92.71 90)
+			(at 193.802 97.282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,7 +4835,7 @@
 			)
 		)
 		(property "Value" "MOSI_ESP"
-			(at 200.914 94.742 90)
+			(at 194.056 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)

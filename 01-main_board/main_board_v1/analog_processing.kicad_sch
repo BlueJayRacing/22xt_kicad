@@ -2773,28 +2773,6 @@
 			)
 		)
 	)
-	(global_label "5V"
-		(shape input)
-		(at 111.76 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0c66433c-197b-4cec-8f98-18d93efd7531")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.0433 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "2V5_ref"
 		(shape input)
 		(at 77.47 57.15 90)
@@ -5424,7 +5402,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SCLK-ADC/DAC"
+		(property "Value" "SCLK1"
 			(at 120.65 119.3799 90)
 			(effects
 				(font
@@ -5491,7 +5469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MOSI-ADC/DAC"
+		(property "Value" "MOSI1"
 			(at 120.65 116.8399 90)
 			(effects
 				(font
@@ -6076,71 +6054,6 @@
 			(project "main_board_v1"
 				(path "/12c2237c-5932-49af-9119-92b28c846ae7/3932ebef-992a-45fd-a214-7d9aa3b763ff"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aed8bba6-27bd-4674-bd13-33ca6ad72283")
-		(property "Reference" "TP7"
-			(at 108.458 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5V TP"
-			(at 108.458 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 111.76 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa024124-2733-4db3-97e9-78131e1e1184")
-		)
-		(instances
-			(project ""
-				(path "/12c2237c-5932-49af-9119-92b28c846ae7/3932ebef-992a-45fd-a214-7d9aa3b763ff"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -7140,7 +7053,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MISO-ADC/DAC"
+		(property "Value" "MISO1"
 			(at 120.65 114.2999 90)
 			(effects
 				(font
