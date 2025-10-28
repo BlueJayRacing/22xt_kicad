@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.15,
+          "via_gap": 0.0,
+          "width": 0.2
         }
       ],
       "drc_exclusions": [],
@@ -493,10 +498,46 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.1,
+        "diff_pair_width": 0.48,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Diff Pair",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.96,
+        "via_drill": 0.48
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.375,
+        "via_drill": 0.15
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.1,
+        "diff_pair_width": 0.48,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "usb",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.96,
+        "via_drill": 0.48
       }
     ],
     "meta": {
@@ -506,24 +547,44 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "GND",
-        "pattern": "GNDA"
+        "netclass": "usb",
+        "pattern": "usb+"
       },
       {
-        "netclass": "GND",
-        "pattern": "GNDD"
+        "netclass": "usb",
+        "pattern": "usb-"
       },
       {
-        "netclass": "GND",
-        "pattern": "PGND"
+        "netclass": "Diff Pair",
+        "pattern": "RX+"
       },
       {
-        "netclass": "GND",
-        "pattern": "B-"
+        "netclass": "Diff Pair",
+        "pattern": "RX-"
       },
       {
-        "netclass": "GND",
-        "pattern": "GND"
+        "netclass": "Diff Pair",
+        "pattern": "TX+"
+      },
+      {
+        "netclass": "Diff Pair",
+        "pattern": "TX-"
+      },
+      {
+        "netclass": "Diff Pair",
+        "pattern": "RD-"
+      },
+      {
+        "netclass": "Diff Pair",
+        "pattern": "RD+"
+      },
+      {
+        "netclass": "Diff Pair",
+        "pattern": "TD+"
+      },
+      {
+        "netclass": "Diff Pair",
+        "pattern": "TD-"
       }
     ]
   },
