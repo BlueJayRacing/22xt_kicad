@@ -489,23 +489,23 @@
       },
       {
         "clearance": 0.1,
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.4,
+        "diff_pair_gap": 0.1,
+        "diff_pair_width": 0.3,
         "name": "TX/RX+-",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2
+        "track_width": 0.3
       },
       {
         "clearance": 0.1,
         "diff_pair_gap": 0.1,
-        "diff_pair_width": 0.4,
+        "diff_pair_width": 0.5,
         "name": "USB_D+-",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2
+        "track_width": 0.5
       }
     ],
     "meta": {
