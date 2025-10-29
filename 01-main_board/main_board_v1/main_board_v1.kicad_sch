@@ -2441,25 +2441,35 @@
 		)
 		(uuid "30eefc41-88e5-449d-93dd-efc540d05d01")
 	)
-	(no_connect
-		(at 111.76 43.18)
-		(uuid "0ecd0173-eeb5-4d70-ae77-a5ff481c0be5")
+	(text "Mates to Female Connector: 009159010651906"
+		(exclude_from_sim no)
+		(at 119.38 60.198 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "653e2625-8f36-42d7-b3a7-1c40bad01966")
 	)
 	(no_connect
 		(at 60.96 33.02)
 		(uuid "2ca8cf6d-d7e9-4257-a891-e0738302ec6b")
 	)
 	(no_connect
-		(at 111.76 45.72)
-		(uuid "34dcc6f8-5b32-4d29-a21d-b4317581aba5")
-	)
-	(no_connect
 		(at 73.66 60.96)
 		(uuid "38858b40-9f0a-4aec-9070-d6eedb59cf34")
 	)
 	(no_connect
+		(at 111.76 38.1)
+		(uuid "498b4a68-3b54-4566-ba00-1a5e624ba777")
+	)
+	(no_connect
 		(at 73.66 55.88)
 		(uuid "80ceebd8-cbe0-4849-bbad-dda55afdf92f")
+	)
+	(no_connect
+		(at 111.76 50.8)
+		(uuid "8722477d-22a6-40f6-82c4-6f732eae5acc")
 	)
 	(no_connect
 		(at 60.96 38.1)
@@ -2641,7 +2651,7 @@
 			)
 		)
 	)
-	(global_label "TX+"
+	(global_label "TX-"
 		(shape bidirectional)
 		(at 111.76 35.56 180)
 		(fields_autoplaced yes)
@@ -2790,6 +2800,29 @@
 		(uuid "2ceecf5e-0a9f-48f4-8227-49cdd018c270")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 54.1648 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "usb-"
+		(shape output)
+		(at 111.76 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "333b2bc2-6da0-4d96-b751-febc5964c8d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.8763 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,29 +3370,6 @@
 			)
 		)
 	)
-	(global_label "usb+"
-		(shape output)
-		(at 111.76 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91d50987-f211-4aea-a503-c2fdf6521087")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.8763 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "11.1V_battery"
 		(shape output)
 		(at 60.96 73.66 180)
@@ -3426,6 +3436,50 @@
 			)
 		)
 	)
+	(global_label "RX+"
+		(shape bidirectional)
+		(at 111.76 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0990bfb-f023-4778-82df-5362713e7db1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.6116 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RX-"
+		(shape bidirectional)
+		(at 111.76 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a88327b8-d4b6-4e33-8c58-c3dbc1da4177")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.6116 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "hallfx_2_rear"
 		(shape output)
 		(at 34.29 78.74 180)
@@ -3440,51 +3494,6 @@
 		(uuid "aba95412-3f6c-4cce-b973-c82d1420268d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 18.9679 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RX-"
-		(shape bidirectional)
-		(at 111.76 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "abdc4e9f-a194-4f06-9bf1-00f3be3eb3e0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.6116 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "usb-"
-		(shape output)
-		(at 111.76 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b50973c3-d5cd-4e39-875c-15632393b464")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.8763 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,7 +3547,7 @@
 			)
 		)
 	)
-	(global_label "TX-"
+	(global_label "TX+"
 		(shape bidirectional)
 		(at 111.76 33.02 180)
 		(fields_autoplaced yes)
@@ -3739,19 +3748,20 @@
 			)
 		)
 	)
-	(global_label "RX+"
-		(shape bidirectional)
-		(at 111.76 40.64 180)
+	(global_label "usb+"
+		(shape output)
+		(at 111.76 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
+				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f03a84fc-0ac3-4e1f-ae4a-8f5d42b0c96a")
+		(uuid "f1bad888-dcb4-4bc1-9a51-0cd31fa871e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.6116 40.64 0)
+			(at 103.8763 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4626,7 +4636,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0907790004"
+		(property "Value" "Mezzanine Edge"
 			(at 119.38 45.7199 0)
 			(effects
 				(font
@@ -4635,7 +4645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "22XT_Main:CONN_SDA-90779_10_MOL"
+		(property "Footprint" "22XT_Main:Double Sided Mezzanine Card Edge_Edge Side"
 			(at 116.84 43.18 0)
 			(effects
 				(font
@@ -4770,7 +4780,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 48.26 270)
+		(at 111.76 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4779,7 +4789,7 @@
 		(fields_autoplaced yes)
 		(uuid "8491918b-9f76-4dc6-9a9b-2c409241fad8")
 		(property "Reference" "#PWR038"
-			(at 105.41 48.26 0)
+			(at 105.41 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4788,7 +4798,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 107.95 48.2601 90)
+			(at 107.95 53.3401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,7 +4807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 48.26 0)
+			(at 111.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4806,7 +4816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 48.26 0)
+			(at 111.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,7 +4825,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 48.26 0)
+			(at 111.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
