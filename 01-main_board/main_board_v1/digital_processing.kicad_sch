@@ -3290,7 +3290,7 @@
 			)
 		)
 	)
-	(global_label "TX-"
+	(global_label "TX+"
 		(shape bidirectional)
 		(at 194.31 134.62 180)
 		(fields_autoplaced yes)
@@ -3380,7 +3380,7 @@
 			)
 		)
 	)
-	(global_label "RX+"
+	(global_label "RX-"
 		(shape bidirectional)
 		(at 194.31 139.7 180)
 		(fields_autoplaced yes)
@@ -3539,7 +3539,7 @@
 			)
 		)
 	)
-	(global_label "RX-"
+	(global_label "RX+"
 		(shape bidirectional)
 		(at 219.71 134.62 0)
 		(fields_autoplaced yes)
@@ -4054,7 +4054,7 @@
 			)
 		)
 	)
-	(global_label "TX+"
+	(global_label "TX-"
 		(shape bidirectional)
 		(at 219.71 137.16 0)
 		(fields_autoplaced yes)

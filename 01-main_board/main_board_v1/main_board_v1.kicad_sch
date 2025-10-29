@@ -2431,16 +2431,6 @@
 		)
 		(uuid "20291296-2559-45e9-afc4-179e0d59785b")
 	)
-	(text "Picoflex 2x5 Connector\n"
-		(exclude_from_sim no)
-		(at 111.506 29.718 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "30eefc41-88e5-449d-93dd-efc540d05d01")
-	)
 	(text "Mates to Female Connector: 009159010651906"
 		(exclude_from_sim no)
 		(at 119.38 60.198 0)
@@ -2651,9 +2641,9 @@
 			)
 		)
 	)
-	(global_label "TX-"
+	(global_label "RX-"
 		(shape bidirectional)
-		(at 111.76 35.56 180)
+		(at 111.76 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2661,9 +2651,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1f091b56-fe77-40e1-b231-6eb3eb7f08aa")
+		(uuid "1ff5d01a-3906-4791-a252-59d7114ca909")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.914 35.56 0)
+			(at 103.6116 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,20 +2799,19 @@
 			)
 		)
 	)
-	(global_label "usb-"
-		(shape output)
-		(at 111.76 48.26 180)
+	(global_label "RX+"
+		(shape bidirectional)
+		(at 111.76 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "333b2bc2-6da0-4d96-b751-febc5964c8d1")
+		(uuid "377409aa-00a3-4741-913f-50cf29101bcb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.8763 48.26 0)
+			(at 103.6116 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,6 +2862,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_usb"
+		(shape output)
+		(at 111.76 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d51f17d-314b-4b5c-adea-4ce621ccd59e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.183 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3035,6 +3046,29 @@
 			)
 		)
 	)
+	(global_label "usb+"
+		(shape output)
+		(at 111.76 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f6e2a0f-05fc-4891-998d-8aaf34afd3be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.8763 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DN5"
 		(shape output)
 		(at 60.96 86.36 180)
@@ -3098,6 +3132,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TX+"
+		(shape bidirectional)
+		(at 111.76 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68201f8f-b7ed-444c-939e-13ca433cbeb6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.914 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3436,9 +3492,9 @@
 			)
 		)
 	)
-	(global_label "RX+"
+	(global_label "TX-"
 		(shape bidirectional)
-		(at 111.76 40.64 180)
+		(at 111.76 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3446,31 +3502,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a0990bfb-f023-4778-82df-5362713e7db1")
+		(uuid "a5c070db-f72f-4e71-8bec-f82bb334dcaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.6116 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RX-"
-		(shape bidirectional)
-		(at 111.76 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a88327b8-d4b6-4e33-8c58-c3dbc1da4177")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.6116 43.18 0)
+			(at 103.914 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,41 +3559,20 @@
 			)
 		)
 	)
-	(global_label "5V_usb"
+	(global_label "usb-"
 		(shape output)
-		(at 111.76 55.88 180)
+		(at 111.76 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
+				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "bb023b1f-7e3b-466a-a7ad-1ed8bb4e6cbb")
+		(uuid "c64cf10a-846d-47a9-8c34-714a5c6e3fdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.183 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TX+"
-		(shape bidirectional)
-		(at 111.76 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c339e170-9c59-4eb6-b758-8222cfe74af8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.914 33.02 0)
+			(at 103.8763 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3744,29 +3757,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "usb+"
-		(shape output)
-		(at 111.76 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f1bad888-dcb4-4bc1-9a51-0cd31fa871e2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.8763 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4780,7 +4770,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 53.34 270)
+		(at 111.76 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4789,7 +4779,7 @@
 		(fields_autoplaced yes)
 		(uuid "8491918b-9f76-4dc6-9a9b-2c409241fad8")
 		(property "Reference" "#PWR038"
-			(at 105.41 53.34 0)
+			(at 105.41 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,7 +4788,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 107.95 53.3401 90)
+			(at 107.95 40.6401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4807,7 +4797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 53.34 0)
+			(at 111.76 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4816,7 +4806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 53.34 0)
+			(at 111.76 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +4815,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 53.34 0)
+			(at 111.76 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
