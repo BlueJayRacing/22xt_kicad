@@ -830,6 +830,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "009159010651906"
+		(exclude_from_sim no)
+		(at 107.696 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85f4df0d-c37a-45c6-8d05-c7440fdecd5f")
+	)
 	(junction
 		(at 85.09 71.12)
 		(diameter 0)
@@ -837,12 +847,12 @@
 		(uuid "c65161d0-1c23-4460-8747-376aa60f3482")
 	)
 	(no_connect
-		(at 100.33 97.79)
-		(uuid "37f43de8-ef19-407e-a1dc-81be180a3461")
+		(at 100.33 102.87)
+		(uuid "5ec68172-5f5a-42fa-bd46-1f35d0311762")
 	)
 	(no_connect
-		(at 100.33 95.25)
-		(uuid "6ddfd07c-7472-4ff8-a304-ca1519c51153")
+		(at 100.33 90.17)
+		(uuid "b76d0723-2105-4eba-8995-0866292a313b")
 	)
 	(wire
 		(pts
@@ -874,9 +884,9 @@
 		)
 		(uuid "611df79d-5a85-4e9d-a704-c353736de21a")
 	)
-	(global_label "RX_P"
+	(global_label "USB_D_P"
 		(shape output)
-		(at 100.33 92.71 180)
+		(at 100.33 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -884,31 +894,9 @@
 			)
 			(justify right)
 		)
-		(uuid "108d69fe-f4f6-4cf0-a2d0-020495ce083d")
+		(uuid "0af8fecb-e931-46f9-ad7f-dcde8c839140")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.6277 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_D_N"
-		(shape output)
-		(at 100.33 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "22d64078-a708-417f-a7a9-f4fb13f0e774")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9991 105.41 0)
+			(at 89.0596 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -940,29 +928,7 @@
 			)
 		)
 	)
-	(global_label "USB_D_P"
-		(shape output)
-		(at 100.33 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "25de1b99-4f4c-4284-b0a1-2ee0c6dd6232")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.0596 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V_USB"
+	(global_label "USB_5V"
 		(shape input)
 		(at 78.74 66.04 180)
 		(fields_autoplaced yes)
@@ -984,9 +950,9 @@
 			)
 		)
 	)
-	(global_label "RX_N"
-		(shape output)
-		(at 100.33 90.17 180)
+	(global_label "TX_N"
+		(shape bidirectional)
+		(at 100.33 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -994,31 +960,9 @@
 			)
 			(justify right)
 		)
-		(uuid "5fc21929-3118-4686-a092-1076eb990085")
+		(uuid "6a93c97f-2013-48fe-a8e6-dfd82d284f08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.5672 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TX_P"
-		(shape output)
-		(at 100.33 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "82195f92-48ec-4f2c-8560-c81267f72d94")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.9301 87.63 0)
+			(at 91.7583 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1116,9 +1060,9 @@
 			)
 		)
 	)
-	(global_label "TX_N"
+	(global_label "USB_5V"
 		(shape output)
-		(at 100.33 85.09 180)
+		(at 100.33 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1126,9 +1070,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b244ed72-f53c-4a86-9808-02f81e89f09c")
+		(uuid "b130e242-730e-4f85-93c4-5beb10f9157d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.8696 85.09 0)
+			(at 90.2691 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1138,9 +1082,9 @@
 			)
 		)
 	)
-	(global_label "5V_USB"
-		(shape output)
-		(at 100.33 107.95 180)
+	(global_label "TX_P"
+		(shape bidirectional)
+		(at 100.33 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1148,9 +1092,9 @@
 			)
 			(justify right)
 		)
-		(uuid "ba4287ad-36f9-415e-a636-94215fe1b39f")
+		(uuid "da8dcdd5-9e03-4b27-b9bd-fd1a5acc9bc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.2691 107.95 0)
+			(at 91.8188 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,6 +1126,50 @@
 			)
 		)
 	)
+	(global_label "USB_D_N"
+		(shape output)
+		(at 100.33 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd561de3-b6ee-41b2-bc0e-d3bcdd3eb9d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9991 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RX_P"
+		(shape bidirectional)
+		(at 100.33 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eed38203-995b-4ed9-8f58-3ad6eff11e9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.5164 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TX_N"
 		(shape bidirectional)
 		(at 143.51 66.04 0)
@@ -1200,6 +1188,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RX_N"
+		(shape bidirectional)
+		(at 100.33 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd3620a6-3eb4-480d-87ba-4ccd209b7277")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.4559 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1280,6 +1290,73 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
+		(at 100.33 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07475c79-5cdf-40be-80e4-70cba7e313f6")
+		(property "Reference" "#PWR01"
+			(at 93.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 96.52 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d117704e-0ddc-4469-bb69-6c20f3f057e8")
+		)
+		(instances
+			(project ""
+				(path "/e614b84e-efa2-40f7-bc3a-41ecf14c794c"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
 		(at 85.09 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1339,73 +1416,6 @@
 			(project "main_board_peripheral_v1"
 				(path "/e614b84e-efa2-40f7-bc3a-41ecf14c794c"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 100.33 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b10852b-bd48-4f64-ac42-b6b9e4638874")
-		(property "Reference" "#PWR01"
-			(at 93.98 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 96.52 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 100.33 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a394f186-53ee-43a2-b474-82367428a240")
-		)
-		(instances
-			(project ""
-				(path "/e614b84e-efa2-40f7-bc3a-41ecf14c794c"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1575,7 +1585,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0907790004"
+		(property "Value" "Mezzanine"
 			(at 107.95 97.7899 0)
 			(effects
 				(font
@@ -1584,7 +1594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "22XT_Main_Peripheral:CONN_SDA-90779_10_MOL"
+		(property "Footprint" "22XT_Main_Peripheral:Double Sided Mezzanine Card Edge_Connector Side"
 			(at 105.41 95.25 0)
 			(effects
 				(font
