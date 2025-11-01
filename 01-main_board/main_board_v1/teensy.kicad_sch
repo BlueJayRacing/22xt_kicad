@@ -4858,7 +4858,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4fe382c9-9366-49cd-838a-2fe04a3b7bff")
 		(property "Reference" "#PWR076"
 			(at 162.56 140.97 0)
@@ -4869,12 +4868,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
-			(at 162.56 139.7 0)
+		(property "Value" "GNDA"
+			(at 160.02 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
