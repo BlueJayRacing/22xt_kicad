@@ -140,7 +140,7 @@
         "min_silk_clearance": 0.15,
         "min_text_height": 1.0,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.15,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.16,
         "min_via_annular_width": 0.075,
         "min_via_diameter": 0.25,
@@ -528,7 +528,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.375,
-        "via_drill": 0.15
+        "via_drill": 0.2
       },
       {
         "clearance": 0.2,
@@ -620,8 +620,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "../00-manufacturing/",
+      "pos_files": "../",
       "specctra_dsn": "",
       "step": "",
       "svg": "",

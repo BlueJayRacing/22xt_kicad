@@ -3327,12 +3327,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
-			(at 127 121.92 0)
+		(property "Value" "GNDD"
+			(at 129.54 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4739,7 +4740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
+		(property "Value" "GNDD"
 			(at 167.64 101.5999 90)
 			(effects
 				(font
@@ -5002,12 +5003,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
-			(at 124.46 93.98 0)
+		(property "Value" "GNDD"
+			(at 127 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5137,7 +5139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
+		(property "Value" "GNDD"
 			(at 167.64 109.2199 90)
 			(effects
 				(font
@@ -5532,7 +5534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
+		(property "Value" "GNDD"
 			(at 167.64 104.1399 90)
 			(effects
 				(font
@@ -5800,7 +5802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
+		(property "Value" "GNDD"
 			(at 167.64 106.68 90)
 			(effects
 				(font
