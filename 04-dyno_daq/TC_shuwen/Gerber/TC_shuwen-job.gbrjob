@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.4"
     },
-    "CreationDate": "2025-11-06T19:48:09-05:00"
+    "CreationDate": "2025-11-13T19:53:10-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "TC_shuwen-F_Cu.gbr",
+      "Path": "TC_shuwen-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TC_shuwen-B_Cu.gbr",
+      "Path": "TC_shuwen-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TC_shuwen-F_Paste.gbr",
+      "Path": "TC_shuwen-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TC_shuwen-B_Paste.gbr",
+      "Path": "TC_shuwen-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TC_shuwen-F_Silkscreen.gbr",
+      "Path": "TC_shuwen-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TC_shuwen-B_Silkscreen.gbr",
+      "Path": "TC_shuwen-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TC_shuwen-F_Mask.gbr",
+      "Path": "TC_shuwen-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "TC_shuwen-B_Mask.gbr",
+      "Path": "TC_shuwen-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "TC_shuwen-Edge_Cuts.gbr",
+      "Path": "TC_shuwen-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
