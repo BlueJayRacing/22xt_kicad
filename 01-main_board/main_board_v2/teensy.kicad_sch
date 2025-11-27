@@ -3088,16 +3088,16 @@
 		(uuid "97c61880-0339-4357-9585-9016c1c4b6c4")
 	)
 	(no_connect
-		(at 182.88 46.99)
-		(uuid "a11d6815-c482-4291-b46a-9807e1389404")
-	)
-	(no_connect
 		(at 238.76 77.47)
 		(uuid "b7b6ef1a-eec3-498a-b955-d6afed8b9498")
 	)
 	(no_connect
 		(at 238.76 97.79)
 		(uuid "ba217e5a-d0dd-4ed4-9d76-5752edcad62a")
+	)
+	(no_connect
+		(at 182.88 44.45)
+		(uuid "bc76531c-b1f4-4c39-9545-ae14b62fb23d")
 	)
 	(no_connect
 		(at 182.88 111.76)
@@ -3152,16 +3152,6 @@
 			(type default)
 		)
 		(uuid "1cbbdea5-ec32-4f26-9b78-124bb70f1696")
-	)
-	(wire
-		(pts
-			(xy 181.61 44.45) (xy 182.88 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cdd3a91-55b3-44a0-9f46-be6c8aea953f")
 	)
 	(wire
 		(pts
@@ -3492,6 +3482,16 @@
 			(type default)
 		)
 		(uuid "ea3d87ce-684b-42b4-b9c2-f17ee0778aee")
+	)
+	(wire
+		(pts
+			(xy 181.61 46.99) (xy 182.88 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1296e1a-b5ae-4ccb-80df-0f1e2f21582c")
 	)
 	(wire
 		(pts
@@ -3851,7 +3851,7 @@
 			)
 		)
 	)
-	(global_label "usb-"
+	(global_label "usb_teensy-"
 		(shape input)
 		(at 182.88 102.87 180)
 		(fields_autoplaced yes)
@@ -3864,7 +3864,7 @@
 		)
 		(uuid "5ece5301-e699-4bc9-bc22-ab2cbf3db328")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.9963 102.87 0)
+			(at 167.9811 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,7 +3896,7 @@
 			)
 		)
 	)
-	(global_label "usb+"
+	(global_label "usb_teensy+"
 		(shape input)
 		(at 182.88 105.41 180)
 		(fields_autoplaced yes)
@@ -3909,7 +3909,7 @@
 		)
 		(uuid "607395b3-1302-411d-845a-2192b381d24b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.9963 105.41 0)
+			(at 167.9811 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,6 +4284,28 @@
 		(uuid "bc580510-8168-4bb9-9865-b29a5b40f732")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 172.8191 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "usb_mux_s"
+		(shape output)
+		(at 181.61 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c823a188-b1d2-4d8a-937c-e2307d746681")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.465 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
