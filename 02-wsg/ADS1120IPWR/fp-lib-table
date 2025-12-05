@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ADS1120IPWR")(type "KiCad")(uri "/Users/kunba/Documents/22xt_kicad_1/02-wsg/wsg_2025/symbols/ADC/ADS1120IPWR.pretty")(options "")(descr ""))
+)
