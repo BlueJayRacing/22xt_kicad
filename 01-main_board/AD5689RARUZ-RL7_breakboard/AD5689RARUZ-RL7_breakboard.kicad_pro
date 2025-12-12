@@ -451,7 +451,8 @@
       "bjr_logo_lib"
     ],
     "pinned_symbol_libs": [
-      "AD5689RARUZ-RL7_sym_lib"
+      "AD5689RARUZ-RL7_sym_lib",
+      "Connector_Generic"
     ]
   },
   "meta": {
