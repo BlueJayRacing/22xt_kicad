@@ -1682,6 +1682,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "1.5k cutoff"
+		(exclude_from_sim no)
+		(at 143.51 87.376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "651ab71f-a3f7-4cee-adf4-3fc42ed9a721")
+	)
 	(text "uA consumption"
 		(exclude_from_sim no)
 		(at 186.69 112.014 0)
@@ -2870,7 +2880,7 @@
 			)
 		)
 	)
-	(global_label "MISO"
+	(global_label "MISO_ESP"
 		(shape output)
 		(at 260.35 110.49 0)
 		(fields_autoplaced yes)
@@ -2882,7 +2892,7 @@
 		)
 		(uuid "360b6e4c-89c9-4edf-90ca-9216578d84fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.9314 110.49 0)
+			(at 272.5275 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,7 +3210,7 @@
 			)
 		)
 	)
-	(global_label "CS"
+	(global_label "CS_ESP"
 		(shape input)
 		(at 260.35 100.33 0)
 		(fields_autoplaced yes)
@@ -3212,7 +3222,7 @@
 		)
 		(uuid "61ae9b2f-88b0-4fe1-be0d-fbbef2f24a1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.8147 100.33 0)
+			(at 270.4108 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3728,7 +3738,7 @@
 			)
 		)
 	)
-	(global_label "SCLK_ADC"
+	(global_label "SCLK_ESP"
 		(shape input)
 		(at 260.35 102.87 0)
 		(fields_autoplaced yes)
@@ -3740,7 +3750,7 @@
 		)
 		(uuid "cbc7c88b-232e-4ccb-afaf-67f05d5f5af1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.709 102.87 0)
+			(at 272.7089 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +3804,7 @@
 			)
 		)
 	)
-	(global_label "MOSI"
+	(global_label "MOSI_ESP"
 		(shape input)
 		(at 260.35 105.41 0)
 		(fields_autoplaced yes)
@@ -3806,7 +3816,7 @@
 		)
 		(uuid "d3e0eff9-e118-441e-8ef1-38b231b90705")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.9314 105.41 0)
+			(at 272.5275 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4263,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 135.89 146.0499 0)
 			(effects
 				(font
@@ -4595,7 +4605,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 128.27 93.98 90)
 			(effects
 				(font
@@ -6015,18 +6025,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9ec4fceb-8a0a-4cf6-9e08-ee46f10eb0d1")
 		(property "Reference" "R22"
-			(at 128.27 134.62 90)
+			(at 128.27 136.398 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 128.27 137.16 90)
+		(property "Value" "1k"
+			(at 128.27 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6575,7 +6584,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 135.89 125.7299 0)
 			(effects
 				(font
@@ -6644,7 +6653,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 128.27 116.84 90)
 			(effects
 				(font
@@ -6849,7 +6858,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 135.89 102.8699 0)
 			(effects
 				(font

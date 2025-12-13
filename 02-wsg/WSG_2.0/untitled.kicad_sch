@@ -2865,7 +2865,7 @@
 	)
 	(text "hold and wp held high to disable them"
 		(exclude_from_sim no)
-		(at 68.326 82.804 0)
+		(at 65.278 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
