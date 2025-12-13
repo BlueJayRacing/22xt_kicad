@@ -1692,6 +1692,26 @@
 		)
 		(uuid "651ab71f-a3f7-4cee-adf4-3fc42ed9a721")
 	)
+	(text "352 (0.1%) accoutn with offset"
+		(exclude_from_sim no)
+		(at 82.55 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a1b34c84-6e40-4fda-96ab-d81ee51a8638")
+	)
+	(text "gain"
+		(exclude_from_sim no)
+		(at 30.48 80.772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b41185df-d665-495e-ba6f-456f8a1068e1")
+	)
 	(text "uA consumption"
 		(exclude_from_sim no)
 		(at 186.69 112.014 0)
@@ -1701,6 +1721,16 @@
 			)
 		)
 		(uuid "c3064ed4-66f6-40bf-badd-c209f27439e7")
+	)
+	(text "check it out again"
+		(exclude_from_sim no)
+		(at 276.352 54.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ecf814c7-de02-4636-9e13-289ec4e99b2f")
 	)
 	(text_box "ADC/DAC"
 		(exclude_from_sim no)
@@ -2814,9 +2844,9 @@
 			)
 		)
 	)
-	(global_label "CS_DAC"
+	(global_label "SCLK_ESP"
 		(shape input)
-		(at 213.36 52.07 180)
+		(at 213.36 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2824,9 +2854,9 @@
 			)
 			(justify right)
 		)
-		(uuid "21b3cb5c-c98d-4bd2-9fb1-23a6a3ceab86")
+		(uuid "1a237b32-2fcc-40b7-ade4-7a2a0e4ee2b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.2991 52.07 0)
+			(at 201.0011 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2898,28 +2928,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCLK_DAC"
-		(shape input)
-		(at 213.36 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3732a12b-5dba-4aba-8183-62e34f501374")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.001 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3074,28 +3082,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOSI_DAC"
-		(shape input)
-		(at 213.36 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4e69ff58-a6b8-4ac5-a606-d0617bfadf01")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.1824 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3782,6 +3768,28 @@
 			)
 		)
 	)
+	(global_label "CS_ESP"
+		(shape input)
+		(at 213.36 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d284a08a-97f9-4b0f-93a1-d68c7806a740")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2992 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5V_LDO"
 		(shape input)
 		(at 82.55 87.63 0)
@@ -4042,6 +4050,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI_ESP"
+		(shape input)
+		(at 213.36 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fdf4e700-f2de-46f3-a108-4e66fd111bfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.1825 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5280,7 +5310,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "350"
 			(at 120.65 52.0699 0)
 			(effects
 				(font
@@ -5692,7 +5722,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "350"
 			(at 81.28 52.0699 0)
 			(effects
 				(font
@@ -6306,7 +6336,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "350"
 			(at 157.48 33.0199 0)
 			(effects
 				(font
@@ -6788,7 +6818,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "350"
 			(at 64.77 52.0699 0)
 			(effects
 				(font
@@ -6928,7 +6958,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "350"
 			(at 105.41 52.0699 0)
 			(effects
 				(font
@@ -7205,7 +7235,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "350"
 			(at 120.65 34.2899 0)
 			(effects
 				(font
@@ -7390,7 +7420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "350"
 			(at 157.48 50.7999 0)
 			(effects
 				(font
@@ -7750,7 +7780,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "350"
 			(at 142.24 50.7999 0)
 			(effects
 				(font
@@ -7820,7 +7850,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "350"
 			(at 81.28 34.2899 0)
 			(effects
 				(font

@@ -2833,6 +2833,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "enable pin logic"
+		(exclude_from_sim no)
+		(at 53.594 124.206 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "460af9c7-aa5d-45df-9d12-1c536d6a12b5")
+	)
 	(text "this guy is optional if it doesnt fit then delete it\ni recommend try it first rev to see if extra psram helps at all"
 		(exclude_from_sim no)
 		(at 104.394 185.166 0)
@@ -2862,6 +2872,16 @@
 			)
 		)
 		(uuid "7f57ac83-4925-4d27-9277-f57f31075cf0")
+	)
+	(text "include current source"
+		(exclude_from_sim no)
+		(at 55.372 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "88688459-3d0c-40d9-a0fb-9bf907d91c4c")
 	)
 	(text "hold and wp held high to disable them"
 		(exclude_from_sim no)
@@ -2906,7 +2926,7 @@
 	)
 	(text "prob don't need"
 		(exclude_from_sim no)
-		(at 187.96 65.278 0)
+		(at 186.944 64.262 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4052,7 +4072,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_ESP"
 		(shape output)
 		(at 38.1 138.43 180)
 		(fields_autoplaced yes)
@@ -4064,7 +4084,7 @@
 		)
 		(uuid "ef03ded5-fa78-4fab-a3aa-c601e4752645")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.6072 138.43 0)
+			(at 27.0111 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)

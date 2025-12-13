@@ -1655,302 +1655,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "22XT_Main_v2:TS3USB30EDGSR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 21.59 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "TS3USB30EDGSR"
-				(at 21.59 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOP50P490X110-10N"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/ts3usb30e"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "High-Speed USB 2.0 1:2 Mux/Demux Switch With Single Enable and ESD Protection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.1"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-TS3USB30EDGSR"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TS3USB30EDGSR?qs=%2Fqzd9s%252BcLd5Wxke8HBtqJw%3D%3D"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TS3USB30EDGSR"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TS3USB30EDGSR_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "D1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "D2+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "~{OE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "D1-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -7.62 180)
-					(length 5.08)
-					(name "D2-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -10.16 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -2811,18 +2515,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 44.45 109.22)
-		(end 113.03 148.59)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3fc31599-7491-41bd-8bf5-4a5060539c1a)
-	)
 	(text "XDCR_2450AT18B100E"
 		(exclude_from_sim no)
 		(at 48.26 77.978 0)
@@ -2988,12 +2680,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6990237e-24ff-4f2c-95d2-72c1e960ac47")
-	)
-	(junction
-		(at 91.44 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74725b23-0916-4198-b684-46d477e659cb")
 	)
 	(junction
 		(at 97.79 57.15)
@@ -3333,16 +3019,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 125.73) (xy 91.44 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e7daf14-8465-4afe-9441-cad2f4239906")
-	)
-	(wire
-		(pts
 			(xy 118.11 57.15) (xy 121.92 57.15)
 		)
 		(stroke
@@ -3423,16 +3099,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 125.73) (xy 90.17 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "863cb675-df37-47a7-af86-e91fb277a3af")
-	)
-	(wire
-		(pts
 			(xy 140.97 57.15) (xy 143.51 57.15)
 		)
 		(stroke
@@ -3440,16 +3106,6 @@
 			(type default)
 		)
 		(uuid "92711182-3642-4824-8a16-fa444b392ca0")
-	)
-	(wire
-		(pts
-			(xy 104.14 128.27) (xy 90.17 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96315af7-2343-4c4e-8f60-831ab13a9de8")
 	)
 	(wire
 		(pts
@@ -3795,31 +3451,9 @@
 			)
 		)
 	)
-	(global_label "usb_teensy+"
-		(shape input)
-		(at 64.77 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1cfc838f-21aa-4691-be88-9efe03633080")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.8711 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCLK_ESP"
 		(shape input)
-		(at 214.63 97.79 0)
+		(at 215.9 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3829,7 +3463,7 @@
 		)
 		(uuid "2e63e3a2-c155-4ff9-b7ba-38b904b835ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.9889 97.79 0)
+			(at 228.2589 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3841,7 +3475,7 @@
 	)
 	(global_label "MISO_ESP"
 		(shape output)
-		(at 214.63 85.09 0)
+		(at 215.9 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3851,7 +3485,7 @@
 		)
 		(uuid "3686531a-9b6d-4a31-ad62-c85038d71455")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.8075 85.09 0)
+			(at 228.0775 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +3539,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_ESP"
 		(shape input)
 		(at 166.37 57.15 90)
 		(fields_autoplaced yes)
@@ -3917,34 +3551,12 @@
 		)
 		(uuid "5017efd2-e32e-4709-8e1f-6ac62747b691")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.37 50.6572 90)
+			(at 166.37 46.0611 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "usb_esp+"
-		(shape input)
-		(at 64.77 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "545eed9e-42fe-45f3-b85e-583c889b7a81")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.653 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3973,7 +3585,7 @@
 	)
 	(global_label "MOSI_ESP"
 		(shape input)
-		(at 214.63 95.25 0)
+		(at 215.9 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3983,57 +3595,12 @@
 		)
 		(uuid "60ba6147-5b8e-4f03-9079-9b3451990a52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.8075 95.25 0)
+			(at 228.0775 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "usb-"
-		(shape input)
-		(at 90.17 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7a995e41-c52b-4065-8776-9cf106a408ee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.0537 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "usb_mux_s"
-		(shape input)
-		(at 64.77 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "82f5c488-5b56-4b97-a43f-f7d0e059e9da")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.625 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4051,28 +3618,6 @@
 		(uuid "87bc47d1-230f-4911-b444-fbee538678c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 191.6708 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "usb_teensy-"
-		(shape input)
-		(at 90.17 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "96be2f2f-ef50-4806-b6ee-aea011fb4c08")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.0689 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,29 +3649,6 @@
 			)
 		)
 	)
-	(global_label "usb+"
-		(shape input)
-		(at 64.77 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a30447b3-5ded-4199-babc-7ee42e27c57b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.8863 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "usb_esp+"
 		(shape input)
 		(at 166.37 135.89 270)
@@ -4145,28 +3667,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "usb_esp-"
-		(shape input)
-		(at 90.17 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d057c393-8ba5-4bae-a96e-06112b64f992")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.287 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4211,28 +3711,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V_usb"
-		(shape input)
-		(at 95.25 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eae66ed9-2142-404c-a454-4f7dd7b731ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.827 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4799,75 +4277,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 91.44 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c0e1393-d54c-4cfa-8e6a-95fc3dd7b9dc")
-		(property "Reference" "C62"
-			(at 94.488 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 94.488 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 92.4052 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 91.44 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a4542872-e4c8-4234-8b5b-9894a6c306d3")
-		)
-		(pin "1"
-			(uuid "f98e847b-4161-4238-82b7-2e00b0f45a2e")
-		)
-		(instances
-			(project "WSG_2.0"
-				(path "/a78512c7-96a5-4714-909a-6e7b65d2bdb6/ce807aaa-cf62-4ae2-83b5-ecb168adba99"
-					(reference "C62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 146.05 162.56 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5003,7 +4412,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 214.63 85.09 90)
+		(at 215.9 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5011,7 +4420,7 @@
 		(dnp no)
 		(uuid "5b0af44f-a5e4-48fe-9d82-52ac483487e6")
 		(property "Reference" "TP1"
-			(at 211.328 80.01 90)
+			(at 212.598 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5019,7 +4428,7 @@
 			)
 		)
 		(property "Value" "MISO_ESP"
-			(at 211.074 82.55 90)
+			(at 212.344 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5027,7 +4436,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 214.63 80.01 0)
+			(at 215.9 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +4445,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 80.01 0)
+			(at 215.9 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,7 +4454,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 214.63 85.09 0)
+			(at 215.9 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,7 +4747,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 214.63 97.79 90)
+		(at 215.9 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5346,7 +4755,7 @@
 		(dnp no)
 		(uuid "770005fa-9859-4d70-8396-cad02095bc8b")
 		(property "Reference" "TP3"
-			(at 210.312 101.092 90)
+			(at 211.582 71.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,7 +4763,7 @@
 			)
 		)
 		(property "Value" "SCLK_ESP"
-			(at 210.82 103.632 90)
+			(at 212.09 74.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,7 +4771,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 214.63 92.71 0)
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5371,7 +4780,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 92.71 0)
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +4789,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 214.63 97.79 0)
+			(at 215.9 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5463,150 +4872,6 @@
 			(project "WSG_2.0"
 				(path "/a78512c7-96a5-4714-909a-6e7b65d2bdb6/ce807aaa-cf62-4ae2-83b5-ecb168adba99"
 					(reference "AE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "22XT_Main_v2:TS3USB30EDGSR")
-		(at 64.77 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d2adec3-c5eb-4ca1-912c-273528363428")
-		(property "Reference" "IC3"
-			(at 77.47 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS3USB30EDGSR"
-			(at 77.47 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOP50P490X110-10N"
-			(at 86.36 220.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/ts3usb30e"
-			(at 86.36 320.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "High-Speed USB 2.0 1:2 Mux/Demux Switch With Single Enable and ESD Protection"
-			(at 64.77 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 86.36 520.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TS3USB30EDGSR"
-			(at 86.36 620.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TS3USB30EDGSR?qs=%2Fqzd9s%252BcLd5Wxke8HBtqJw%3D%3D"
-			(at 86.36 720.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 86.36 820.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TS3USB30EDGSR"
-			(at 86.36 920.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "dda28274-598f-4ab7-b819-4c10571f7901")
-		)
-		(pin "1"
-			(uuid "bc94733a-3e6e-4f67-bb15-6d218ab6f62b")
-		)
-		(pin "4"
-			(uuid "2aba8475-e1f2-423e-a4cf-d12d6d19a746")
-		)
-		(pin "2"
-			(uuid "a384bbf7-bcb2-4939-88da-07076a330501")
-		)
-		(pin "3"
-			(uuid "0b104c55-a68d-4753-94e8-429dad7c0b15")
-		)
-		(pin "5"
-			(uuid "5e0320a1-af1f-4109-b32e-8eb830fe7d9b")
-		)
-		(pin "10"
-			(uuid "54829fb6-185d-4396-ad73-7803b39f6ce8")
-		)
-		(pin "9"
-			(uuid "6f099552-edad-4768-be7b-97999331f8e5")
-		)
-		(pin "8"
-			(uuid "b21f191d-37c0-4c4b-a3a5-84c4d33e5e93")
-		)
-		(pin "7"
-			(uuid "3fd55b95-1635-4d2a-b5e2-8fc173901934")
-		)
-		(instances
-			(project "WSG_2.0"
-				(path "/a78512c7-96a5-4714-909a-6e7b65d2bdb6/ce807aaa-cf62-4ae2-83b5-ecb168adba99"
-					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -6403,73 +5668,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 104.14 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a81f95b8-bc2f-48ec-856d-c449a2b63d5b")
-		(property "Reference" "#PWR0106"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 107.95 126.746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 104.14 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1380c860-b24e-42f5-bd19-a3e586630f40")
-		)
-		(instances
-			(project "WSG_2.0"
-				(path "/a78512c7-96a5-4714-909a-6e7b65d2bdb6/ce807aaa-cf62-4ae2-83b5-ecb168adba99"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 214.63 95.25 90)
+		(at 215.9 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6477,7 +5677,7 @@
 		(dnp no)
 		(uuid "aba1bbfb-d5c1-4499-8b17-1a0f8abe6c80")
 		(property "Reference" "TP2"
-			(at 203.962 93.472 90)
+			(at 205.232 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6485,7 +5685,7 @@
 			)
 		)
 		(property "Value" "MOSI_ESP"
-			(at 204.216 95.504 90)
+			(at 205.486 66.294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6493,7 +5693,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 214.63 90.17 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +5702,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 90.17 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,7 +5711,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 214.63 95.25 0)
+			(at 215.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,71 +6152,6 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 91.44 118.11 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca6605a5-bf39-4c6c-8f00-f6fc917064d9")
-		(property "Reference" "#PWR0108"
-			(at 91.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 89.916 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 91.44 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e7ad3be-3890-4269-8ce1-0b471b655c54")
-		)
-		(instances
-			(project "WSG_2.0"
-				(path "/a78512c7-96a5-4714-909a-6e7b65d2bdb6/ce807aaa-cf62-4ae2-83b5-ecb168adba99"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
 		(at 152.4 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7281,71 +6416,6 @@
 			(project "WSG_2.0"
 				(path "/a78512c7-96a5-4714-909a-6e7b65d2bdb6/ce807aaa-cf62-4ae2-83b5-ecb168adba99"
 					(reference "C53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 64.77 135.89 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd4df095-a367-4e9c-bd49-71c1d9352a4d")
-		(property "Reference" "#PWR0107"
-			(at 58.42 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 61.468 137.668 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 64.77 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbad654b-c3a4-4128-9a51-e7ed3071063f")
-		)
-		(instances
-			(project "WSG_2.0"
-				(path "/a78512c7-96a5-4714-909a-6e7b65d2bdb6/ce807aaa-cf62-4ae2-83b5-ecb168adba99"
-					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
