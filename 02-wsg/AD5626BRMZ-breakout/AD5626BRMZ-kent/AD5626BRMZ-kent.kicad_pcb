@@ -3209,17 +3209,6 @@
 		(embedded_fonts no)
 	)
 	(gr_arc
-		(start 130.8 101.3)
-		(mid 130.092893 101.007107)
-		(end 129.8 100.3)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "09514175-309a-4379-b08c-aea74233a7cb")
-	)
-	(gr_arc
 		(start 147 100.3)
 		(mid 146.707107 101.007107)
 		(end 146 101.3)
@@ -3228,69 +3217,80 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "6ea0d8c7-0f47-4c53-a2ea-c8dd774b3b62")
+		(uuid "40d44b45-5d7e-4d1f-9ab0-d3034dcffb6d")
 	)
 	(gr_line
-		(start 130.8 89.2)
-		(end 146 89.2)
+		(start 129.9 100.3)
+		(end 129.9 90.3)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "722a14fb-9320-4679-9569-f37e8bf04e0b")
+		(uuid "5babdfd9-1084-43b2-a78c-dfdb938b7715")
+	)
+	(gr_line
+		(start 130.9 89.3)
+		(end 146 89.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5cc44277-5050-4a5c-bf71-73c27348b0e0")
 	)
 	(gr_arc
-		(start 146 89.2)
-		(mid 146.707107 89.492893)
-		(end 147 90.2)
+		(start 129.9 90.3)
+		(mid 130.192893 89.592893)
+		(end 130.9 89.3)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "7c7ac52c-6c7f-4377-bce2-5c4df461a330")
-	)
-	(gr_arc
-		(start 129.8 90.2)
-		(mid 130.092893 89.492893)
-		(end 130.8 89.2)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "86264a74-04f4-4361-984f-f06dd2d55d4c")
+		(uuid "85ee672d-a7d9-423c-bd2e-7bab95281d13")
 	)
 	(gr_line
-		(start 146 101.3)
-		(end 130.8 101.3)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "925bded4-7857-40bf-bb26-99ca14d39f3a")
-	)
-	(gr_line
-		(start 129.8 100.3)
-		(end 129.8 90.2)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "ac6d1f83-b4c3-4a8e-b022-f6da0fea2cf8")
-	)
-	(gr_line
-		(start 147 90.2)
+		(start 147 90.3)
 		(end 147 100.3)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "e0857e61-228f-4b83-8f9d-bf480f311936")
+		(uuid "9e05a1b0-7c87-4798-919b-6de021defeff")
+	)
+	(gr_arc
+		(start 146 89.3)
+		(mid 146.707107 89.592893)
+		(end 147 90.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cf6db964-ed8e-4308-a800-e25575c1bd4c")
+	)
+	(gr_arc
+		(start 130.9 101.3)
+		(mid 130.192893 101.007107)
+		(end 129.9 100.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d06325bc-d5d2-49ab-9dd5-36a3985ba77d")
+	)
+	(gr_line
+		(start 146 101.3)
+		(end 130.9 101.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f39318dd-b6c8-43c0-8e2c-bb43e9458505")
 	)
 	(gr_text "Blue Jay Racing @ JHU\n22XT WSG DAC Breakout\nKent Zhang, Emma Ouyang"
 		(at 136.9 100.7 0)
@@ -3632,8 +3632,8 @@
 	(zone
 		(net 8)
 		(net_name "GND_C")
-		(layers "F.Cu" "B.Cu")
-		(uuid "81703171-4544-4090-9141-abbd6283ece0")
+		(layer "B.Cu")
+		(uuid "c61702c4-03a0-4937-82de-30647cf26f0f")
 		(hatch edge 0.5)
 		(connect_pads yes
 			(clearance 0.5)
@@ -3646,7 +3646,7 @@
 		)
 		(polygon
 			(pts
-				(xy 129.5 88.6) (xy 147.1 88.6) (xy 147.2 101.6) (xy 129.5 101.6)
+				(xy 129.1 88.7) (xy 148.6 88.6) (xy 147.6 102) (xy 128.6 101.9)
 			)
 		)
 	)
