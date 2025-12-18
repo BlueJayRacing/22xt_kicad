@@ -1221,7 +1221,7 @@
 		)
 	)
 	(global_label "TC+"
-		(shape input)
+		(shape output)
 		(at 181.61 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1243,7 +1243,7 @@
 		)
 	)
 	(global_label "TC-"
-		(shape input)
+		(shape output)
 		(at 181.61 76.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1287,7 +1287,7 @@
 		)
 	)
 	(global_label "TC_OUT"
-		(shape input)
+		(shape output)
 		(at 147.32 91.44 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1331,7 +1331,7 @@
 		)
 	)
 	(global_label "5V_ref"
-		(shape input)
+		(shape output)
 		(at 88.9 62.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1353,7 +1353,7 @@
 		)
 	)
 	(global_label "5V_buck"
-		(shape input)
+		(shape output)
 		(at 88.9 59.69 0)
 		(fields_autoplaced yes)
 		(effects
