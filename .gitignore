@@ -18,8 +18,10 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-gerbers
-cplfiles
+*.DS_Store
+
+# gerbers
+# cplfiles
 
 # Netlist files (exported from Eeschema)
 *.net
