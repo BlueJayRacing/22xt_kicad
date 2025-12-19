@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "wsg_fp")(type "KiCad")(uri "C:/Users/sophi/Documents/22xt_kicad/02-wsg/00-footprints/wsg_fp.pretty")(options "")(descr ""))
+)

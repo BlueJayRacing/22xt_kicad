@@ -2853,6 +2853,16 @@
 		)
 		(uuid "74217da9-10b3-4f47-88f3-8d4bf67dcf14")
 	)
+	(text "500mA source max"
+		(exclude_from_sim no)
+		(at 89.154 122.936 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a2eae0c-f26d-4f7d-bd39-ff5253d6ccfd")
+	)
 	(text "150mA"
 		(exclude_from_sim no)
 		(at 226.06 76.708 0)
@@ -2914,9 +2924,9 @@
 		)
 		(uuid "c3105882-b148-479b-878e-91d80e707a50")
 	)
-	(text "25mA"
+	(text "35mA max"
 		(exclude_from_sim no)
-		(at 146.558 81.788 0)
+		(at 149.352 80.264 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2956,8 +2966,8 @@
 	)
 	(text_box "LDO"
 		(exclude_from_sim no)
-		(at 147.32 20.32 0)
-		(size 76.2 33.02)
+		(at 147.32 17.78 0)
+		(size 76.2 34.29)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3085,6 +3095,12 @@
 		(uuid "40f44299-73c9-4025-b889-cab5f82f3501")
 	)
 	(junction
+		(at 162.56 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "576cc6d6-01a5-41b8-a350-5f177aa90de9")
+	)
+	(junction
 		(at 121.92 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3185,6 +3201,26 @@
 			(type default)
 		)
 		(uuid "31d6f0a2-32e9-4f73-ae79-befe1bff9b6a")
+	)
+	(wire
+		(pts
+			(xy 162.56 35.56) (xy 162.56 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373f18af-6c59-4369-acb3-1c950dbc09c6")
+	)
+	(wire
+		(pts
+			(xy 162.56 36.83) (xy 167.64 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3767ff97-38e4-47be-9c0d-35b0fede84da")
 	)
 	(wire
 		(pts
@@ -3308,7 +3344,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 36.83) (xy 167.64 36.83)
+			(xy 158.75 36.83) (xy 162.56 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3590,7 +3626,7 @@
 	)
 	(global_label "5V_LDO"
 		(shape output)
-		(at 162.56 36.83 180)
+		(at 158.75 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3600,7 +3636,7 @@
 		)
 		(uuid "503a7f90-eed0-4696-a92b-9dac01357e0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.6805 36.83 0)
+			(at 148.8705 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,6 +3664,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SG_EXCITATION"
+		(shape output)
+		(at 162.56 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "723cbfa7-7e6e-4267-86b7-16bb05ff3628")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 18.6048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3830,7 +3888,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_Ref"
 		(shape output)
 		(at 190.5 83.82 180)
 		(fields_autoplaced yes)
@@ -3842,7 +3900,7 @@
 		)
 		(uuid "ae92e657-aefa-4b9f-abc8-b6e4284a8082")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.0072 83.82 0)
+			(at 179.9553 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4072,7 +4130,7 @@
 			)
 		)
 	)
-	(global_label "3V3_ESP"
+	(global_label "3V3"
 		(shape output)
 		(at 38.1 138.43 180)
 		(fields_autoplaced yes)
@@ -4084,7 +4142,7 @@
 		)
 		(uuid "ef03ded5-fa78-4fab-a3aa-c601e4752645")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.0111 138.43 0)
+			(at 31.6072 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,7 +4201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 168.6052 44.45 0)
 			(effects
 				(font
@@ -4957,7 +5015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPSM83100SIUR"
+		(property "Footprint" "wsg_fp:TPSM83100SIUR"
 			(at 101.6 134.29 0)
 			(effects
 				(font
@@ -5211,7 +5269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c0e2fc8-096b-4f95-87af-c88ef20ee8fe")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0103"
 			(at 113.03 107.95 0)
 			(effects
 				(font
@@ -5261,7 +5319,7 @@
 		(instances
 			(project "WSG_2.0"
 				(path "/a78512c7-96a5-4714-909a-6e7b65d2bdb6/c314ce01-1287-478c-a51f-dfd6c79bca1d"
-					(reference "#PWR09")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -5277,7 +5335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ebfae09-4cbd-4bfb-9a75-9458bdd09a39")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0102"
 			(at 90.17 95.25 0)
 			(effects
 				(font
@@ -5327,7 +5385,7 @@
 		(instances
 			(project "WSG_2.0"
 				(path "/a78512c7-96a5-4714-909a-6e7b65d2bdb6/c314ce01-1287-478c-a51f-dfd6c79bca1d"
-					(reference "#PWR08")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -5425,7 +5483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT96P240X120-3N"
+		(property "Footprint" "wsg_fp:AP2120N-5.0TRG"
 			(at 196.85 129.21 0)
 			(effects
 				(font
@@ -5699,7 +5757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT96P240X105-3N"
+		(property "Footprint" "wsg_fp:AP2120N-3.3TRG1"
 			(at 220.98 176.2 0)
 			(effects
 				(font
@@ -5824,7 +5882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 204.1652 43.18 0)
 			(effects
 				(font
@@ -6362,7 +6420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 195.2752 91.44 0)
 			(effects
 				(font
@@ -6633,7 +6691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 227.0252 88.9 0)
 			(effects
 				(font
@@ -6701,7 +6759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "22XT_Main:SOIC127P600X175-8N"
+		(property "Footprint" "wsg_fp:SOIC127P600X175-8N"
 			(at 82.55 228.27 0)
 			(effects
 				(font
@@ -6973,7 +7031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 120.142 43.18 90)
 			(effects
 				(font
@@ -7043,7 +7101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 120.142 50.8 90)
 			(effects
 				(font

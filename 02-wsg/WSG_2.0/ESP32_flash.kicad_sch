@@ -2545,6 +2545,16 @@
 		)
 		(uuid "64e71627-88a4-4ac8-81e3-06612462153e")
 	)
+	(text "340mA max current consumption"
+		(exclude_from_sim no)
+		(at 220.726 25.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e22b88b-9ec2-4fdb-be2e-1f654a7e8112")
+	)
 	(text "copper pour to GND\nmultiple vias to ground"
 		(exclude_from_sim no)
 		(at 79.248 96.266 0)
@@ -3946,7 +3956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "22XT_Main:XTAL_ECS-.327-12.5-34B-TR"
+		(property "Footprint" "wsg_fp:XTAL_ECS-.327-12.5-34B-TR"
 			(at 154.94 165.1 0)
 			(effects
 				(font
@@ -4569,7 +4579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 115.2652 87.63 0)
 			(effects
 				(font
@@ -4835,7 +4845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "22XT_Main:XDCR_2450AT18B100E"
+		(property "Footprint" "wsg_fp:XDCR_2450AT18B100E"
 			(at 57.785 80.01 0)
 			(effects
 				(font
@@ -5037,7 +5047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "22XT_Main:XTAL_ECS-400-10-37B2-CKY-TR"
+		(property "Footprint" "wsg_fp:XTAL_ECS-400-10-37B2-CKY-TR"
 			(at 147.32 33.02 0)
 			(effects
 				(font
@@ -5891,7 +5901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "22XT_Main:QFN40P700X700X90-57N-D"
+		(property "Footprint" "wsg_fp:ESP32-S2FH2"
 			(at 177.8 159.69 0)
 			(effects
 				(font
@@ -6779,7 +6789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 98.7552 87.63 0)
 			(effects
 				(font

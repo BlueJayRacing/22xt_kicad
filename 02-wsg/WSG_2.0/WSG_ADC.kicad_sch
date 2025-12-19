@@ -701,148 +701,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -1712,7 +1570,7 @@
 		)
 		(uuid "b41185df-d665-495e-ba6f-456f8a1068e1")
 	)
-	(text "uA consumption"
+	(text "10mA max consumption"
 		(exclude_from_sim no)
 		(at 186.69 112.014 0)
 		(effects
@@ -2998,28 +2856,6 @@
 			)
 		)
 	)
-	(global_label "3.7V_BAT-"
-		(shape output)
-		(at 22.86 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3f157ca8-0e1a-430b-9097-ccd06d4aa0e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.8238 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SG2_FILTERED"
 		(shape input)
 		(at 214.63 125.73 180)
@@ -3394,28 +3230,6 @@
 			)
 		)
 	)
-	(global_label "3.7V_BAT+"
-		(shape output)
-		(at 22.86 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "87e045c4-fd16-448b-9c35-f2b8ae798cba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.8238 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "5V_LDO"
 		(shape input)
 		(at 203.2 100.33 180)
@@ -3614,7 +3428,7 @@
 			)
 		)
 	)
-	(global_label "3V3_REG"
+	(global_label "3V3_Ref"
 		(shape input)
 		(at 186.69 105.41 180)
 		(fields_autoplaced yes)
@@ -3626,7 +3440,7 @@
 		)
 		(uuid "c021e424-65a6-4fb0-aeb5-c96aa212ae7c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.5406 105.41 0)
+			(at 176.1453 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +4116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 133.0452 148.59 0)
 			(effects
 				(font
@@ -4372,7 +4186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 73.3552 85.09 0)
 			(effects
 				(font
@@ -4509,7 +4323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 73.3552 144.78 0)
 			(effects
 				(font
@@ -4643,7 +4457,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 128.27 99.568 90)
 			(effects
 				(font
@@ -4779,7 +4593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 21.082 172.72 90)
 			(effects
 				(font
@@ -5047,7 +4861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P490X110-8N"
+		(property "Footprint" "wsg_fp:INA827AIDGK"
 			(at 63.5 263.83 0)
 			(effects
 				(font
@@ -5319,7 +5133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 116.332 50.8 90)
 			(effects
 				(font
@@ -5389,7 +5203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 73.3552 184.15 0)
 			(effects
 				(font
@@ -5731,7 +5545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.962 50.8 90)
 			(effects
 				(font
@@ -5768,74 +5582,6 @@
 			(project "WSG_2.0"
 				(path "/a78512c7-96a5-4714-909a-6e7b65d2bdb6/ed498e37-cbbe-46d1-a235-95d4b1ded704"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 17.78 49.53 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b1e6620-b21a-4f71-9dc2-ac4468f1d1db")
-		(property "Reference" "J3"
-			(at 17.78 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 17.78 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 17.78 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 17.78 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "021073d6-f635-48e5-b74e-99475e4e0528")
-		)
-		(pin "1"
-			(uuid "6bcc41f5-f18e-44a1-9588-ee4f3be7e0ee")
-		)
-		(instances
-			(project "WSG_2.0"
-				(path "/a78512c7-96a5-4714-909a-6e7b65d2bdb6/ed498e37-cbbe-46d1-a235-95d4b1ded704"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5936,7 +5682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 21.082 133.35 90)
 			(effects
 				(font
@@ -6005,7 +5751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 190.1952 105.41 0)
 			(effects
 				(font
@@ -6072,7 +5818,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 128.27 142.748 90)
 			(effects
 				(font
@@ -6275,7 +6021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 73.3552 102.87 0)
 			(effects
 				(font
@@ -6345,7 +6091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 153.162 31.75 90)
 			(effects
 				(font
@@ -6415,7 +6161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 73.3552 166.37 0)
 			(effects
 				(font
@@ -6483,7 +6229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P490X110-8N"
+		(property "Footprint" "wsg_fp:INA827AIDGK"
 			(at 63.5 182.55 0)
 			(effects
 				(font
@@ -6623,7 +6369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 133.0452 128.27 0)
 			(effects
 				(font
@@ -6691,7 +6437,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 128.27 122.428 90)
 			(effects
 				(font
@@ -6827,7 +6573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 60.452 50.8 90)
 			(effects
 				(font
@@ -6897,7 +6643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 133.0452 105.41 0)
 			(effects
 				(font
@@ -6967,7 +6713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.092 50.8 90)
 			(effects
 				(font
@@ -7036,7 +6782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 209.2452 100.33 0)
 			(effects
 				(font
@@ -7104,7 +6850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P490X110-8N"
+		(property "Footprint" "wsg_fp:INA827AIDGK"
 			(at 63.5 224.46 0)
 			(effects
 				(font
@@ -7244,7 +6990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 116.332 33.02 90)
 			(effects
 				(font
@@ -7312,7 +7058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RVA0016A"
+		(property "Footprint" "wsg_fp:ADS1120IRVAR"
 			(at 237.49 113.03 0)
 			(effects
 				(font
@@ -7429,7 +7175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 153.162 49.53 90)
 			(effects
 				(font
@@ -7565,7 +7311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 73.3552 127 0)
 			(effects
 				(font
@@ -7699,7 +7445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RM_8_ADI"
+		(property "Footprint" "wsg_fp:SOP65P490X110-8N"
 			(at 213.36 49.53 0)
 			(effects
 				(font
@@ -7789,7 +7535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 137.922 49.53 90)
 			(effects
 				(font
@@ -7859,7 +7605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.962 33.02 90)
 			(effects
 				(font
@@ -7996,7 +7742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 21.082 91.44 90)
 			(effects
 				(font
@@ -8048,7 +7794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc9aef96-1c8e-4d8e-a971-cc4b432cba2b")
-		(property "Reference" "C15"
+		(property "Reference" "C31"
 			(at 212.09 44.4499 0)
 			(effects
 				(font
@@ -8066,7 +7812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 209.2452 49.53 0)
 			(effects
 				(font
@@ -8102,7 +7848,7 @@
 		(instances
 			(project "WSG_2.0"
 				(path "/a78512c7-96a5-4714-909a-6e7b65d2bdb6/ed498e37-cbbe-46d1-a235-95d4b1ded704"
-					(reference "C15")
+					(reference "C31")
 					(unit 1)
 				)
 			)
