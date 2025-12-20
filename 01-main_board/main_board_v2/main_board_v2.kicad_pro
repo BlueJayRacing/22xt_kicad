@@ -471,9 +471,7 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "22XT_Main"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
       "22XT_Main"
     ]
@@ -498,61 +496,29 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.375,
-        "via_drill": 0.15,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.1,
-        "diff_pair_width": 0.48,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Diff Pair",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.96,
-        "via_drill": 0.48
-      },
-      {
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.375,
-        "via_drill": 0.2
-      },
-      {
-        "clearance": 0.2,
-        "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.6,
+        "track_width": 0.2,
+        "via_diameter": 0.45,
         "via_drill": 0.3
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.1,
-        "diff_pair_width": 0.48,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "usb",
+        "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.96,
-        "via_drill": 0.48
+        "track_width": 0.3,
+        "via_diameter": 0.45,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -562,56 +528,40 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "usb",
-        "pattern": "usb+"
+        "netclass": "GND",
+        "pattern": "GNDA"
       },
       {
-        "netclass": "usb",
-        "pattern": "usb-"
+        "netclass": "GND",
+        "pattern": "GNDD"
       },
       {
-        "netclass": "Diff Pair",
-        "pattern": "RX+"
+        "netclass": "GND",
+        "pattern": "PGND"
       },
       {
-        "netclass": "Diff Pair",
-        "pattern": "RX-"
+        "netclass": "GND",
+        "pattern": "B-"
       },
       {
-        "netclass": "Diff Pair",
-        "pattern": "TX+"
-      },
-      {
-        "netclass": "Diff Pair",
-        "pattern": "TX-"
-      },
-      {
-        "netclass": "Diff Pair",
-        "pattern": "RD-"
-      },
-      {
-        "netclass": "Diff Pair",
-        "pattern": "RD+"
-      },
-      {
-        "netclass": "Diff Pair",
-        "pattern": "TD+"
-      },
-      {
-        "netclass": "Diff Pair",
-        "pattern": "TD-"
-      },
-      {
-        "netclass": "power",
+        "netclass": "Power",
         "pattern": "5V"
       },
       {
-        "netclass": "power",
+        "netclass": "Power",
+        "pattern": "3V3"
+      },
+      {
+        "netclass": "Power",
         "pattern": "3V3_teensy"
       },
       {
-        "netclass": "power",
-        "pattern": "Net-(BT1-+)"
+        "netclass": "Power",
+        "pattern": "5V_buck"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "5V_usb"
       }
     ]
   },

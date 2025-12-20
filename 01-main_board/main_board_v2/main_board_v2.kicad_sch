@@ -2341,10 +2341,6 @@
 		(uuid "653e2625-8f36-42d7-b3a7-1c40bad01966")
 	)
 	(no_connect
-		(at 111.76 38.1)
-		(uuid "498b4a68-3b54-4566-ba00-1a5e624ba777")
-	)
-	(no_connect
 		(at 111.76 50.8)
 		(uuid "8722477d-22a6-40f6-82c4-6f732eae5acc")
 	)
@@ -2659,6 +2655,28 @@
 			)
 		)
 	)
+	(global_label "usb_mux_s"
+		(shape input)
+		(at 111.76 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3881e454-e1c4-45fd-8a9f-750f0426199c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.615 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DN6"
 		(shape output)
 		(at 60.96 81.28 180)
@@ -2838,7 +2856,7 @@
 			)
 		)
 	)
-	(global_label "5V_buck_PG"
+	(global_label "5V_ref"
 		(shape input)
 		(at 73.66 48.26 0)
 		(fields_autoplaced yes)
@@ -2850,7 +2868,7 @@
 		)
 		(uuid "4c8c41e7-6864-46d3-a71d-90a0ee3b5a18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.8332 48.26 0)
+			(at 82.5114 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,73 +3836,6 @@
 			(project "main_board_v2"
 				(path "/12c2237c-5932-49af-9119-92b28c846ae7"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 116.84 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "271cafb8-3ce0-4681-a077-95e9b44f4a66")
-		(property "Reference" "#PWR079"
-			(at 110.49 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "B-"
-			(at 113.03 109.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 116.84 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23368b21-52dc-4fe7-af7a-1096832b9f18")
-		)
-		(instances
-			(project "main_board_v2"
-				(path "/12c2237c-5932-49af-9119-92b28c846ae7"
-					(reference "#PWR079")
 					(unit 1)
 				)
 			)
