@@ -2834,7 +2834,7 @@
 			)
 		)
 	)
-	(global_label "5V_REF"
+	(global_label "5V_LDO"
 		(shape input)
 		(at 205.74 113.03 180)
 		(fields_autoplaced yes)
@@ -2846,7 +2846,7 @@
 		)
 		(uuid "3b794381-230e-415a-9dc2-c7f8a1dab14c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.9815 113.03 0)
+			(at 195.8605 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2878,7 +2878,7 @@
 			)
 		)
 	)
-	(global_label "SG_EXCITATION"
+	(global_label "5V_LDO"
 		(shape input)
 		(at 69.85 21.59 180)
 		(fields_autoplaced yes)
@@ -2890,7 +2890,7 @@
 		)
 		(uuid "484a8306-f7cb-464e-9a0d-7811ff91cd92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.8948 21.59 0)
+			(at 59.9705 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3318,7 +3318,7 @@
 			)
 		)
 	)
-	(global_label "SG_EXCITATION"
+	(global_label "5V_LDO"
 		(shape input)
 		(at 110.49 21.59 180)
 		(fields_autoplaced yes)
@@ -3330,7 +3330,7 @@
 		)
 		(uuid "b0dda625-270c-4d6b-8897-55b18636d3f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.5348 21.59 0)
+			(at 100.6105 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,7 +3802,7 @@
 			)
 		)
 	)
-	(global_label "SG_EXCITATION"
+	(global_label "5V_LDO"
 		(shape input)
 		(at 147.32 20.32 180)
 		(fields_autoplaced yes)
@@ -3814,7 +3814,7 @@
 		)
 		(uuid "ea35b824-a1b4-4d10-b3c3-d37a0e52e9ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.3648 20.32 0)
+			(at 137.4405 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
