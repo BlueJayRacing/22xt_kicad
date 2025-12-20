@@ -714,6 +714,17 @@
 			(uuid "43d6d73a-40ab-4478-80ab-6e84692b25e5")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sophi/Downloads/LIB_AP2120N-5.0TRG1 (1)/AP2120N-5.0TRG1/3D/AP2120N-5.0TRG1.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "wsg_fp:USB4110-GF-A_GCT"
 		(layer "F.Cu")
@@ -2711,6 +2722,17 @@
 			(uuid "99420e70-86bd-4094-a900-f6ec41480946")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sophi/Downloads/LIB_AP2120N-3.3TRG1 (1)/AP2120N-3.3TRG1/3D/AP2120N-3.3TRG1.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -5126,6 +5148,17 @@
 			(uuid "0643946f-ef3e-4fc6-a2d2-792b45bb63ff")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sophi/Downloads/LIB_AD5626BRMZ/AD5626BRMZ/3D/AD5626BRMZ.stp"
+			(offset
+				(xyz 0 0 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -6863,6 +6896,17 @@
 			(uuid "4bc15bc9-5a8f-409f-8989-a48ef520cea7")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sophi/Downloads/LIB_INA827AIDGK (1)/INA827AIDGK/3D/INA827AIDGK.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -8128,6 +8172,17 @@
 			(uuid "5967f6a3-cf56-4357-ace9-565827f34878")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sophi/Downloads/LIB_INA827AIDGK (1)/INA827AIDGK/3D/INA827AIDGK.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -9069,6 +9124,17 @@
 			(uuid "ec40129f-16b0-45f0-9c85-c2904119b34e")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sophi/Downloads/LIB_INA827AIDGK (1)/INA827AIDGK/3D/INA827AIDGK.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -10196,6 +10262,17 @@
 			(uuid "a3fc79c1-9d00-42c1-a3e8-24eaf09b8c82")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sophi/Downloads/LIB_ADS1120IRVAR/ADS1120IRVAR/3D/ADS1120IRVAR.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -13940,6 +14017,17 @@
 			(uuid "83adde9e-9469-438b-9624-222570d19423")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sophi/Downloads/QFN40P700X700X90-57N/QFN40P700X700X90-57N.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
@@ -15578,7 +15666,7 @@
 			(uuid "2cc7dfc1-5a3d-455c-9ece-da34fd3a713e")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/justi/Documents/bajashared/22xt_kicad/02-wsg/00-3dmodels/ECS-400-10-37B2-CKY-TR.step"
+		(model "C:/Users/sophi/Downloads/ECS-400-10-37B2-CKY-TR/ECS-400-10-37B2-CKY-TR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16740,6 +16828,17 @@
 			(uuid "d5065165-1af7-4719-894e-ab0f2c8f0e63")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sophi/Downloads/LIB_SPX3819S-L_TR/SPX3819S-L_TR/3D/SPX3819S-L_TR.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Inductor_SMD:L_0402_1005Metric"
 		(layer "B.Cu")
