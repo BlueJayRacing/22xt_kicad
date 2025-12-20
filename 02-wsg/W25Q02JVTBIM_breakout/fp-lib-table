@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "flashMem")(type "KiCad")(uri "${KIPRJMOD}/flashMem.pretty")(options "")(descr ""))
+  (lib (name "22xt_flashMem")(type "KiCad")(uri "${KIPRJMOD}/22xt_flashMem.pretty")(options "")(descr ""))
+)
