@@ -954,6 +954,16 @@
 		)
 		(uuid "2f8f3d55-a0a5-4452-ba80-1e189bbc4931")
 	)
+	(text "G=731x"
+		(exclude_from_sim no)
+		(at 87.63 79.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4086fdab-ab94-4c5b-96e0-42909dd86e1f")
+	)
 	(text "RC0402FR-074K87L\n"
 		(exclude_from_sim no)
 		(at 176.53 93.98 0)

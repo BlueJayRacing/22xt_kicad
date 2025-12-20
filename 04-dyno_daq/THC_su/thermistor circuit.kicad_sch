@@ -944,6 +944,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "G=2.05x"
+		(exclude_from_sim no)
+		(at 123.698 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df898b81-9288-4d00-b1ee-7e5488901a30")
+	)
 	(junction
 		(at 137.16 110.49)
 		(diameter 0)
@@ -1014,6 +1024,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 52.07) (xy 92.71 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593b6776-7e12-4dd8-904b-6fbf43a0ba97")
+	)
+	(wire
+		(pts
 			(xy 149.86 101.6) (xy 149.86 110.49)
 		)
 		(stroke
@@ -1074,16 +1094,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 49.53) (xy 92.71 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be02288b-a50e-425f-8a81-6795529a3f0c")
-	)
-	(wire
-		(pts
 			(xy 124.46 90.17) (xy 124.46 88.9)
 		)
 		(stroke
@@ -1130,28 +1140,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TH+"
-		(shape output)
-		(at 92.71 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "24e5398c-b591-4c2a-95ac-7f1ec1b0b481")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.5657 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1301,6 +1289,28 @@
 		(uuid "f62cdd2d-8d2c-41f9-855d-887f77840a3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 172.1371 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TH+"
+		(shape output)
+		(at 92.71 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8987cc9-ee67-4757-b479-06a80ff19152")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.5657 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,7 +1533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c6d3981-392a-4dbf-be49-e1545443ca9a")
-		(property "Reference" "R1"
+		(property "Reference" "RG1"
 			(at 132.08 92.7099 0)
 			(effects
 				(font
@@ -1577,7 +1587,7 @@
 		(instances
 			(project "thermistor circuit"
 				(path "/9ed712a9-952b-4eb0-a3d6-b0aaca0ca0fd"
-					(reference "R1")
+					(reference "RG1")
 					(unit 1)
 				)
 			)
@@ -1585,7 +1595,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 49.53 90)
+		(at 93.98 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1594,7 +1604,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cb43a96-a6c6-4aab-a2cd-6c237291b866")
 		(property "Reference" "#PWR01"
-			(at 100.33 49.53 0)
+			(at 100.33 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +1613,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 49.5299 90)
+			(at 97.79 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,7 +1622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 49.53 0)
+			(at 93.98 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1621,7 +1631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 49.53 0)
+			(at 93.98 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1630,7 +1640,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 49.53 0)
+			(at 93.98 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +1652,7 @@
 			(uuid "b89aea26-0780-4e99-97c9-dfc85f8d270b")
 		)
 		(instances
-			(project ""
+			(project "thermistor circuit"
 				(path "/9ed712a9-952b-4eb0-a3d6-b0aaca0ca0fd"
 					(reference "#PWR01")
 					(unit 1)

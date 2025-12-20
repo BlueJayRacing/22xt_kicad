@@ -944,6 +944,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "G=731x"
+		(exclude_from_sim no)
+		(at 111.252 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "450edf4c-8161-4e5e-9f7a-4108f8e99e3a")
+	)
 	(junction
 		(at 107.95 86.36)
 		(diameter 0)
