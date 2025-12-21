@@ -2702,7 +2702,7 @@
 			)
 		)
 	)
-	(global_label "SCLK_ESP"
+	(global_label "SCLK_DAC"
 		(shape input)
 		(at 213.36 54.61 180)
 		(fields_autoplaced yes)
@@ -2714,7 +2714,7 @@
 		)
 		(uuid "1a237b32-2fcc-40b7-ade4-7a2a0e4ee2b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.0011 54.61 0)
+			(at 201.001 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +2768,7 @@
 			)
 		)
 	)
-	(global_label "MISO_ESP"
+	(global_label "MISO_ADC"
 		(shape output)
 		(at 260.35 110.49 0)
 		(fields_autoplaced yes)
@@ -2780,7 +2780,7 @@
 		)
 		(uuid "360b6e4c-89c9-4edf-90ca-9216578d84fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.5275 110.49 0)
+			(at 272.5276 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +3186,7 @@
 			)
 		)
 	)
-	(global_label "3.7V_BAT+"
+	(global_label "5V_LDO"
 		(shape input)
 		(at 254 54.61 0)
 		(fields_autoplaced yes)
@@ -3198,7 +3198,7 @@
 		)
 		(uuid "748f805d-52a0-4f04-b2ee-8ed081707401")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.9638 54.61 0)
+			(at 263.8795 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,7 +3538,7 @@
 			)
 		)
 	)
-	(global_label "SCLK_ESP"
+	(global_label "SCLK_ADC"
 		(shape input)
 		(at 260.35 102.87 0)
 		(fields_autoplaced yes)
@@ -3550,7 +3550,7 @@
 		)
 		(uuid "cbc7c88b-232e-4ccb-afaf-67f05d5f5af1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.7089 102.87 0)
+			(at 272.709 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,7 +3582,7 @@
 			)
 		)
 	)
-	(global_label "CS_ESP"
+	(global_label "CS_DAC"
 		(shape input)
 		(at 213.36 52.07 180)
 		(fields_autoplaced yes)
@@ -3594,7 +3594,7 @@
 		)
 		(uuid "d284a08a-97f9-4b0f-93a1-d68c7806a740")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.2992 52.07 0)
+			(at 203.2991 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3626,7 +3626,7 @@
 			)
 		)
 	)
-	(global_label "MOSI_ESP"
+	(global_label "MOSI_ADC"
 		(shape input)
 		(at 260.35 105.41 0)
 		(fields_autoplaced yes)
@@ -3638,7 +3638,7 @@
 		)
 		(uuid "d3e0eff9-e118-441e-8ef1-38b231b90705")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.5275 105.41 0)
+			(at 272.5276 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3868,7 +3868,7 @@
 			)
 		)
 	)
-	(global_label "MOSI_ESP"
+	(global_label "MOSI_DAC"
 		(shape input)
 		(at 213.36 57.15 180)
 		(fields_autoplaced yes)
@@ -3880,7 +3880,7 @@
 		)
 		(uuid "fdf4e700-f2de-46f3-a108-4e66fd111bfd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.1825 57.15 0)
+			(at 201.1824 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
