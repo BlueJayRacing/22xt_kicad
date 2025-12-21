@@ -1473,15 +1473,15 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 163.83 88.9 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "17e4635f-c390-4353-988e-7571f08309e3")
 		(property "Reference" "R3"
-			(at 166.37 87.6299 0)
+			(at 161.29 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,7 +1490,7 @@
 			)
 		)
 		(property "Value" "4.93k"
-			(at 166.37 90.1699 0)
+			(at 161.29 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,7 +1499,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 162.052 88.9 90)
+			(at 165.608 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4073,6 +4073,32 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Kent Zhang"
+		(at 119.5 88 0)
+		(layer "F.SilkS")
+		(uuid "4ed0323b-4e8e-4788-92f2-aa21cc2ea760")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "G=731x"
+		(at 142 86.5 0)
+		(layer "F.SilkS")
+		(uuid "68cf3628-db47-41e0-ad92-bd71af920846")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.14)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Blue Jay Racing @ JHU\n22XT TC Amplifier_SZ"
 		(at 124 72.75 0)
 		(layer "F.SilkS")
@@ -4087,33 +4113,33 @@
 		)
 	)
 	(gr_text "Shuwen Zheng"
-		(at 119.5 88 -0)
+		(at 119.5 86.5 0)
 		(layer "F.SilkS")
 		(uuid "dd9400bb-275d-422c-971c-6075afd67ad7")
 		(effects
 			(font
-				(size 1.2 1.2)
-				(thickness 0.25)
+				(size 1 1)
+				(thickness 0.2)
 				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "Shuwen Zheng"
-		(at 133 85.25 0)
+		(at 130.5 86 -0)
 		(layer "B.SilkS")
-		(uuid "119771b2-b59e-4f84-8f01-3647d8fbc37a")
+		(uuid "2b28a0e0-c52b-49db-bb21-67814ff91703")
 		(effects
 			(font
-				(size 1.2 1.2)
-				(thickness 0.25)
+				(size 1 1)
+				(thickness 0.2)
 				(bold yes)
 			)
 			(justify left bottom mirror)
 		)
 	)
 	(gr_text "Emma Ouyang\n"
-		(at 130.5 87 0)
+		(at 146 87.5 0)
 		(layer "B.SilkS")
 		(uuid "42b409fb-cb3e-495c-a97a-6e45dccf8604")
 		(effects
@@ -4125,8 +4151,112 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "GND"
+		(at 140 83 0)
+		(layer "B.SilkS")
+		(uuid "7c78c005-2312-4121-93f1-502da38fcc5a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "5v_ref"
+		(at 140.5 78 0)
+		(layer "B.SilkS")
+		(uuid "7e2b9649-cacb-44c5-825e-ed7be1550edb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "5v_buck"
+		(at 140.5 76 0)
+		(layer "B.SilkS")
+		(uuid "960645e0-0df5-4874-a7ad-a3aa5fce0ccd")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "TC_amp_out"
+		(at 140.5 80.5 0)
+		(layer "B.SilkS")
+		(uuid "a1877cbf-9133-4ee6-a627-52fd185cc19a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "G=731x"
+		(at 143 86 -0)
+		(layer "B.SilkS")
+		(uuid "a2949588-1e3d-4eae-850d-b3e2517da443")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.14)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "TC+"
+		(at 129 81 0)
+		(layer "B.SilkS")
+		(uuid "cbf5479b-f2d0-4f3b-ba38-2d4807001ad0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Kent Zhang"
+		(at 130.5 87.5 -0)
+		(layer "B.SilkS")
+		(uuid "e084b419-c26f-430e-896f-e38095d78635")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "TC-"
+		(at 129 78.5 0)
+		(layer "B.SilkS")
+		(uuid "f411daa1-243a-49d6-8b41-7519409cf36d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "Blue Jay Racing @ JHU\n22XT\nTC Amplifier_SZ"
-		(at 141.5 74.5 -0)
+		(at 141 74.5 -0)
 		(layer "B.SilkS")
 		(uuid "fe6dd407-d2d2-42c1-a54d-45b49d2959cb")
 		(effects
