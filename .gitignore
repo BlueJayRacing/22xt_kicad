@@ -42,3 +42,4 @@ fp-info-cache
 # */cplfiles/
 # */drillfiles/
 #*/grbrdrillfiles/
+.DS_Store
