@@ -1739,6 +1739,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:NetTie_3_Tee"
 			(pin_numbers
 				(hide yes)
@@ -1891,182 +2017,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:NetTie_4_Cross"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT"
-				(at 0.635 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NetTie_4_Cross"
-				(at 0.635 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 4 pins, cross"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_4_Cross_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_4_Cross_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2344,6 +2294,10 @@
 		(at 111.76 50.8)
 		(uuid "8722477d-22a6-40f6-82c4-6f732eae5acc")
 	)
+	(no_connect
+		(at 60.96 71.12)
+		(uuid "f6914e13-b1ce-4298-8a22-40c5c039180c")
+	)
 	(global_label "AN5"
 		(shape output)
 		(at 60.96 53.34 180)
@@ -2455,6 +2409,28 @@
 			)
 		)
 	)
+	(global_label "CANL"
+		(shape bidirectional)
+		(at 60.96 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10666dfc-ee3c-47e0-bf9a-6d2369d23160")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.1463 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RX-"
 		(shape bidirectional)
 		(at 111.76 55.88 180)
@@ -2522,9 +2498,9 @@
 			)
 		)
 	)
-	(global_label "CANH"
-		(shape bidirectional)
-		(at 60.96 71.12 180)
+	(global_label "3V3_out"
+		(shape input)
+		(at 60.96 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2532,9 +2508,9 @@
 			)
 			(justify right)
 		)
-		(uuid "22c3c5f0-3524-445e-80a0-366cdf0b4822")
+		(uuid "229f0576-5b39-4bbf-8dbf-e63867116f76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.8439 71.12 0)
+			(at 50.4759 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2830,6 +2806,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANH"
+		(shape bidirectional)
+		(at 60.96 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4851867c-6749-48b7-b97c-71079e6a8406")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.8439 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3294,50 +3292,6 @@
 		(uuid "aba95412-3f6c-4cce-b973-c82d1420268d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 18.9679 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CANL"
-		(shape bidirectional)
-		(at 60.96 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ad83bed8-5ec1-415b-b8b2-8ec47c66a89b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.1463 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3_out"
-		(shape input)
-		(at 60.96 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b8d00989-62ea-41db-a71e-84782d5e6af2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.4759 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,79 +3796,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_4_Cross")
-		(at 193.04 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d1d6d89-fe13-4440-bc2b-968771e28fdd")
-		(property "Reference" "NT1"
-			(at 203.708 52.578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_4_Cross"
-			(at 203.708 55.118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-4_SMD_Pad0.5mm"
-			(at 193.04 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 4 pins, cross"
-			(at 193.04 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2761237b-1da2-452f-857e-f45a7abf55aa")
-		)
-		(pin "4"
-			(uuid "222dadae-dd77-4b6f-8d58-e1d05a680866")
-		)
-		(pin "2"
-			(uuid "04f8fd59-7df9-4398-89e6-38aeed31097b")
-		)
-		(pin "1"
-			(uuid "5c2ec92c-b2c7-4b6e-838c-706c7676b762")
-		)
-		(instances
-			(project ""
-				(path "/12c2237c-5932-49af-9119-92b28c846ae7"
-					(reference "NT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 73.66 43.18 90)
 		(unit 1)
@@ -4177,16 +4058,15 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 60.96 35.56 270)
+		(at 175.26 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f289b2e-793a-4c47-b848-39621c4457eb")
-		(property "Reference" "#PWR0103"
-			(at 54.61 35.56 0)
+		(uuid "48b808e0-d263-4353-8325-72358d1e0c22")
+		(property "Reference" "#PWR073"
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,16 +4075,15 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 57.15 35.5599 90)
+			(at 174.752 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 35.56 0)
+			(at 175.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,7 +4092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 35.56 0)
+			(at 175.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,7 +4101,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 60.96 35.56 0)
+			(at 175.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,12 +4110,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8cf7cd45-cfe4-4c32-9946-555aa9c5bbc4")
+			(uuid "ace983ff-2cc7-41c3-8598-16493d3717cb")
 		)
 		(instances
 			(project "main_board_v2"
 				(path "/12c2237c-5932-49af-9119-92b28c846ae7"
-					(reference "#PWR0103")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -4244,16 +4123,16 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 193.04 63.5 0)
+		(at 187.96 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "547a7048-b83d-4cff-9599-792a97415c8d")
+		(uuid "5f79ebae-701b-481b-ac14-af6c925672e6")
 		(property "Reference" "#PWR090"
-			(at 193.04 69.85 0)
+			(at 194.31 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,16 +4141,16 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 195.58 64.5794 0)
+			(at 191.77 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 63.5 0)
+			(at 187.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4280,7 +4159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 63.5 0)
+			(at 187.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,7 +4168,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 193.04 63.5 0)
+			(at 187.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,10 +4177,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b347621-7498-430d-b90c-825ecbdf7e2a")
+			(uuid "72bfcf95-6f2d-4e17-8406-c13f31e32d3d")
 		)
 		(instances
-			(project "main_board_v1"
+			(project ""
 				(path "/12c2237c-5932-49af-9119-92b28c846ae7"
 					(reference "#PWR090")
 					(unit 1)
@@ -4377,6 +4256,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 185.42 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67fc68fd-9c73-42b6-bd9c-7ef622c835b0")
+		(property "Reference" "NT1"
+			(at 185.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 185.42 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 185.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 185.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9cb4a46f-d84e-4b1d-8a35-a57008240515")
+		)
+		(pin "1"
+			(uuid "3b1f70e2-1a73-497b-9eb9-4bb145bf3105")
+		)
+		(instances
+			(project ""
+				(path "/12c2237c-5932-49af-9119-92b28c846ae7"
+					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 73.66 40.64 90)
 		(unit 1)
@@ -4438,72 +4385,6 @@
 			(project "main_board_v2"
 				(path "/12c2237c-5932-49af-9119-92b28c846ae7"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 190.5 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7678f382-8304-44f2-8b8b-5d64426535a6")
-		(property "Reference" "#PWR089"
-			(at 184.15 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 189.23 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 190.5 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "baa2d684-fc3b-4e61-b476-c64293a2fda6")
-		)
-		(instances
-			(project "main_board_v1"
-				(path "/12c2237c-5932-49af-9119-92b28c846ae7"
-					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -4598,73 +4479,6 @@
 			(project ""
 				(path "/12c2237c-5932-49af-9119-92b28c846ae7"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 195.58 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8366f812-accf-4bf7-83e6-c9a2a98a3428")
-		(property "Reference" "#PWR092"
-			(at 201.93 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "B-"
-			(at 199.39 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 195.58 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cadf3700-74d8-4a01-9b86-212477f523cd")
-		)
-		(instances
-			(project "main_board_v1"
-				(path "/12c2237c-5932-49af-9119-92b28c846ae7"
-					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -4873,6 +4687,71 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
+		(at 177.8 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a13b9a34-b915-4a90-b52e-cfc1a6007808")
+		(property "Reference" "#PWR079"
+			(at 184.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "B-"
+			(at 183.134 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 177.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cf0a65b-5839-45b0-b6cb-d6b9ce970bf3")
+		)
+		(instances
+			(project "main_board_v2"
+				(path "/12c2237c-5932-49af-9119-92b28c846ae7"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
 		(at 172.72 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4889,7 +4768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "PGND"
 			(at 167.386 64.262 90)
 			(effects
 				(font
@@ -5004,84 +4883,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 177.8 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cef6770f-fb12-4852-9ce9-40ada2694d37")
-		(property "Reference" "#PWR095"
-			(at 184.15 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 181.61 64.7699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 177.8 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "319b6a22-4d31-4423-a1b0-8f10746f231c")
-		)
-		(instances
-			(project "main_board_v1"
-				(path "/12c2237c-5932-49af-9119-92b28c846ae7"
-					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
-		(at 193.04 58.42 180)
+		(at 182.88 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d727bb85-161e-4615-986e-48a47e8f218a")
-		(property "Reference" "#PWR091"
-			(at 193.04 52.07 0)
+		(uuid "d4d4ae8f-e560-4b0f-a848-32e711c90934")
+		(property "Reference" "#PWR089"
+			(at 176.53 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5089,17 +4900,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
-			(at 195.58 57.1499 0)
+		(property "Value" "GNDA"
+			(at 177.546 55.372 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 58.42 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,7 +4918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 58.42 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +4927,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 193.04 58.42 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,12 +4936,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0576f4ed-ae3a-4548-bfa3-bc2771e9d011")
+			(uuid "cfaa5815-c8ba-4bbc-ba7b-2690752c3804")
 		)
 		(instances
-			(project "main_board_v1"
+			(project "main_board_v2"
 				(path "/12c2237c-5932-49af-9119-92b28c846ae7"
-					(reference "#PWR091")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -5163,7 +4973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+		(property "Footprint" "NetTie:NetTie-3_SMD_Pad0.5mm"
 			(at 175.26 64.77 0)
 			(effects
 				(font

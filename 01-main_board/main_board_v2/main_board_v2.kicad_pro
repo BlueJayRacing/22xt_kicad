@@ -562,6 +562,22 @@
       {
         "netclass": "Power",
         "pattern": "5V_usb"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "3V3_to_buff"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "3V3_out"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "2V5_ref"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "2V5"
       }
     ]
   },
