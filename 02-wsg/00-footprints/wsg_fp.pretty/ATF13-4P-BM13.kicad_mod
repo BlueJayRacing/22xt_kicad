@@ -1,0 +1,375 @@
+(footprint "ATF13-4P-BM13"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DTF13-4P-G003-3")
+	(tags "Connector")
+	(property "Reference" "J1"
+		(at -1.96 -4.81 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3ada9735-665c-44ac-8ed1-b34694a6b414")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ATF13-4P-BM13"
+		(at -13.373 -4.559 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "55892e12-251c-4541-8b33-de0284c039aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773962-8&DocType=Data%20Sheet&DocLang=English&PartCntxt=DTF13-4P-G003&DocFormat=pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f731a77-262d-4228-b99a-ed6a1f2ff7a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Body Features: Primary Product Color Black | Configuration Features: Number of Sections 1 | Number of Rows 2 | Number of Positions 4 | PCB Mount Orientation Right Angle | Number of Signal Positions 4 | Contact Features: Mating Pin Diameter .063 INCH | Contact Type Pin | Contact Mating Area Plating Material Gold | Contact Current Rating (Max) 13 AMP | Contact Size Size 16 | Mating Pin Diameter 1.59 MM | Dimensions: Connector Width 27.18 MM | PCB Thickness (Recommended) .78  2.36 MM | Connector Length 1.31"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fac642e5-6a18-4691-86f8-ae72798dba56")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "23.52"
+		(at 97.7 19.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9dc9a361-1c39-4503-96c8-4c85307b8fbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "TE Connectivity"
+		(at 97.7 19.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e73b260-79d3-4de0-8857-71d2921eeb20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "DTF13-4P-G003"
+		(at 97.7 19.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae8d75d7-10bd-4b5d-b869-692e20bafb9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "571-DTF13-4P-G003"
+		(at 97.7 19.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "275a521b-b89a-414e-955d-42ab0fef22de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-DEUTSCH/DTF13-4P-G003?qs=cgQJD%2FpJz0wMj4JqThO4Bw%3D%3D"
+		(at 97.7 19.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20ace698-3916-4b00-8be2-127741797224")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 3.8 0)
+		(end 3.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16cb338b-1084-4633-b765-5e6e6415f0cd")
+	)
+	(fp_line
+		(start 3.9 0)
+		(end 3.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c22b1b5d-57d0-46b8-b304-22ea4ff5e6cd")
+	)
+	(fp_arc
+		(start 3.8 0)
+		(mid 3.85 -0.05)
+		(end 3.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9615a5a-6883-4d78-9936-bc0a9d589a05")
+	)
+	(fp_arc
+		(start 3.9 0)
+		(mid 3.85 0.05)
+		(end 3.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab7820b2-fb9e-42e7-846d-43348b0c53d9")
+	)
+	(fp_line
+		(start -31.103 -17.054)
+		(end -31.103 7.936)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8acc60f1-e60b-4cb7-9389-5f11c3390d1a")
+	)
+	(fp_line
+		(start -31.103 7.936)
+		(end 4.357 7.936)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3011b8c5-f791-422c-b7c5-79469764d014")
+	)
+	(fp_line
+		(start 4.357 -17.054)
+		(end -31.103 -17.054)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2de5b5b2-ea3f-46b9-8cf0-82258be15d83")
+	)
+	(fp_line
+		(start 4.357 7.936)
+		(end 4.357 -17.054)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "51ee4cea-7ee6-4cb3-bb0c-075f9502af4a")
+	)
+	(fp_line
+		(start -30.103 -15.229)
+		(end -30.103 6.111)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7f15a57-de62-4727-ae81-2f76b03d9084")
+	)
+	(fp_line
+		(start -30.103 6.111)
+		(end 3.357 6.111)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f1bb8203-b898-4f70-8e4d-1bbed5e8caaf")
+	)
+	(fp_line
+		(start 3.357 -15.229)
+		(end -30.103 -15.229)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "62abbb19-6162-4151-a452-346355c3de95")
+	)
+	(fp_line
+		(start 3.357 6.111)
+		(end 3.357 -15.229)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f18e06f-7906-435e-b806-e3f6994adf3c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -13.373 -4.559 0)
+		(layer "F.Fab")
+		(uuid "4750ea43-7013-4a96-8c1b-a2b935b8fa4a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.223 -14.974)
+		(size 2.16 2.16)
+		(drill 2.16)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a975e098-271c-494b-9686-063bfa0c0697")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.223 5.856)
+		(size 2.16 2.16)
+		(drill 2.16)
+		(layers "*.Cu" "*.Mask")
+		(uuid "2222be77-fe8c-4fb4-987b-400617e39959")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.64 2.64)
+		(drill 1.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "7043b014-c9ef-4a5b-bd74-eff127f9d187")
+	)
+	(pad "2" thru_hole circle
+		(at -4.45 0)
+		(size 2.64 2.64)
+		(drill 1.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "79d37432-3b4f-4caa-b27e-8d8d73ed8ebb")
+	)
+	(pad "3" thru_hole circle
+		(at -4.45 -9.12)
+		(size 2.64 2.64)
+		(drill 1.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "e8de0f78-b8f8-40c3-aae0-dd049ce6a541")
+	)
+	(pad "4" thru_hole circle
+		(at 0 -9.12)
+		(size 2.64 2.64)
+		(drill 1.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "1ac5a25d-713d-4228-ba78-f625e19aadfd")
+	)
+	(embedded_fonts no)
+	(model ":BJR_KICAD:21xt/00-3dmodels/DTF13-4P-G003.stp"
+		(offset
+			(xyz -30.11 4.56 12)
+		)
+		(scale
+			(xyz 1 1.4 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+	(model ":DESKTOP_PCB:DTF13-4P-G003/3D/DTF13-4P-G003.stp"
+		(hide yes)
+		(offset
+			(xyz -30.15 4.5 8.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+	(model ":DESKTOP_PCB:ATF13-4P-BM13.STEP"
+		(offset
+			(xyz -27.9 4.5 9.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
