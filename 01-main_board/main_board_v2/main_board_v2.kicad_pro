@@ -502,9 +502,21 @@
       },
       {
         "clearance": 0.2,
-        "name": "GND",
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.48,
+        "name": "Ethernet",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.48,
+        "via_diameter": 0.65,
+        "via_drill": 0.5
+      },
+      {
+        "clearance": 0.2,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.45,
@@ -514,7 +526,7 @@
         "clearance": 0.2,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.45,
@@ -586,6 +598,38 @@
       {
         "netclass": "Power",
         "pattern": "5V_ref"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "TX-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "TX+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "RX-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "RX+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "TD+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "TD-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "RD+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "RD-"
       }
     ]
   },

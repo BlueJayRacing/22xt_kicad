@@ -6605,7 +6605,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c099267a-ee0a-4e6c-aeea-b6300dc27ee0")
 		(property "Reference" "IC10"
 			(at 172.72 77.3998 0)
