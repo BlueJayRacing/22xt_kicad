@@ -1912,6 +1912,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "https://www.te.com/en/product-2311770-1.html"
+		(exclude_from_sim no)
+		(at 110.744 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "418f16ba-8a25-4ea1-bac4-f9600a27b752")
+	)
 	(wire
 		(pts
 			(xy 81.28 80.01) (xy 93.98 80.01)
@@ -3815,7 +3825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-44-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
+		(property "Footprint" "22XT_Main:female-DB44-TE-2311770-1"
 			(at 107.95 88.9 0)
 			(effects
 				(font
