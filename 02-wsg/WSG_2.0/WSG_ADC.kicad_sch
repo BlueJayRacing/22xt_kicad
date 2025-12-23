@@ -5883,7 +5883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Horizontal"
+		(property "Footprint" "wsg_fp:M12A-08PFFP-SF8001"
 			(at 20.32 41.91 0)
 			(effects
 				(font
