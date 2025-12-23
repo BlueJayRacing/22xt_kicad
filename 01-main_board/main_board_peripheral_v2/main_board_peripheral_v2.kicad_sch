@@ -3785,16 +3785,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 52.07) (xy 41.91 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7db954a1-9911-4831-ab7b-5043c557d7a1")
-	)
-	(wire
-		(pts
 			(xy 82.55 50.8) (xy 82.55 60.96)
 		)
 		(stroke
@@ -4322,28 +4312,6 @@
 		(uuid "c905e346-53ea-4b69-8b6e-d10edd1977ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.0425 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_GND"
-		(shape output)
-		(at 41.91 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d19c12b9-972a-44e5-a5a7-068f85991ae7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.2767 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,6 +6099,73 @@
 			(project "main_board_peripheral_v2"
 				(path "/3f673207-cdae-494a-ab60-6e58b06fb202"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ae914d1-ac32-48b3-9ce5-5e936a134d3e")
+		(property "Reference" "#PWR01"
+			(at 45.72 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7cde4b4-9168-49dc-bdc6-c461e54e5713")
+		)
+		(instances
+			(project "main_board_peripheral_v2"
+				(path "/3f673207-cdae-494a-ab60-6e58b06fb202"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)

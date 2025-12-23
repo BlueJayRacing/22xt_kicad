@@ -58,56 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|103420000|86924999|7070b485-c47b-44d9-bedb-06b911f5f352|df5fdfb9-5e4e-4f26-97a8-2d52580eb83c",
-          ""
-        ],
-        [
-          "clearance|103420000|87574999|df5fdfb9-5e4e-4f26-97a8-2d52580eb83c|2040fa00-dcb8-4d84-a569-9e7f2a8996a9",
-          ""
-        ],
-        [
-          "clearance|103420000|88224999|2040fa00-dcb8-4d84-a569-9e7f2a8996a9|177c6b90-0e58-4f45-b429-2474b769d0b5",
-          ""
-        ],
-        [
-          "clearance|99120000|87214999|c809adfe-38ff-4617-b96a-a2fe3793057b|e00a33a0-1235-40f9-bbf2-82c2ecf030e6",
-          ""
-        ],
-        [
-          "clearance|99120000|87864999|0391d08b-bd46-4c93-9596-e346c38af46a|c809adfe-38ff-4617-b96a-a2fe3793057b",
-          ""
-        ],
-        [
-          "clearance|99120000|88514999|a13e34f4-ab80-4767-abeb-658131ceb941|0391d08b-bd46-4c93-9596-e346c38af46a",
-          ""
-        ],
-        [
-          "solder_mask_bridge|103420000|86924999|7070b485-c47b-44d9-bedb-06b911f5f352|df5fdfb9-5e4e-4f26-97a8-2d52580eb83c",
-          ""
-        ],
-        [
-          "solder_mask_bridge|103420000|87574999|df5fdfb9-5e4e-4f26-97a8-2d52580eb83c|2040fa00-dcb8-4d84-a569-9e7f2a8996a9",
-          ""
-        ],
-        [
-          "solder_mask_bridge|103420000|88224999|2040fa00-dcb8-4d84-a569-9e7f2a8996a9|177c6b90-0e58-4f45-b429-2474b769d0b5",
-          ""
-        ],
-        [
-          "solder_mask_bridge|99120000|87214999|c809adfe-38ff-4617-b96a-a2fe3793057b|e00a33a0-1235-40f9-bbf2-82c2ecf030e6",
-          ""
-        ],
-        [
-          "solder_mask_bridge|99120000|87864999|0391d08b-bd46-4c93-9596-e346c38af46a|c809adfe-38ff-4617-b96a-a2fe3793057b",
-          ""
-        ],
-        [
-          "solder_mask_bridge|99120000|88514999|a13e34f4-ab80-4767-abeb-658131ceb941|0391d08b-bd46-4c93-9596-e346c38af46a",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
