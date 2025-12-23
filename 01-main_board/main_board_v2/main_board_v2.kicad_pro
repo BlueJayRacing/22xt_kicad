@@ -530,12 +530,20 @@
         "wire_width": 6
       },
       {
+        "diff_pair_gap": 0.178906,
+        "diff_pair_width": 0.181631,
+        "name": "CAN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "clearance": 0.2,
         "diff_pair_gap": 0.1906,
         "diff_pair_width": 0.2888,
         "name": "Ethernet",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2888,
         "via_diameter": 0.65,
@@ -545,7 +553,7 @@
         "clearance": 0.2,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.45,
@@ -555,7 +563,7 @@
         "clearance": 0.2,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.45,
@@ -566,7 +574,7 @@
         "diff_pair_width": 0.3,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.65,
@@ -694,6 +702,10 @@
       {
         "netclass": "USB",
         "pattern": "usb_esp-"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "CRX, CTX, CANH, CANL"
       }
     ]
   },

@@ -2926,6 +2926,17 @@
 		)
 		(uuid "c1957ad7-a994-469f-810c-ae4aa731dfc5")
 	)
+	(text "GPIO0 and GPIO46: default pulled high for SPI Boot, button pulls low\n\nCHIP_PU (pin 4): default pulled high, button pulls low\n\nGPIO45: pulled down for 3V3 logic\n\nGPIO3: JTAG control, leave as NC b/c we are not using JTAGand are using USB OTG "
+		(exclude_from_sim no)
+		(at 193.294 64.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6aac325-f673-4a8c-bc81-3351c1d914ee")
+	)
 	(junction
 		(at 87.63 68.58)
 		(diameter 0)
