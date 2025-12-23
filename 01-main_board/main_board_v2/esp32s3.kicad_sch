@@ -3181,10 +3181,6 @@
 		(uuid "d8cbf9b6-590c-48bf-8980-0a64a8772353")
 	)
 	(no_connect
-		(at 120.65 101.6)
-		(uuid "db45d273-95a6-4b40-b376-96553caaf1d9")
-	)
-	(no_connect
 		(at 133.35 139.7)
 		(uuid "e2e5be4e-44b9-408b-a908-775843274ccf")
 	)
@@ -3273,6 +3269,16 @@
 			(type default)
 		)
 		(uuid "1f92c89e-1d8f-4e90-b01b-19ead3d0eff8")
+	)
+	(wire
+		(pts
+			(xy 116.84 101.6) (xy 116.84 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21543213-4c00-4c95-a1e4-68e48757a1fa")
 	)
 	(wire
 		(pts
@@ -3436,6 +3442,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 116.84) (xy 113.03 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c25e9d6-9c58-4092-aa7e-126aaaa1db1e")
+	)
+	(wire
+		(pts
 			(xy 149.86 162.56) (xy 146.05 162.56)
 		)
 		(stroke
@@ -3513,6 +3529,16 @@
 			(type default)
 		)
 		(uuid "730bb7b4-cbd9-470f-9bf8-fbdc35ec2f93")
+	)
+	(wire
+		(pts
+			(xy 120.65 101.6) (xy 116.84 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "747e1689-96d2-451b-a4ed-2681810cb8a4")
 	)
 	(wire
 		(pts
@@ -6373,6 +6399,70 @@
 			(project "main_board_v1"
 				(path "/12c2237c-5932-49af-9119-92b28c846ae7/e5005576-746e-4110-9aa7-21d70d5867f0"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 113.03 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3b9e182-3919-408e-b135-fd1e00537f5b")
+		(property "Reference" "TP14"
+			(at 109.728 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GPIO3"
+			(at 109.474 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 113.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 113.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "844c5073-93ad-4543-b1f2-5b8300bfdde1")
+		)
+		(instances
+			(project "main_board_v2"
+				(path "/12c2237c-5932-49af-9119-92b28c846ae7/e5005576-746e-4110-9aa7-21d70d5867f0"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
