@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "05-can_encoder")(type "KiCad")(uri "/home/cyanbrown/projects/22xt_kicad/05-can_encoder/05-can_encoder.kicad_sym")(options "")(descr ""))
+)
