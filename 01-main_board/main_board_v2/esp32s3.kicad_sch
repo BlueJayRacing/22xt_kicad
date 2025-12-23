@@ -2574,6 +2574,133 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDD"
 			(power)
 			(pin_numbers
@@ -2854,12 +2981,6 @@
 		(uuid "b79b5eb3-0f15-49ab-afbe-a460b4a90ba5")
 	)
 	(junction
-		(at 142.24 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8ad35e4-6ad7-47e0-937b-37b2e7f81848")
-	)
-	(junction
 		(at 104.14 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3122,16 +3243,6 @@
 			(type default)
 		)
 		(uuid "148a49a7-ed76-4adb-8b57-61d3c7b58536")
-	)
-	(wire
-		(pts
-			(xy 142.24 60.96) (xy 143.51 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "185ec604-1e5f-4797-ae6b-03033b5df83f")
 	)
 	(wire
 		(pts
@@ -3415,6 +3526,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 50.8) (xy 140.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85795486-a5d1-415e-9575-d97058f7f258")
+	)
+	(wire
+		(pts
 			(xy 146.05 139.7) (xy 146.05 162.56)
 		)
 		(stroke
@@ -3445,26 +3566,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 60.96) (xy 142.24 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "987f7b62-2f96-40b3-a00b-ae88b6fa43ec")
-	)
-	(wire
-		(pts
-			(xy 140.97 60.96) (xy 142.24 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98ad1284-6262-4901-91c4-ba9fe46a057c")
-	)
-	(wire
-		(pts
 			(xy 143.51 162.56) (xy 139.7 162.56)
 		)
 		(stroke
@@ -3472,16 +3573,6 @@
 			(type default)
 		)
 		(uuid "98bb771a-8642-4293-b6b0-a102bb15f9ae")
-	)
-	(wire
-		(pts
-			(xy 142.24 52.07) (xy 143.51 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b6fa52f-12eb-414d-ad8f-6b147ed74b06")
 	)
 	(wire
 		(pts
@@ -3652,6 +3743,16 @@
 			(type default)
 		)
 		(uuid "eb2fabf6-df91-461a-8e1d-18c177382c5e")
+	)
+	(wire
+		(pts
+			(xy 140.97 50.8) (xy 147.32 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4db411c-aa3b-462d-8288-403c3be4de8b")
 	)
 	(wire
 		(pts
@@ -3871,7 +3972,7 @@
 	)
 	(global_label "ESP_BOOT_CONTROL"
 		(shape input)
-		(at 143.51 52.07 0)
+		(at 147.32 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3881,7 +3982,7 @@
 		)
 		(uuid "5eeca383-c30d-43de-a91a-426f84158e1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.4847 52.07 0)
+			(at 169.2947 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,6 +4903,75 @@
 			(project "main_board_v2"
 				(path "/12c2237c-5932-49af-9119-92b28c846ae7/e5005576-746e-4110-9aa7-21d70d5867f0"
 					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 143.51 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49791e46-ed59-4f87-a77e-5e96771a0a2c")
+		(property "Reference" "R11"
+			(at 145.288 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 145.288 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 143.51 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 143.51 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e47a38a8-1f61-43f2-853d-76fa78ba57b5")
+		)
+		(pin "2"
+			(uuid "dcb8d6d1-8780-4270-a998-c85e9cad4706")
+		)
+		(instances
+			(project "main_board_v2"
+				(path "/12c2237c-5932-49af-9119-92b28c846ae7/e5005576-746e-4110-9aa7-21d70d5867f0"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6466,6 +6636,71 @@
 			(project "main_board_v1"
 				(path "/12c2237c-5932-49af-9119-92b28c846ae7/e5005576-746e-4110-9aa7-21d70d5867f0"
 					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 143.51 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb7606f2-96d2-44bc-96f6-de3ffa64e6bf")
+		(property "Reference" "#PWR038"
+			(at 143.51 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 148.082 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 143.51 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24c163e3-17f4-41ca-82bf-63478b09e74e")
+		)
+		(instances
+			(project "main_board_v2"
+				(path "/12c2237c-5932-49af-9119-92b28c846ae7/e5005576-746e-4110-9aa7-21d70d5867f0"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
