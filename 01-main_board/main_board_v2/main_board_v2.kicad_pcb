@@ -137,7 +137,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../00-manufacturing/")
+			(outputdirectory "gerbers/")
 		)
 	)
 	(net 0 "")
@@ -1284,6 +1284,7 @@
 		(property "Reference" "H4"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "df50d132-9974-4b63-9ad6-8626ea80188a")
 			(effects
 				(font
@@ -2382,7 +2383,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at -8.55 -0.35 90)
+			(at 0.05 -3.15 90)
 			(layer "F.SilkS")
 			(uuid "986a25d9-9218-40d5-8864-945d360b8cd5")
 			(effects
@@ -3632,7 +3633,7 @@
 		(descr "749013011-3")
 		(tags "Transformer")
 		(property "Reference" "T1"
-			(at 0 0 90)
+			(at 8.546207 -0.315 180)
 			(layer "F.SilkS")
 			(uuid "f40a1e20-d9e8-4f25-be48-f352385285a0")
 			(effects
@@ -3930,7 +3931,7 @@
 			(uuid "a28adc50-be18-48c1-93cc-02045cc33f77")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0.046207 0.185 180)
 			(layer "F.Fab")
 			(uuid "0acfc60a-e466-4cc6-b66e-7a1723e49868")
 			(effects
@@ -7169,7 +7170,7 @@
 		(uuid "4613adf3-5325-473d-a4fb-97e5bd2d97b8")
 		(at 87.9184 51.128602 -90)
 		(property "Reference" "U1"
-			(at -8 -11.2975 90)
+			(at -33.628602 0.4184 180)
 			(layer "F.SilkS")
 			(uuid "2b71d4b5-9dbf-42e8-a0a4-48b31abd5242")
 			(effects
@@ -8226,6 +8227,7 @@
 		(property "Reference" "H2"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1296d8d4-af46-4486-9724-90f47d5ec9cf")
 			(effects
 				(font
@@ -9526,7 +9528,7 @@
 		(at 63.1 49.9)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "TP11"
+		(property "Reference" "5v_buck"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(uuid "2d306448-2258-4af6-8d59-5a10590721e3")
@@ -10974,7 +10976,7 @@
 			)
 		)
 		(property "Value" "MOSI_ESP"
-			(at 0 1.55 0)
+			(at 5 0 0)
 			(layer "F.SilkS")
 			(uuid "04582e75-e994-4e87-bede-f56c69b00ca7")
 			(effects
@@ -11526,7 +11528,7 @@
 			)
 		)
 		(property "Value" "MISO_ESP"
-			(at 0 1.55 0)
+			(at 5 0.08 0)
 			(layer "F.SilkS")
 			(uuid "93d712e8-8d0c-46c8-b2ba-3326e406573c")
 			(effects
@@ -13601,6 +13603,7 @@
 		(property "Reference" "H1"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "039c0fa3-f05f-452b-8402-5ceb5f24dd3b")
 			(effects
 				(font
@@ -17226,6 +17229,7 @@
 		(property "Reference" "H3"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9a20a161-c8bf-4698-b609-d009e408faed")
 			(effects
 				(font
@@ -17525,7 +17529,7 @@
 		(descr "CP-40-14 (LFCSP)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC6"
-			(at 5.4 0.2 90)
+			(at 5.05 -0.3 180)
 			(layer "F.SilkS")
 			(uuid "feb86ac3-3cab-4604-9483-3d03be7a50ca")
 			(effects
@@ -20137,7 +20141,7 @@
 			)
 		)
 		(property "Value" "SCLK_ESP"
-			(at 0 1.55 0)
+			(at 5 0 0)
 			(layer "F.SilkS")
 			(uuid "fafb5def-762e-4eab-a7c0-e5d799699a5c")
 			(effects
@@ -20287,8 +20291,8 @@
 				)
 			)
 		)
-		(property "Value" "3V3_teensy TP"
-			(at -0.55 5.2 270)
+		(property "Value" "3V3_TEE"
+			(at 0.1 4.5 270)
 			(layer "F.SilkS")
 			(uuid "8a194b08-ad33-494c-9dbf-7a2ab9701a2e")
 			(effects
@@ -21848,7 +21852,7 @@
 				)
 			)
 		)
-		(property "Value" "3V3 TP"
+		(property "Value" "3V3_ESP"
 			(at 0 1.55 0)
 			(layer "F.SilkS")
 			(uuid "4ce915ee-1120-4e8e-a1da-9561133e43b4")
@@ -22866,7 +22870,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "5V TP"
+		(property "Value" "5V_mux"
 			(at 1.75 -0.5 0)
 			(layer "B.SilkS")
 			(uuid "6c3b5783-40dc-4ed2-bea5-3d40749372bd")
@@ -23008,7 +23012,7 @@
 		(at 66.6 29.25 180)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "TP12"
+		(property "Reference" "5v_usb"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "0eb87d47-64a1-4932-959f-0e488ade3995")
@@ -24811,7 +24815,7 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U3"
-			(at 0 3.4 90)
+			(at 0 -3.95 0)
 			(layer "B.SilkS")
 			(uuid "7ef3b3e2-decc-43c4-b9c4-3e6c6db7b4f5")
 			(effects
@@ -26411,7 +26415,7 @@
 		(descr "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "IC2"
-			(at 2.4 -1.2 180)
+			(at 0.111398 2.8 180)
 			(layer "B.SilkS")
 			(uuid "4ff4a2e4-3d91-4304-98aa-b17601e6e4d0")
 			(effects
@@ -30834,7 +30838,7 @@
 		(at 91.4389 61.138602 180)
 		(tags "AD5689RARUZ-RL7 ")
 		(property "Reference" "U2"
-			(at 0 0 0)
+			(at 0 3.638602 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "b5a06aa6-a7a4-4663-abd7-8d126b0db079")
@@ -35110,8 +35114,8 @@
 		(at 77.5 64 -90)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "TP9"
-			(at 0 1.448 90)
+		(property "Reference" "2V5"
+			(at -1.75 0 0)
 			(layer "B.SilkS")
 			(uuid "9ecd91e8-a2ab-4e98-98e5-07fa3008d0a3")
 			(effects
@@ -36297,7 +36301,7 @@
 		(uuid "cf727d43-f306-48f2-a0ac-5a9cff165f69")
 		(at 73.525 59.78 90)
 		(property "Reference" "U4"
-			(at -0.02 -0.075 90)
+			(at 0 -2.525 0)
 			(layer "B.SilkS")
 			(uuid "2ba2f10e-e0a6-45c0-b22b-f097d370fe4f")
 			(effects
@@ -39503,7 +39507,7 @@
 		(descr "21-0061N (U10M+5)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC3"
-			(at -1.42 -3.62 270)
+			(at -4.95 -0.05 180)
 			(layer "B.SilkS")
 			(uuid "03b93984-d561-48f1-b139-54df76f4f230")
 			(effects
@@ -39974,6 +39978,17 @@
 		(layer "Edge.Cuts")
 		(uuid "f4d0f1c6-c94b-4300-921f-7df3f6f8ccfc")
 	)
+	(gr_text "TD+-"
+		(at 89.5 33.25 0)
+		(layer "F.SilkS")
+		(uuid "23b6b8e8-ebaf-44d2-8866-0d2e4bda0936")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
 	(gr_text "Gwenyth Tran\n"
 		(at 113 17.8 0)
 		(layer "F.SilkS")
@@ -39985,6 +40000,28 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "RD+-"
+		(at 94 33.25 0)
+		(layer "F.SilkS")
+		(uuid "61f335f4-130d-423c-8b67-24a123cbf16d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "D-"
+		(at 89.75 26.75 -0)
+		(layer "F.SilkS")
+		(uuid "a4901e12-63d8-4797-af06-aae731b0489c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "Blue Jay Racing @ JHU\n22XT\nMain Board Rev 2\n"
@@ -40000,6 +40037,17 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "D+"
+		(at 87 26.75 -0)
+		(layer "F.SilkS")
+		(uuid "e932fbf2-76b1-4d6f-9b56-94c9a3950561")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "Emma Ouyang\nSophie Noureddine"
 		(at 113.15 21.25 0)
 		(layer "F.SilkS")
@@ -40011,6 +40059,402 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "D2_\n3V3"
+		(at 98 37.5 0)
+		(layer "B.SilkS")
+		(uuid "147034b3-40d4-4aa5-b26a-29cfd83ded50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "D6_3V3"
+		(at 99.25 52.5 0)
+		(layer "B.SilkS")
+		(uuid "1e038911-dfd5-49b6-a2e0-6b1da63877fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 98 24.5 0)
+		(layer "B.SilkS")
+		(uuid "1e96a025-8a78-4f6e-ab04-7290b89da3e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "GPIO/INT1"
+		(at 100.25 75.25 0)
+		(layer "B.SilkS")
+		(uuid "1e98d875-cd84-4542-8081-8866c2da0539")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "SCLK1"
+		(at 98.75 55 0)
+		(layer "B.SilkS")
+		(uuid "20723216-4775-4408-b0eb-4b65ccfea804")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "!LDAC"
+		(at 77 39.75 0)
+		(layer "B.SilkS")
+		(uuid "3b7746e8-3e8a-46e3-a255-5a18439bef5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "SCLK_ESP"
+		(at 75.75 68.5 0)
+		(layer "B.SilkS")
+		(uuid "4d077018-91d2-40fb-8290-fa8f88d1676f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "3V3"
+		(at 98 27 0)
+		(layer "B.SilkS")
+		(uuid "535ae543-9934-4b66-84cc-b5a8bf095b3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "SDA"
+		(at 98 42.25 0)
+		(layer "B.SilkS")
+		(uuid "5903da04-3afb-4405-8f95-2d654d0ee94d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "CRX"
+		(at 98 29.5 0)
+		(layer "B.SilkS")
+		(uuid "5c1e5f75-5b0a-4c47-91d2-4a00a8d8a149")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "D3_3V3"
+		(at 99.25 45 0)
+		(layer "B.SilkS")
+		(uuid "624c5693-8db2-4bc6-8d5f-6dc2c9d83a4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "D-"
+		(at 89.25 24.25 0)
+		(layer "B.SilkS")
+		(uuid "63fd5fb8-a67b-4690-ad65-5da1f32ea7af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "!ERROR"
+		(at 76.25 75.5 0)
+		(layer "B.SilkS")
+		(uuid "6635a251-0797-4b98-b398-ee608d59f3b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "D4_3V3"
+		(at 99.25 47.5 0)
+		(layer "B.SilkS")
+		(uuid "673e4e12-0828-488c-ad84-65247b8f0282")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "MOSI_ESP"
+		(at 75.75 65.25 0)
+		(layer "B.SilkS")
+		(uuid "6e3d21f5-03b7-4002-9ce5-785e37392258")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "SCL"
+		(at 98 39.75 0)
+		(layer "B.SilkS")
+		(uuid "70719a60-9f73-4fde-b753-dc988877eb89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "USB_MUX_S"
+		(at 75 34.75 0)
+		(layer "B.SilkS")
+		(uuid "72fc2930-7074-444c-97f5-856347efd44e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "CTX"
+		(at 98 32 0)
+		(layer "B.SilkS")
+		(uuid "786f5818-134c-4eb7-ab54-6623213473cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "!CS_ESP"
+		(at 99.5 72.75 0)
+		(layer "B.SilkS")
+		(uuid "7bbbf640-0ed2-4d5b-b72e-02e5ced5d8dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "SYNC"
+		(at 76.25 78 0)
+		(layer "B.SilkS")
+		(uuid "80db5f0a-901e-42a9-854b-783937103e44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "RD+-"
+		(at 92.25 33.25 -0)
+		(layer "B.SilkS")
+		(uuid "859ad63d-5f86-42b5-a90a-02680a7f0c50")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "GPIO/INT2"
+		(at 100.25 77.75 0)
+		(layer "B.SilkS")
+		(uuid "90058a61-7b0f-4cad-9b51-0d3c6f20112e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "!CS_ADC"
+		(at 99.5 70.25 0)
+		(layer "B.SilkS")
+		(uuid "93014fed-bd38-4606-87a7-0824a82658d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 85.75 37.25 0)
+		(layer "B.SilkS")
+		(uuid "9e11430b-0234-4243-a6d4-62f8825fd516")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "D5_3V3"
+		(at 99.25 50 0)
+		(layer "B.SilkS")
+		(uuid "a5ece583-6deb-49e4-bce3-1e4cca5afb9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 77.75 22 0)
+		(layer "B.SilkS")
+		(uuid "a7fa6b2a-f0ee-4242-a600-c0da7f661ba9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "D+"
+		(at 86.25 24.25 0)
+		(layer "B.SilkS")
+		(uuid "ae028dd3-bdf6-4fb2-afb9-5811648fb0e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "TD+-"
+		(at 88.5 33.25 -0)
+		(layer "B.SilkS")
+		(uuid "b3b838af-25b8-42c8-b88f-d8cdcb0ae14d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "MISO1"
+		(at 83.75 55 0)
+		(layer "B.SilkS")
+		(uuid "d028f9c3-b517-4c0c-8916-e31b5260d52f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "5V"
+		(at 98 22 0)
+		(layer "B.SilkS")
+		(uuid "d47b1267-0421-4204-b94c-15775b9f7a2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "D1_\n3V3"
+		(at 98 34.5 0)
+		(layer "B.SilkS")
+		(uuid "d48ba815-7607-4dc3-9ee3-97eb9e73a6ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "3V3"
+		(at 82.75 57.5 0)
+		(layer "B.SilkS")
+		(uuid "e50fbd52-4d48-49c2-be9e-4142c5732c4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 98 57.5 0)
+		(layer "B.SilkS")
+		(uuid "ecd57de2-cdbd-4758-b202-d41472eaa0bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
 		)
 	)
 	(dimension
