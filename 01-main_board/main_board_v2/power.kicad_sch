@@ -4095,7 +4095,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "22XT_Main:NRS4012T150MDGJ"
 			(at 88.9 113.03 0)
 			(effects
 				(font
