@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "22XT_WSG_Rev1")(type "KiCad")(uri "${XT22_KICAD}/02-wsg/WSG_2.0/22XT_WSG_Rev1.kicad_sym")(options "")(descr ""))
+)

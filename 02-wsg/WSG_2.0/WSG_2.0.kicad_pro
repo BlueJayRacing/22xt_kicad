@@ -62,14 +62,6 @@
         [
           "courtyards_overlap|126635000|93504999|062ac636-0a9d-49a4-9002-60f1abab71b6|3ed1cce0-cbdd-42f5-bed8-2f32afef5a1c",
           ""
-        ],
-        [
-          "hole_clearance|138698700|83314801|27eb6fe8-15bb-4b6a-8e43-24a600b84981|d36bb742-6a51-453f-869e-7e9ca3e640aa",
-          ""
-        ],
-        [
-          "hole_clearance|138698700|89105201|ccd7b234-17f5-4982-aa20-ccdf03fc5d08|64eba262-7780-4387-a662-92d52aebaf6f",
-          ""
         ]
       ],
       "meta": {
@@ -483,6 +475,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
