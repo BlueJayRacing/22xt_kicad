@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -56,55 +56,40 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.15,
+          "via_gap": 0.0,
+          "width": 0.2
         }
       ],
       "drc_exclusions": [
         [
-          "clearance|103420000|86924999|7070b485-c47b-44d9-bedb-06b911f5f352|df5fdfb9-5e4e-4f26-97a8-2d52580eb83c",
+          "clearance|109675000|44850000|cfb54f81-d82e-44a4-a3b4-6ccf7cf3d5f6|f906c787-fb42-4357-a446-cb2272f6d29f",
           ""
         ],
         [
-          "clearance|103420000|87574999|df5fdfb9-5e4e-4f26-97a8-2d52580eb83c|2040fa00-dcb8-4d84-a569-9e7f2a8996a9",
+          "clearance|109800000|39925000|933c875c-3b7d-40a1-8892-aba508f3ff96|72c871aa-0b75-4b28-b0fd-3ab77003b724",
           ""
         ],
         [
-          "clearance|103420000|88224999|2040fa00-dcb8-4d84-a569-9e7f2a8996a9|177c6b90-0e58-4f45-b429-2474b769d0b5",
+          "clearance|114600000|39925000|87abafb6-683c-4c1a-a80d-488f2b6e8361|2f9119c9-819b-4651-a1fd-2670c145d28a",
           ""
         ],
         [
-          "clearance|99120000|87214999|c809adfe-38ff-4617-b96a-a2fe3793057b|e00a33a0-1235-40f9-bbf2-82c2ecf030e6",
+          "clearance|114600000|44975000|53e60a40-c760-4b62-9e81-7ad4c75abeb3|13f94386-a87d-4e9c-ab98-1139372b72f7",
           ""
         ],
         [
-          "clearance|99120000|87864999|0391d08b-bd46-4c93-9596-e346c38af46a|c809adfe-38ff-4617-b96a-a2fe3793057b",
+          "items_not_allowed|46100000|85600000|20773829-23f6-4339-bfcd-13d1b3948e4a|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "clearance|99120000|88514999|a13e34f4-ab80-4767-abeb-658131ceb941|0391d08b-bd46-4c93-9596-e346c38af46a",
+          "items_not_allowed|46751290|82600000|3d767d6c-49ad-4e1d-bff7-606b6685ed2b|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "solder_mask_bridge|103420000|86924999|7070b485-c47b-44d9-bedb-06b911f5f352|df5fdfb9-5e4e-4f26-97a8-2d52580eb83c",
-          ""
-        ],
-        [
-          "solder_mask_bridge|103420000|87574999|df5fdfb9-5e4e-4f26-97a8-2d52580eb83c|2040fa00-dcb8-4d84-a569-9e7f2a8996a9",
-          ""
-        ],
-        [
-          "solder_mask_bridge|103420000|88224999|2040fa00-dcb8-4d84-a569-9e7f2a8996a9|177c6b90-0e58-4f45-b429-2474b769d0b5",
-          ""
-        ],
-        [
-          "solder_mask_bridge|99120000|87214999|c809adfe-38ff-4617-b96a-a2fe3793057b|e00a33a0-1235-40f9-bbf2-82c2ecf030e6",
-          ""
-        ],
-        [
-          "solder_mask_bridge|99120000|87864999|0391d08b-bd46-4c93-9596-e346c38af46a|c809adfe-38ff-4617-b96a-a2fe3793057b",
-          ""
-        ],
-        [
-          "solder_mask_bridge|99120000|88514999|a13e34f4-ab80-4767-abeb-658131ceb941|0391d08b-bd46-4c93-9596-e346c38af46a",
+          "items_not_allowed|46751290|82600000|f399076e-5551-4226-a804-80cd0e644bea|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -137,7 +122,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -180,7 +165,7 @@
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.15,
         "min_text_height": 1.0,
         "min_text_thickness": 0.15,
@@ -236,7 +221,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -268,9 +254,13 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -467,6 +457,7 @@
       "bus_entry_needed": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
@@ -510,10 +501,12 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "22XT_Main"
+    ]
   },
   "meta": {
-    "filename": "main_board_peripheral_v2.kicad_pro",
+    "filename": "main_board_v2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -537,14 +530,30 @@
         "wire_width": 6
       },
       {
+        "diff_pair_gap": 0.178906,
+        "diff_pair_width": 0.181631,
+        "name": "CAN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "clearance": 0.2,
-        "diff_pair_gap": 0.19,
-        "diff_pair_width": 0.288,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "diff_pair_gap": 0.1906,
+        "diff_pair_width": 0.2888,
         "name": "Ethernet",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2888,
+        "via_diameter": 0.65,
+        "via_drill": 0.5
+      },
+      {
+        "clearance": 0.2,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.45,
@@ -552,17 +561,24 @@
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.12,
-        "diff_pair_width": 0.307,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "USB Data",
+        "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.45,
         "via_drill": 0.3
+      },
+      {
+        "diff_pair_gap": 0.1234,
+        "diff_pair_width": 0.3,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.65,
+        "via_drill": 0.5
       }
     ],
     "meta": {
@@ -572,16 +588,124 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "USB Data",
-        "pattern": "USB_D_N, USB_D_P"
+        "netclass": "GND",
+        "pattern": "GNDA"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GNDD"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "PGND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "B-"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "3V3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "3V3_teensy"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "5V_buck"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "5V_usb"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "3V3_to_buff"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "3V3_out"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "2V5_ref"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "2V5"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "11.1V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "5V_ref"
       },
       {
         "netclass": "Ethernet",
-        "pattern": "TX_P, TX_N"
+        "pattern": "TX-"
       },
       {
-        "netclass": "USB Data",
-        "pattern": "RX_P, RX_N"
+        "netclass": "Ethernet",
+        "pattern": "TX+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "RX-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "RX+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "TD+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "TD-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "RD+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "RD-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "usb+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "usb-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "usb_teensy+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "usb_teensy-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "usb_esp+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "usb_esp-"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "CRX, CTX, CANH, CANL"
       }
     ]
   },
@@ -590,8 +714,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "../00-manufacturing/",
+      "pos_files": "../",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -663,12 +787,84 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PACKAGE_ID",
+          "name": "SNAPEDA_PACKAGE_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -714,12 +910,32 @@
   },
   "sheets": [
     [
-      "3f673207-cdae-494a-ab60-6e58b06fb202",
+      "12c2237c-5932-49af-9119-92b28c846ae7",
       "Root"
     ],
     [
-      "ccc2e7b0-d95e-40b9-8135-a9b7533c1a48",
-      "buttons"
+      "3932ebef-992a-45fd-a214-7d9aa3b763ff",
+      "Analog Processing"
+    ],
+    [
+      "e4bc29b2-554a-4b47-958f-0b5bb716dd19",
+      "Power"
+    ],
+    [
+      "f7990d3b-6f19-4c8f-ba4f-28eb9e1a3c51",
+      "Teensy"
+    ],
+    [
+      "2f086c3e-45d9-4d10-b4a9-28dcf0b29962",
+      "SG Processing"
+    ],
+    [
+      "1c0fa17f-7333-433d-8099-fbcba82c3572",
+      "Digital Processing"
+    ],
+    [
+      "e5005576-746e-4110-9aa7-21d70d5867f0",
+      "ESP32S3"
     ]
   ],
   "text_variables": {}

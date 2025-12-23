@@ -4090,7 +4090,7 @@
 		)
 	)
 	(global_label "USB_5V"
-		(shape input)
+		(shape output)
 		(at 83.82 134.62 0)
 		(fields_autoplaced yes)
 		(effects
