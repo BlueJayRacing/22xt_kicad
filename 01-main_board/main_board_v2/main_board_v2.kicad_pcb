@@ -34904,6 +34904,7 @@
 		)
 		(embedded_fonts no)
 		(model "${XT22_KICAD}/01-main_board/00-3dmodels/DF12NB-20DS-0.5V_51_.stp"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34912,6 +34913,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/DF12NB-20DS-0.5V.stp"
+			(offset
+				(xyz -3.5 -2 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
