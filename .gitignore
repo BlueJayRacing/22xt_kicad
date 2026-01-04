@@ -13,13 +13,13 @@
 *.kicad_prl
 *.sch-bak
 *~
+*.lck
+
 _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-gerbers
-cplfiles
 *.DS_Store
 # gerbers
 # cplfiles
@@ -35,14 +35,9 @@ cplfiles
 *.DS_Store
 
 # Exported BOM files
-#*.xml
-#*.csv
 # *.xml
 # *.csv
 #
-#*/gerbers/
-#*/cplfiles/
-#*/drillfiles/
 # */gerbers/
 # */cplfiles/
 # */drillfiles/
