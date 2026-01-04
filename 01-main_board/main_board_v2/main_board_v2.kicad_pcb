@@ -863,15 +863,15 @@
 			(uuid "ffd7026d-f2ab-45d9-90d7-ffb56338f134")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/notlu/OneDrive/Desktop/22xt_kicad/01-main_board/00-3dmodels/LT3973EMSE-5#PBF.stp"
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/LT3973EMSE-5#PBF.stp"
 			(offset
-				(xyz 0 0 0.5299999634)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -4086,7 +4086,7 @@
 			(uuid "ef3fdcee-34e7-4e3c-bb7e-5b118a0c38ae")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Gwenyth/Desktop/Baja/2205/22xt_kicad/01-main_board/00-3dmodels/749013011.stp"
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/749013011.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4426,7 +4426,7 @@
 			(uuid "710dc9d9-4d2f-4973-b849-1b24ed7d64ad")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Gwenyth/Desktop/Baja/2205/22xt_kicad/01-main_board/00-3dmodels/RJ_6_ADI.step"
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/RJ_6_ADI.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6954,7 +6954,7 @@
 			(uuid "ec50233f-9e55-43b0-ac53-e52ed978bee2")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Gwenyth/Desktop/Baja/2205/22xt_kicad/01-main_board/00-3dmodels/ESP32-S3--3DModel-STEP-510211.STEP"
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/ESP32-S3--3DModel-STEP-510211.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7170,7 +7170,7 @@
 		(uuid "4613adf3-5325-473d-a4fb-97e5bd2d97b8")
 		(at 87.9184 51.128602 -90)
 		(property "Reference" "U1"
-			(at -33.628602 0.4184 180)
+			(at -33.628602 0.4184 0)
 			(layer "F.SilkS")
 			(uuid "2b71d4b5-9dbf-42e8-a0a4-48b31abd5242")
 			(effects
@@ -7688,7 +7688,7 @@
 			)
 		)
 		(fp_text user "DVJ6A"
-			(at 7.46 -2.3816 270)
+			(at 7.46 -2.3816 90)
 			(layer "F.SilkS")
 			(uuid "0a784147-1369-4a07-b69b-627383ddbcad")
 			(effects
@@ -7721,7 +7721,7 @@
 			)
 		)
 		(fp_text user "MIMXRT1062"
-			(at -0.64 -2.3816 270)
+			(at -0.64 -2.3816 90)
 			(layer "F.SilkS")
 			(uuid "85eb3e3c-66de-4186-8f91-81c34bff673d")
 			(effects
@@ -8206,9 +8206,9 @@
 			(uuid "d2b3daee-6639-43ce-92bb-6c4cb3442d69")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Gwenyth/Desktop/Baja/2205/22xt_kicad/01-main_board/00-3dmodels/Teensy 4.1--3DModel-STEP-269445.STEP"
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/Teensy 4.1--3DModel-STEP-269445.STEP"
 			(offset
-				(xyz 0 0 0.762)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -10430,7 +10430,7 @@
 			(uuid "73ac9b73-82d4-40e7-86fd-cd3b88ab2598")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Gwenyth/Desktop/Baja/2205/22xt_kicad/01-main_board/00-3dmodels/INA827AIDGK.step"
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/INA827AIDGK.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17529,7 +17529,7 @@
 		(descr "CP-40-14 (LFCSP)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC6"
-			(at 5.05 -0.3 180)
+			(at 5.05 -0.3 0)
 			(layer "F.SilkS")
 			(uuid "feb86ac3-3cab-4604-9483-3d03be7a50ca")
 			(effects
@@ -18126,7 +18126,7 @@
 			(uuid "86b5301f-57d2-4940-b7c3-b04bcc58e0c1")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Gwenyth/Desktop/Baja/2205/22xt_kicad/01-main_board/00-3dmodels/CP-40-14_ADI.step"
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/CP-40-14_ADI.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19512,7 +19512,7 @@
 			(uuid "0699e417-79f4-4ada-989f-14c3b4c29a49")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Gwenyth/Desktop/Baja/2205/22xt_kicad/01-main_board/00-3dmodels/781-M44-113R141.STEP"
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/781-M44-113R141.STEP"
 			(offset
 				(xyz -11 -14.875 0)
 			)
@@ -20770,7 +20770,7 @@
 			(uuid "aee302df-0b2a-4593-a7e3-808dd52a1fd2")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Gwenyth/Desktop/Baja/2205/22xt_kicad/01-main_board/00-3dmodels/SOIC127P600X175-8N.step"
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/SOIC127P600X175-8N.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21222,7 +21222,7 @@
 			(uuid "8ad2c018-3828-44fc-9a16-1240c01f13ac")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Gwenyth/Desktop/Baja/2205/22xt_kicad/01-main_board/00-3dmodels/INA827AIDGK.step"
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/INA827AIDGK.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22394,7 +22394,7 @@
 		(property "Reference" "IC9"
 			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "0f86c7f2-287c-4e1a-8330-4195e4a975c4")
+			(uuid "ba7d9954-ca09-4a60-8cca-683af3f7c9f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22406,7 +22406,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "82c55217-ee9f-4934-a3f7-a2eb3f23f07f")
+			(uuid "1b380a41-b94e-478b-81f9-2b84beb989ea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22418,7 +22418,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2abf958f-5d86-4292-baa5-997b37ce4c26")
+			(uuid "0226155b-b566-4c3e-9a00-d506eea6adcb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22430,7 +22430,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "daf4903c-5208-42ae-9ceb-0d9ccce048db")
+			(uuid "3a150bde-0731-47d1-ad60-5ce6f580d350")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22839,7 +22839,7 @@
 			(uuid "64e4dff3-1d71-4cf5-b08e-d609cadf7f08")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Gwenyth/Desktop/Baja/2205/22xt_kicad/01-main_board/00-3dmodels/LSF0108PWR.STEP"
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/LSF0108PWR.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31943,6 +31943,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/RU_16_ADI.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
@@ -34892,7 +34903,7 @@
 			(uuid "a0c5827d-647a-44f4-a502-458a8357fceb")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/notlu/OneDrive/Desktop/22xt_kicad/01-main_board/00-3dmodels/DF12NB-20DS-0.5V_51_.stp"
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/DF12NB-20DS-0.5V_51_.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36621,7 +36632,7 @@
 			(uuid "6447e86c-2b51-4e62-80f4-4e41fc20667d")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Gwenyth/Desktop/Baja/2205/22xt_kicad/01-main_board/00-3dmodels/TPS2115APWR.STEP"
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/TPS2115APWR.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
