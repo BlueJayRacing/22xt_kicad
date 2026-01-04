@@ -3908,7 +3908,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_4_Cross")
-		(at 114.3 76.2 0)
+		(at 193.04 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3916,7 +3916,7 @@
 		(dnp no)
 		(uuid "2d1d6d89-fe13-4440-bc2b-968771e28fdd")
 		(property "Reference" "NT1"
-			(at 124.968 67.818 0)
+			(at 203.708 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +3924,7 @@
 			)
 		)
 		(property "Value" "NetTie_4_Cross"
-			(at 124.968 70.358 0)
+			(at 203.708 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,7 +3932,7 @@
 			)
 		)
 		(property "Footprint" "NetTie:NetTie-4_SMD_Pad0.5mm"
-			(at 114.3 76.2 0)
+			(at 193.04 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +3941,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 76.2 0)
+			(at 193.04 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3950,7 +3950,7 @@
 			)
 		)
 		(property "Description" "Net tie, 4 pins, cross"
-			(at 114.3 76.2 0)
+			(at 193.04 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +4175,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 114.3 78.74 0)
+		(at 193.04 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4184,7 +4184,7 @@
 		(fields_autoplaced yes)
 		(uuid "547a7048-b83d-4cff-9599-792a97415c8d")
 		(property "Reference" "#PWR090"
-			(at 114.3 85.09 0)
+			(at 193.04 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +4193,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 116.84 79.8194 0)
+			(at 195.58 64.5794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,7 +4202,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 78.74 0)
+			(at 193.04 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,7 +4211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 78.74 0)
+			(at 193.04 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +4220,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 114.3 78.74 0)
+			(at 193.04 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +4376,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 111.76 76.2 270)
+		(at 190.5 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4385,7 +4385,7 @@
 		(fields_autoplaced yes)
 		(uuid "7678f382-8304-44f2-8b8b-5d64426535a6")
 		(property "Reference" "#PWR089"
-			(at 105.41 76.2 0)
+			(at 184.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +4394,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 110.49 72.39 90)
+			(at 189.23 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,7 +4402,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 76.2 0)
+			(at 190.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,7 +4411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 76.2 0)
+			(at 190.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,7 +4420,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 111.76 76.2 0)
+			(at 190.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4536,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 116.84 76.2 90)
+		(at 195.58 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4545,7 +4545,7 @@
 		(fields_autoplaced yes)
 		(uuid "8366f812-accf-4bf7-83e6-c9a2a98a3428")
 		(property "Reference" "#PWR092"
-			(at 123.19 76.2 0)
+			(at 201.93 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +4554,7 @@
 			)
 		)
 		(property "Value" "B-"
-			(at 120.65 76.1999 90)
+			(at 199.39 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 76.2 0)
+			(at 195.58 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4572,7 +4572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 76.2 0)
+			(at 195.58 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4581,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 116.84 76.2 0)
+			(at 195.58 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +4670,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 93.98 80.01 270)
+		(at 172.72 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4678,7 +4678,7 @@
 		(dnp no)
 		(uuid "b05ed362-a155-44de-8a1a-e9e30a88be9b")
 		(property "Reference" "#PWR094"
-			(at 87.63 80.01 0)
+			(at 166.37 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,7 +4687,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 88.646 79.502 90)
+			(at 167.386 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,7 +4695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 80.01 0)
+			(at 172.72 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4704,7 +4704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 80.01 0)
+			(at 172.72 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,7 +4713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 93.98 80.01 0)
+			(at 172.72 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,7 +4802,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 99.06 80.01 90)
+		(at 177.8 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4811,7 +4811,7 @@
 		(fields_autoplaced yes)
 		(uuid "cef6770f-fb12-4852-9ce9-40ada2694d37")
 		(property "Reference" "#PWR095"
-			(at 105.41 80.01 0)
+			(at 184.15 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,7 +4820,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 102.87 80.0099 90)
+			(at 181.61 64.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +4829,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 80.01 0)
+			(at 177.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +4838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 80.01 0)
+			(at 177.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +4847,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 99.06 80.01 0)
+			(at 177.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4869,7 +4869,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 114.3 73.66 180)
+		(at 193.04 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4878,7 +4878,7 @@
 		(fields_autoplaced yes)
 		(uuid "d727bb85-161e-4615-986e-48a47e8f218a")
 		(property "Reference" "#PWR091"
-			(at 114.3 67.31 0)
+			(at 193.04 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,7 +4887,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 116.84 72.3899 0)
+			(at 195.58 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4896,7 +4896,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 73.66 0)
+			(at 193.04 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4905,7 +4905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 73.66 0)
+			(at 193.04 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4914,7 +4914,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 114.3 73.66 0)
+			(at 193.04 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4936,7 +4936,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_3_Tee")
-		(at 96.52 80.01 0)
+		(at 175.26 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4945,7 +4945,7 @@
 		(fields_autoplaced yes)
 		(uuid "da1ec447-8377-4fe6-b3e9-d121ca12397e")
 		(property "Reference" "NT2"
-			(at 96.52 74.93 0)
+			(at 175.26 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,7 +4953,7 @@
 			)
 		)
 		(property "Value" "NetTie_3_Tee"
-			(at 96.52 77.47 0)
+			(at 175.26 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,7 +4961,7 @@
 			)
 		)
 		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 96.52 80.01 0)
+			(at 175.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4970,7 +4970,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 80.01 0)
+			(at 175.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4979,7 +4979,7 @@
 			)
 		)
 		(property "Description" "Net tie, 3 pins, tee"
-			(at 96.52 80.01 0)
+			(at 175.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
