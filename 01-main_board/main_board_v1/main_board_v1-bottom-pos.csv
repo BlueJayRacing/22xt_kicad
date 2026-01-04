@@ -1,0 +1,20 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C3,0.1uF,C_0402_1005Metric,89.15,-30.2,90,bottom
+C4,0.1uF,C_0402_1005Metric,98.55,-27.2,180,bottom
+C7,2.2uF,C_0402_1005Metric,65.25,-64.65,-90,bottom
+C29,0.1uF,C_0402_1005Metric,67.5,-48.5,180,bottom
+C30,0.1uF,C_0402_1005Metric,67.5,-49.5,180,bottom
+C31,0.1uF,C_0402_1005Metric,68,-55.5,180,bottom
+C32,0.1uF,C_0402_1005Metric,68,-54.5,180,bottom
+C51,40pF,C_0402_1005Metric,98.5,-29.25,90,bottom
+C52,40pF,C_0402_1005Metric,98.5,-31.5,-90,bottom
+D2,RCLAMP3354S.TCT,SOT-23-5,51,-52.25,180,bottom
+IC4,SPX3819S-L_TR,SOIC127P600X175-8N,61,-64.5,180,bottom
+R2,DNP,R_0402_1005Metric,89.65,-45.45,-90,bottom
+R10,36.5k,R_0402_1005Metric,66.575,-65.55,-90,bottom
+R14,DNP,R_0402_1005Metric,89.7,-48.35,90,bottom
+R27,52.3R,R_0402_1005Metric,54.51,-55,0,bottom
+R28,52.3R,R_0402_1005Metric,54.5,-49,0,bottom
+R45,22k,R_0402_1005Metric,66.575,-67.5,-90,bottom
+R50,120,R_1206_3216Metric,124,-29.5,90,bottom
+U3,MCP2562FD-E/SN,SOIC-8_3.9x4.9mm_P1.27mm,93.5,-30.5,0,bottom

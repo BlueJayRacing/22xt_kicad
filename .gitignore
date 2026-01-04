@@ -20,6 +20,9 @@ _autosave-*
 fp-info-cache
 gerbers
 cplfiles
+*.DS_Store
+# gerbers
+# cplfiles
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -28,11 +31,19 @@ cplfiles
 *.dsn
 *.ses
 
+# Mac OS Specific
+*.DS_Store
+
 # Exported BOM files
 #*.xml
 #*.csv
+# *.xml
+# *.csv
 #
 #*/gerbers/
 #*/cplfiles/
 #*/drillfiles/
+# */gerbers/
+# */cplfiles/
+# */drillfiles/
 #*/grbrdrillfiles/

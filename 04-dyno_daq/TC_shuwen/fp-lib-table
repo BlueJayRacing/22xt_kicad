@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "22xt_tc")(type "KiCad")(uri "/Users/kunba/Documents/22xt_kicad/04-dyno_daq/22xt_tc.pretty")(options "")(descr ""))
+)
