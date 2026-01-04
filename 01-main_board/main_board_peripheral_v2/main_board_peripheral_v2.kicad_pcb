@@ -1602,6 +1602,17 @@
 			(uuid "a049df57-8e53-4381-8af4-72001bff6d9e")
 		)
 		(embedded_fonts no)
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/NEOPIXEL5050-COM-24837.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "22XT_Main_Peripheral:T4040014041000"
 		(layer "F.Cu")
@@ -1881,7 +1892,7 @@
 			(uuid "b2bca6c5-9bcd-4c72-bf1d-161531ab17dc")
 		)
 		(embedded_fonts no)
-		(model "${BJR_KICAD}/21xt/00-3dmodels/c-t4040014041-000-a-3d.stp"
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/c-t4040014041-000-a-3d.stp"
 			(offset
 				(xyz 1.7 0.5 17)
 			)
@@ -1889,7 +1900,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -4735,7 +4746,7 @@
 			(uuid "625ad5d4-c0fc-41e1-9f6b-a0766ced714e")
 		)
 		(embedded_fonts no)
-		(model ":BJR_KICAD:21xt/00-3dmodels/T4041017041-000.stp"
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/T4041017041-000.stp"
 			(offset
 				(xyz -1.7 0.56 15.25)
 			)
@@ -4743,7 +4754,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -7102,6 +7113,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${XT22_KICAD}/01-main_board/00-3dmodels/DF12NB(5.0)-20DP-0.5V(51).STEP"
+			(offset
+				(xyz -3.6 -2 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "22XT_Main_Peripheral:0ZCH0050FF2G"
 		(layer "B.Cu")
