@@ -2397,7 +2397,7 @@
 			)
 		)
 	)
-	(global_label "3V3_teensy"
+	(global_label "3V3_esp"
 		(shape input)
 		(at 115.57 71.12 180)
 		(fields_autoplaced yes)
@@ -2409,7 +2409,7 @@
 		)
 		(uuid "201dc23e-afc2-430e-8f33-c0185503e7a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.062 71.12 0)
+			(at 104.8439 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,7 +2441,7 @@
 			)
 		)
 	)
-	(global_label "3V3_teensy"
+	(global_label "3V3_esp"
 		(shape input)
 		(at 127 76.2 270)
 		(fields_autoplaced yes)
@@ -2453,7 +2453,7 @@
 		)
 		(uuid "2cd39dae-38e9-40fa-b823-53f5bd504ee8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 89.708 90)
+			(at 127 86.9261 90)
 			(effects
 				(font
 					(size 1.27 1.27)
