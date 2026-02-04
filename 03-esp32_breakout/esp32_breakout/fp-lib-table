@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "wsg_fp")(type "KiCad")(uri "/Users/maxgao/Documents/22xt_kicad/03-esp32_breakout/00-footprints/wsg_fp.pretty")(options "")(descr ""))
+)
