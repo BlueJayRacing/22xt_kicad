@@ -486,7 +486,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x19_MountingPin"
+		(symbol "Connector_Generic_MountingPin:Conn_01x20_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -502,8 +502,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x19_MountingPin"
-				(at 1.27 -25.4 0)
+			(property "Value" "Conn_01x20_MountingPin"
+				(at 1.27 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -529,7 +529,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -556,10 +556,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x19_MountingPin_1_1"
+			(symbol "Conn_01x20_MountingPin_1_1"
 				(rectangle
 					(start -1.27 24.13)
-					(end 1.27 -24.13)
+					(end 1.27 -26.67)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -777,9 +777,20 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -1.27 -25.273)
+					(end 0 -25.527)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy -1.016 -24.892) (xy 1.016 -24.892)
+						(xy -1.016 -27.432) (xy 1.016 -27.432)
 					)
 					(stroke
 						(width 0.1524)
@@ -790,7 +801,7 @@
 					)
 				)
 				(text "Mounting"
-					(at 0 -24.511 0)
+					(at 0 -27.051 0)
 					(effects
 						(font
 							(size 0.381 0.381)
@@ -1140,7 +1151,25 @@
 					)
 				)
 				(pin passive line
-					(at 0 -27.94 90)
+					(at -5.08 -25.4 0)
+					(length 3.81)
+					(name "Pin_20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 90)
 					(length 3.048)
 					(name "MountPin"
 						(effects
@@ -2422,6 +2451,10 @@
 			)
 		)
 		(uuid "20291296-2559-45e9-afc4-179e0d59785b")
+	)
+	(no_connect
+		(at 71.12 34.29)
+		(uuid "3ad03196-6346-49b8-90e1-a5bda04428ed")
 	)
 	(global_label "linpot_1_FL"
 		(shape output)
@@ -4213,6 +4246,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 66.04 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "268eab07-f3d2-404f-8a41-a1d73387c2fa")
+		(property "Reference" "#PWR033"
+			(at 66.04 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 66.04 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 66.04 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbbdeac5-2e1b-4bc1-a4be-958beed4805f")
+		)
+		(instances
+			(project "main_board_v3"
+				(path "/12c2237c-5932-49af-9119-92b28c846ae7"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 146.05 67.31 90)
 		(unit 1)
@@ -5076,72 +5175,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 66.04 31.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6ef7674-db66-4d52-8996-c3052476018e")
-		(property "Reference" "#PWR033"
-			(at 66.04 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 66.04 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 66.04 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a214785e-7f72-4775-881e-52aaa7938c98")
-		)
-		(instances
-			(project "main_board_v3"
-				(path "/12c2237c-5932-49af-9119-92b28c846ae7"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 227.33 127 0)
 		(unit 1)
@@ -5670,7 +5703,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x19_MountingPin")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x20_MountingPin")
 		(at 66.04 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5680,7 +5713,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7ae3e03-0d9c-44b1-b2c4-9455d487cc9e")
 		(property "Reference" "J3"
-			(at 63.5 58.0643 0)
+			(at 63.5 56.7943 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,7 +5722,7 @@
 			)
 		)
 		(property "Value" "FFC Digital"
-			(at 63.5 60.6043 0)
+			(at 63.5 59.3343 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5697,7 +5730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:TE_1-84982-9_2Rows-19Pins-P1.0mm_Vertical"
+		(property "Footprint" "Connector_FFC-FPC:TE_2-84982-0_2Rows-20Pins-P1.0mm_Vertical"
 			(at 66.04 59.69 0)
 			(effects
 				(font
@@ -5715,7 +5748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 66.04 59.69 0)
 			(effects
 				(font
@@ -5783,6 +5816,9 @@
 		)
 		(pin "MP"
 			(uuid "bdd21445-bb5c-4f8c-9a2f-7d47ab79ca35")
+		)
+		(pin "20"
+			(uuid "52090f93-1485-4bcc-82fc-6fe26eaf6891")
 		)
 		(instances
 			(project "main_board_v3"
