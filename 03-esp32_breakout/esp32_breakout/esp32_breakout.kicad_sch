@@ -5670,7 +5670,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "wsg_fp:SW_BUTT-2"
+		(property "Footprint" "wsg_fp:NANOT100AS_butt"
 			(at 27.94 121.92 0)
 			(effects
 				(font
@@ -6893,7 +6893,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "wsg_fp:SW_BUTT-2"
+		(property "Footprint" "wsg_fp:NANOT100AS_butt"
 			(at 91.44 123.19 0)
 			(effects
 				(font
@@ -7304,7 +7304,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "wsg_fp:SW_BUTT-2"
+		(property "Footprint" "wsg_fp:NANOT100AS_butt"
 			(at 60.96 123.19 0)
 			(effects
 				(font
