@@ -4066,7 +4066,7 @@
 			)
 		)
 	)
-	(global_label "ESP_USB_D-"
+	(global_label "ESP_USB_D+"
 		(shape bidirectional)
 		(at 259.08 130.81 0)
 		(fields_autoplaced yes)
@@ -4154,7 +4154,7 @@
 			)
 		)
 	)
-	(global_label "ESP_USB_D+"
+	(global_label "ESP_USB_D-"
 		(shape bidirectional)
 		(at 259.08 125.73 0)
 		(fields_autoplaced yes)

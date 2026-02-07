@@ -3071,10 +3071,6 @@
 		(uuid "83e7ca8d-a34e-446f-99c3-56c44afa6c96")
 	)
 	(no_connect
-		(at 181.61 82.55)
-		(uuid "8a8fbcf1-3d8d-4ce1-ab32-6d1a3ea98cc6")
-	)
-	(no_connect
 		(at 181.61 107.95)
 		(uuid "8c868d82-e195-48e8-a3f7-a0f8b320e6de")
 	)
@@ -4781,6 +4777,28 @@
 		(uuid "c7a5cefb-c057-4686-ae70-ef5376ebd1d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 191.6709 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LDAC_DAC"
+		(shape output)
+		(at 181.61 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc9e26e5-004d-4364-9528-daa5f4f4f09e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.8481 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
