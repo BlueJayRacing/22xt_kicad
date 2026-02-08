@@ -428,7 +428,7 @@
 		(uuid "11981c93-5ab8-4104-963a-61574dce416e")
 	)
 	(embedded_fonts no)
-	(model "FH41-15S-0.5SH_05_.stp"
+	(model "${XT22_KICAD}/01-main_board/00-3dmodels/FH41-15S-0.5SH_05_.stp"
 		(offset
 			(xyz 0 0 0)
 		)

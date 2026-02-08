@@ -1051,7 +1051,7 @@
 		(uuid "efb878ac-7bcb-4c70-89a0-6e7eddea0fb1")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Gwenyth/Desktop/Baja/2205/22xt_kicad/01-main_board/00-3dmodels/RU_16_ADI.step"
+	(model "${XT22_KICAD}/01-main_board/00-3dmodels/RU_16_ADI.step"
 		(offset
 			(xyz 0 0 0)
 		)

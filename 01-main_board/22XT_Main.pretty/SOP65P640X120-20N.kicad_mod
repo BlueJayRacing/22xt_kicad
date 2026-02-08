@@ -325,7 +325,7 @@
 		(uuid "46129d33-6891-4f82-bfd7-100e7d7c830c")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/teais/22xt_kicad/01-main_board/00-3dmodels/LSF0108PWR.STEP"
+	(model "${XT22_KICAD}/01-main_board/00-3dmodels/LSF0108PWR.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -177,7 +177,7 @@
 		(uuid "2148e603-fd5b-4183-b54a-082370e45c4d")
 	)
 	(embedded_fonts no)
-	(model "NRS4012T150MDGJ.stp"
+	(model "${XT22_KICAD}/01-main_board/00-3dmodels/IND_TAIYO_NRS4012_TAY.step"
 		(offset
 			(xyz 0 0 0)
 		)
