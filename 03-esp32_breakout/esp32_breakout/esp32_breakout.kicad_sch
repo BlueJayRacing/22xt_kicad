@@ -4962,6 +4962,16 @@
 		)
 		(uuid "fe1c9211-bf2d-4785-995f-bb206a93bc52")
 	)
+	(label "Clock"
+		(at 218.44 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25ae389a-4dee-4c25-8dc8-a7d1e993b8a0")
+	)
 	(label "USB_D-"
 		(at 161.29 102.87 0)
 		(effects
@@ -4972,6 +4982,16 @@
 		)
 		(uuid "4432e15b-d40a-4818-a2ec-d02ed4dd646b")
 	)
+	(label "MISO"
+		(at 217.17 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fba40b2-1ee2-4d4d-b32a-0ed1c080d922")
+	)
 	(label "USB_D+"
 		(at 161.29 105.41 0)
 		(effects
@@ -4981,6 +5001,16 @@
 			(justify left bottom)
 		)
 		(uuid "98b90502-4904-4d14-b4d3-69533b2da700")
+	)
+	(label "MOSI"
+		(at 217.17 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c92c5cb0-d4a5-41f1-89a1-0933d0cf65bc")
 	)
 	(global_label "3v3"
 		(shape input)
