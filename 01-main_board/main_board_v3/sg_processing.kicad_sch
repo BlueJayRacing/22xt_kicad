@@ -3608,8 +3608,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "64.2k (0.1%)"
-			(at 172.466 57.658 0)
+		(property "Value" "80 (0.1%)"
+			(at 173.736 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3815,7 +3815,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "64.2k (0.1%)"
+		(property "Value" "80 (0.1%)"
 			(at 172.72 83.312 0)
 			(effects
 				(font
