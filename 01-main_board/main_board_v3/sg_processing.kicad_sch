@@ -1326,7 +1326,7 @@
 		)
 		(uuid "80e128e9-6666-40c9-86e6-8063d4faee05")
 	)
-	(text "Instrumentation Amplifiers\n"
+	(text "Instrumentation Amplifiers\n(gain approx = 6.46)"
 		(exclude_from_sim no)
 		(at 207.01 90.678 0)
 		(effects
@@ -2817,7 +2817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.58 127 0)
 			(effects
 				(font
