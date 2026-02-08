@@ -1442,10 +1442,6 @@
 		(color 0 0 0 0)
 		(uuid "f15a748f-ce09-489c-b68f-0c4aed716288")
 	)
-	(no_connect
-		(at 132.08 119.38)
-		(uuid "9099fbea-bc52-4906-a18a-0db4495f7c0d")
-	)
 	(wire
 		(pts
 			(xy 144.78 76.2) (xy 144.78 80.01)
@@ -2045,6 +2041,28 @@
 			(type default)
 		)
 		(uuid "fc6ef210-ba88-4200-982b-13750dcaf33b")
+	)
+	(global_label "RESET_DAC"
+		(shape output)
+		(at 132.08 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "017084e6-6020-4c60-a5e8-dbc712a1aacf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.4065 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "3V3_teensy"
 		(shape input)
@@ -3205,7 +3223,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "352R (0.1%)"
+		(property "Value" "120R (0.1%)"
 			(at 83.82 62.2299 0)
 			(effects
 				(font
@@ -3387,7 +3405,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "352R (0.1%)"
+		(property "Value" "120R (0.1%)"
 			(at 147.32 74.9299 0)
 			(effects
 				(font
@@ -3867,7 +3885,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "352R (0.1%)"
+		(property "Value" "120R (0.1%)"
 			(at 99.06 74.9299 0)
 			(effects
 				(font
@@ -3937,7 +3955,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "352R (0.1%)"
+		(property "Value" "120R (0.1%)"
 			(at 83.82 74.9299 0)
 			(effects
 				(font
@@ -4077,7 +4095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "352R (0.1%)"
+		(property "Value" "120R (0.1%)"
 			(at 132.08 62.2299 0)
 			(effects
 				(font
@@ -4147,7 +4165,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "352R (0.1%)"
+		(property "Value" "120R (0.1%)"
 			(at 132.08 74.9299 0)
 			(effects
 				(font
