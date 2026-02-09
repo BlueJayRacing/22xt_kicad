@@ -709,7 +709,7 @@
       "plot": "gerbers/",
       "pos_files": "cpl_files/",
       "specctra_dsn": "",
-      "step": "export_3d/main_board_v2.step",
+      "step": "export_3d/main_board_v3.step",
       "svg": "",
       "vrml": ""
     },

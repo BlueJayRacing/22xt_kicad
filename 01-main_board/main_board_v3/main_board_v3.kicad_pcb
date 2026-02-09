@@ -4836,13 +4836,13 @@
 				)
 			)
 		)
-		(property "Value" "MOSI_ESP"
-			(at 4.8 0.15 0)
+		(property "Value" "MOSI"
+			(at 1.5 0.25 90)
 			(layer "F.SilkS")
 			(uuid "04582e75-e994-4e87-bede-f56c69b00ca7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -34652,6 +34652,62 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GND"
+		(at 60.75 50.75 90)
+		(layer "F.SilkS")
+		(uuid "0d61ec11-de58-48ea-a8c0-f6bfada29ac7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "TX"
+		(at 73.5 72.25 90)
+		(layer "F.SilkS")
+		(uuid "1a98580c-3e79-4fbc-b1d6-f9c1f3dea2af")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "SCL\n"
+		(at 71 72.5 90)
+		(layer "F.SilkS")
+		(uuid "34dc4674-7968-4c35-aec3-285e8b37371a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "3V3"
+		(at 63.5 50.75 90)
+		(layer "F.SilkS")
+		(uuid "54d2f44e-7375-41d8-bd72-8b60a72d03ee")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "MISO\n"
+		(at 68.5 50.5 90)
+		(layer "F.SilkS")
+		(uuid "5586ca17-6030-415f-b0b2-28adcaa86400")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "Gwenyth Tran"
 		(at 115 27.2 0)
 		(layer "F.SilkS")
@@ -34663,6 +34719,17 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "CS"
+		(at 58.25 72 90)
+		(layer "F.SilkS")
+		(uuid "a116eb50-cfa8-4f08-b4f4-e0fe1a9135c9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "Blue Jay\nRacing @ JHU\n22XT Main Board \nRev 3\n"
@@ -34690,6 +34757,39 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "5V"
+		(at 58.25 51 90)
+		(layer "F.SilkS")
+		(uuid "cf80c161-09b9-4791-8ce3-3e6cf1660a25")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "RX"
+		(at 73.5 51.25 90)
+		(layer "F.SilkS")
+		(uuid "d0188b29-4a35-4867-a0a6-8046d1af0151")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "SCLK"
+		(at 71 50.5 90)
+		(layer "F.SilkS")
+		(uuid "f2720668-e46c-4d50-bc25-62a33c0e352f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "Emma Ouyang\nSophie Noureddine"
 		(at 115.7 30.8 0)
 		(layer "F.SilkS")
@@ -34701,6 +34801,17 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "SDA"
+		(at 68.5 72.5 90)
+		(layer "F.SilkS")
+		(uuid "f9c41cf8-470b-48eb-945c-40df589542c1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "!CS_ADC"
