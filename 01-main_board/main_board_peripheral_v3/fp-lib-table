@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "22XT_Main_Peripheral")(type "KiCad")(uri "C:/Users/Center Baja/Documents/GitHub/22xt_kicad/01-main_board/22XT_Main_Peripheral.pretty")(options "")(descr ""))
+)
