@@ -2581,6 +2581,28 @@
 			)
 		)
 	)
+	(global_label "RX-"
+		(shape bidirectional)
+		(at 158.75 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0dbeb20e-3ea1-4851-a7c2-e95d126f80fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.8984 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_CONTROL"
 		(shape output)
 		(at 158.75 52.07 0)
@@ -3184,28 +3206,6 @@
 			)
 		)
 	)
-	(global_label "RX-"
-		(shape bidirectional)
-		(at 158.75 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "641ab7b5-bab1-4743-a22a-a9b15adda869")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.8984 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "AN1"
 		(shape input)
 		(at 36.83 39.37 0)
@@ -3677,6 +3677,28 @@
 			)
 		)
 	)
+	(global_label "RX+"
+		(shape bidirectional)
+		(at 158.75 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce20d11e-e967-43e7-a78b-d22d55d17015")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.8984 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "hallfx_4_FL"
 		(shape output)
 		(at 36.83 69.85 180)
@@ -3696,28 +3718,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RX+"
-		(shape bidirectional)
-		(at 158.75 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d5c2d493-316c-4468-9503-9cf7cb3bab59")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.8984 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
