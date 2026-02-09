@@ -707,7 +707,7 @@
       "idf": "",
       "netlist": "",
       "plot": "gerbers/",
-      "pos_files": "cpl_files/",
+      "pos_files": "/Users/emma/Documents/JHU/22xt_kicad/01-main_board/main_board_v3/cpl_files/",
       "specctra_dsn": "",
       "step": "export_3d/main_board_v3.step",
       "svg": "",

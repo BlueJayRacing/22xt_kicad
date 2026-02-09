@@ -302,7 +302,7 @@
 				)
 			)
 		)
-		(property "Value" "5V TP"
+		(property "Value" "5V_switch"
 			(at 1.75 0.5 0)
 			(layer "F.SilkS")
 			(uuid "6c3b5783-40dc-4ed2-bea5-3d40749372bd")
@@ -441,7 +441,7 @@
 		(at 70.9 26.1)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "TP12"
+		(property "Reference" "5v_usb"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(uuid "0eb87d47-64a1-4932-959f-0e488ade3995")
@@ -605,6 +605,7 @@
 		(property "Reference" "H4"
 			(at 0 -3.45 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0fd3e693-6d1e-4482-bd6d-7fdca9b1a678")
 			(effects
 				(font
@@ -3694,8 +3695,8 @@
 		(at 61 19.77)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "TP11"
-			(at -0.2 -1.97 0)
+		(property "Reference" "5v_buck"
+			(at -4.5 0.23 0)
 			(layer "F.SilkS")
 			(uuid "e24c5a19-91fd-4a4d-b4cd-f564a80eaa72")
 			(effects
@@ -4821,14 +4822,14 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "709c253d-65f9-4f8f-8fcf-54bbd907d4c4")
-		(at 64.5 50.25)
+		(at 66.5 50.75)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP2"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7818162c-0ea4-45ad-b2df-ff9e8e5de55f")
+			(uuid "c2554982-47ed-4ea4-bc9d-8e8ebadc0d3c")
 			(effects
 				(font
 					(size 1 1)
@@ -4837,9 +4838,9 @@
 			)
 		)
 		(property "Value" "MOSI"
-			(at 1.5 0.25 90)
+			(at -1.25 0 90)
 			(layer "F.SilkS")
-			(uuid "04582e75-e994-4e87-bede-f56c69b00ca7")
+			(uuid "987d4d6f-dbc3-427d-925b-55b536c42616")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4852,7 +4853,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "069881be-be2c-46e8-8565-13d7499caed3")
+			(uuid "944ce7eb-93f7-40ed-8ed9-7e5063acd596")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +4866,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0be7ceea-bfc8-4f71-b78e-a5c1732872e8")
+			(uuid "06ba4d3c-86ca-485b-9453-4a3356e32cd7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4978,6 +4979,7 @@
 		(property "Reference" "H3"
 			(at 0 -3.45 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ed926b45-d3d9-46c1-967f-125e6ca67b0e")
 			(effects
 				(font
@@ -6777,6 +6779,7 @@
 		(property "Reference" "H1"
 			(at 0 -3.45 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3b31bfbd-e504-4ef8-9d99-f2fe826b5ce7")
 			(effects
 				(font
@@ -13001,7 +13004,7 @@
 				)
 			)
 		)
-		(property "Value" "3V3_teensy TP"
+		(property "Value" "3V3_teensy"
 			(at 0.35 -1.95 180)
 			(layer "F.SilkS")
 			(uuid "8a194b08-ad33-494c-9dbf-7a2ab9701a2e")
@@ -14501,6 +14504,7 @@
 		(property "Reference" "H2"
 			(at 0 -3.45 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "640aa052-b735-4435-b789-789cf3b1235e")
 			(effects
 				(font
@@ -25907,7 +25911,7 @@
 			)
 		)
 		(property "Value" "5V_ref"
-			(at 0.85 -1.9 90)
+			(at 0.2 -3.2 0)
 			(layer "B.SilkS")
 			(uuid "c39ea497-a4dd-4d8c-80c2-0ac9008d0a3a")
 			(effects
@@ -29981,8 +29985,8 @@
 		(at 76.25 44 -90)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "TP9"
-			(at -1.8 -0.95 0)
+		(property "Reference" "2V5"
+			(at -1.8 -0.25 0)
 			(layer "B.SilkS")
 			(uuid "9ecd91e8-a2ab-4e98-98e5-07fa3008d0a3")
 			(effects
@@ -34556,6 +34560,17 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 93 51.5)
+		(end 114 57.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6c3cc0e8-7ba3-4796-8d7f-abda3f273917")
+	)
 	(gr_arc
 		(start 52 87.5)
 		(mid 51.292893 87.207107)
@@ -34686,7 +34701,7 @@
 		)
 	)
 	(gr_text "3V3"
-		(at 63.5 50.75 90)
+		(at 63 50.75 90)
 		(layer "F.SilkS")
 		(uuid "54d2f44e-7375-41d8-bd72-8b60a72d03ee")
 		(effects
@@ -34719,6 +34734,17 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "SN:"
+		(at 90.5 54.5 0)
+		(layer "F.SilkS")
+		(uuid "72c5c604-07c6-4afc-b080-b0aebaf51c30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "CS"
@@ -34779,6 +34805,19 @@
 			)
 		)
 	)
+	(gr_text "84.5x73 mm"
+		(at 58 17.5 0)
+		(layer "F.SilkS")
+		(uuid "e8309a83-19eb-4ae4-a3c6-8be2f6c2a238")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SCLK"
 		(at 71 50.5 90)
 		(layer "F.SilkS")
@@ -34791,7 +34830,7 @@
 		)
 	)
 	(gr_text "Emma Ouyang\nSophie Noureddine"
-		(at 115.7 30.8 0)
+		(at 115 30.8 0)
 		(layer "F.SilkS")
 		(uuid "f289ca1c-abcf-493f-85fb-4ca480902231")
 		(effects
@@ -35287,6 +35326,44 @@
 	(dimension
 		(type orthogonal)
 		(layer "Cmts.User")
+		(uuid "108191e0-4dc6-476d-8b58-ac544e01a3d0")
+		(pts
+			(xy 51.5 79.75) (xy 136 79.75)
+		)
+		(height 23.25)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "84.5"
+			(at 93.75 101.85 0)
+			(layer "Cmts.User")
+			(uuid "108191e0-4dc6-476d-8b58-ac544e01a3d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
 		(uuid "21acd3a6-0c32-48c3-b7f9-bbb9ca149890")
 		(pts
 			(xy 51 15.2) (xy 55 16.7)
@@ -35314,6 +35391,44 @@
 			(at 53 10.25 0)
 			(layer "Cmts.User")
 			(uuid "21acd3a6-0c32-48c3-b7f9-bbb9ca149890")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "49c5fb93-edc7-4c79-ad21-91fe0adf5e08")
+		(pts
+			(xy 122 14.5) (xy 122 87.5)
+		)
+		(height 31)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "73"
+			(at 151.85 51 90)
+			(layer "Cmts.User")
+			(uuid "49c5fb93-edc7-4c79-ad21-91fe0adf5e08")
 			(effects
 				(font
 					(size 1 1)
@@ -47716,12 +47831,12 @@
 		(uuid "9e0324a7-aa61-41d0-849a-8ba377ae4959")
 	)
 	(segment
-		(start 68.7 50.8)
-		(end 68.15 50.25)
+		(start 68.615 50.8)
+		(end 68.565 50.75)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 85)
-		(uuid "268660f1-f1ec-4ed4-bd64-15ce73acf21f")
+		(uuid "3e26df31-64a9-4ea3-a7d3-124f436754b7")
 	)
 	(segment
 		(start 76.3 50.7)
@@ -47740,6 +47855,22 @@
 		(uuid "5b9e2b07-7451-4348-aacd-1f2ab5c79296")
 	)
 	(segment
+		(start 65.88 51.37)
+		(end 66.5 50.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "7132ee8b-633e-4781-88f5-18f7d01342a9")
+	)
+	(segment
+		(start 65.88 53.535)
+		(end 65.88 51.37)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "b48d2ac6-e81d-44cf-9972-837a334fb0f5")
+	)
+	(segment
 		(start 68.9 50.8)
 		(end 68.615 50.8)
 		(width 0.2)
@@ -47748,28 +47879,20 @@
 		(uuid "b972a1c0-b2fc-4894-8d2b-99895f5a3863")
 	)
 	(segment
+		(start 68.565 50.75)
+		(end 66.5 50.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "bbbbb9e3-86c0-45ec-9861-f1ba0ecac68d")
+	)
+	(segment
 		(start 68.9 50.8)
 		(end 68.7 50.8)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 85)
 		(uuid "c3086213-97fd-4667-a5ab-ae3f5dc19452")
-	)
-	(segment
-		(start 68.615 50.8)
-		(end 65.88 53.535)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 85)
-		(uuid "c573e70e-4f16-4e79-a068-401f354186a9")
-	)
-	(segment
-		(start 68.15 50.25)
-		(end 64.5 50.25)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 85)
-		(uuid "ce1088fa-ff82-4947-847a-20cc79c644ab")
 	)
 	(via
 		(at 76.3 50.7)
