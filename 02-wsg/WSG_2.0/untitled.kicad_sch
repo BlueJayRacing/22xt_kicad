@@ -503,49 +503,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "22xt_ICs:AP2120N-5.0TRG1"
+		(symbol "22xt_ICs:AP2120N-2.5TRG1"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "PS"
-				(at 24.13 7.62 0)
+			(property "Reference" "U"
+				(at 27.94 10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "AP2120N-5.0TRG1"
-				(at 24.13 5.08 0)
+			(property "Value" "AP2120N-2.5TRG1"
+				(at 27.94 7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "SOT96P240X120-3N"
-				(at 24.13 -94.92 0)
+			(property "Footprint" "SOT-23_DIO"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AP2120.pdf"
-				(at 24.13 -194.92 0)
+			(property "Datasheet" "AP2120N-2.5TRG1"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "IC REG LINEAR 5V 150MA SOT23"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -554,71 +555,84 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1.2"
-				(at 24.13 -394.92 0)
+			(property "ki_locked" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
-					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "621-AP2120N-5.0TRG1"
-				(at 24.13 -494.92 0)
+			(property "ki_keywords" "AP2120N-2.5TRG1"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2120N-5.0TRG1?qs=M%2FOdCRO8QQ3JQu49DdtyIA%3D%3D"
-				(at 24.13 -594.92 0)
+			(property "ki_fp_filters" "SOT-23_DIO SOT-23_DIO-M SOT-23_DIO-L"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Diodes Incorporated"
-				(at 24.13 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "AP2120N-2.5TRG1_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -7.62)
 					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "AP2120N-5.0TRG1"
-				(at 24.13 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "AP2120N-5.0TRG1_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 22.86 -5.08)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin passive line
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 48.26 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 -7.62) (xy 48.26 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
 					(at 0 0 0)
-					(length 5.08)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -634,27 +648,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
+				(pin input line
+					(at 55.88 0 180)
+					(length 7.62)
 					(name "VIN"
 						(effects
 							(font
@@ -663,6 +659,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 55.88 -2.54 180)
+					(length 7.62)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3326,8 +3340,8 @@
 	)
 	(text_box "LDO"
 		(exclude_from_sim no)
-		(at 147.32 17.78 0)
-		(size 76.2 34.29)
+		(at 153.67 17.78 0)
+		(size 96.52 34.29)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3457,16 +3471,16 @@
 		(uuid "0b940f30-707c-4f0e-9efc-aba6ba86b400")
 	)
 	(junction
-		(at 167.64 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a878f80-d1f1-4e78-83fa-2a57bb2112f9")
-	)
-	(junction
 		(at 49.53 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c36b62b-8469-4e7f-8695-24d7f297dd2f")
+	)
+	(junction
+		(at 227.33 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d5d57a2-374d-46d1-8627-5213fef741e2")
 	)
 	(junction
 		(at 86.36 81.28)
@@ -3505,6 +3519,12 @@
 		(uuid "891d7442-6b2c-4087-bcf1-9abc1895ccd4")
 	)
 	(junction
+		(at 222.25 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93790046-5551-40ca-85f5-246e56603da1")
+	)
+	(junction
 		(at 121.92 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3523,12 +3543,6 @@
 		(uuid "e2ec4ea2-21dd-4d9c-b78a-911fc61ca28b")
 	)
 	(junction
-		(at 203.2 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee160503-c613-4b12-a98b-c44aa0769af3")
-	)
-	(junction
 		(at 85.09 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3541,16 +3555,6 @@
 	(no_connect
 		(at 190.5 139.7)
 		(uuid "f1a35e89-c301-4c2f-9020-60f32c356f76")
-	)
-	(wire
-		(pts
-			(xy 203.2 34.29) (xy 200.66 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "085a7466-7f22-40b5-b51b-70c9877595a9")
 	)
 	(wire
 		(pts
@@ -3614,6 +3618,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 34.29) (xy 219.71 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f58832c-8dfc-44c0-a998-903b00ee984a")
+	)
+	(wire
+		(pts
 			(xy 241.3 134.62) (xy 231.14 134.62)
 		)
 		(stroke
@@ -3651,16 +3665,6 @@
 			(type default)
 		)
 		(uuid "5179acd7-9a5f-45bb-84ce-08ad7ba330f7")
-	)
-	(wire
-		(pts
-			(xy 203.2 35.56) (xy 203.2 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52067ee2-a2d0-48de-a6a4-88f5a8ed81cd")
 	)
 	(wire
 		(pts
@@ -3754,6 +3758,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 34.29) (xy 227.33 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eca6a78-3eb3-4374-acb4-e3ffc9899d54")
+	)
+	(wire
+		(pts
 			(xy 177.8 132.08) (xy 190.5 132.08)
 		)
 		(stroke
@@ -3774,16 +3788,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 36.83) (xy 172.72 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97d43f7a-ad62-424c-8173-65c27d144b54")
-	)
-	(wire
-		(pts
 			(xy 134.62 172.72) (xy 143.51 172.72)
 		)
 		(stroke
@@ -3801,6 +3805,16 @@
 			(type default)
 		)
 		(uuid "a19bf06f-bba2-42b0-8c61-8ea96e50f13b")
+	)
+	(wire
+		(pts
+			(xy 219.71 36.83) (xy 222.25 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2659848-0a89-4a3e-bc67-15a69ff3c7cb")
 	)
 	(wire
 		(pts
@@ -3894,6 +3908,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 36.83) (xy 233.68 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdd29df2-0664-4fec-9458-6eb7afca6af7")
+	)
+	(wire
+		(pts
 			(xy 71.12 39.37) (xy 74.93 39.37)
 		)
 		(stroke
@@ -3931,16 +3955,6 @@
 			(type default)
 		)
 		(uuid "d671b18e-23f3-4512-a854-1603a58841ea")
-	)
-	(wire
-		(pts
-			(xy 158.75 36.83) (xy 167.64 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbd8fde4-48fa-4ed7-8d2d-c7bd755925b9")
 	)
 	(wire
 		(pts
@@ -3991,16 +4005,6 @@
 			(type default)
 		)
 		(uuid "ebe9b8f1-7ee8-4e0b-a0ba-89982fda638c")
-	)
-	(wire
-		(pts
-			(xy 207.01 34.29) (xy 203.2 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1331a39-daef-4331-b90b-c44dcdf287f6")
 	)
 	(wire
 		(pts
@@ -4090,7 +4094,7 @@
 	)
 	(global_label "5.5V_BOOST"
 		(shape input)
-		(at 207.01 34.29 0)
+		(at 232.41 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4100,7 +4104,7 @@
 		)
 		(uuid "1d2769c4-438c-455d-8621-d81766ffd2d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.1833 34.29 0)
+			(at 246.5833 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4286,24 +4290,24 @@
 			)
 		)
 	)
-	(global_label "5V_LDO"
+	(global_label "2.5V_LDO"
 		(shape output)
-		(at 158.75 36.83 180)
+		(at 233.68 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "503a7f90-eed0-4696-a92b-9dac01357e0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.8705 36.83 0)
+			(at 245.3738 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4728,7 +4732,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 167.64 40.64 0)
+		(at 222.25 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4736,7 +4740,7 @@
 		(dnp no)
 		(uuid "07ce897d-966e-4968-aa6f-31909b17a0ec")
 		(property "Reference" "C27"
-			(at 170.434 39.116 0)
+			(at 225.044 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +4749,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 170.688 41.148 0)
+			(at 225.298 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +4758,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 168.6052 44.45 0)
+			(at 223.2152 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,7 +4767,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 40.64 0)
+			(at 222.25 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,7 +4776,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 167.64 40.64 0)
+			(at 222.25 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5734,6 +5738,79 @@
 		)
 	)
 	(symbol
+		(lib_id "22xt_ICs:AP2120N-2.5TRG1")
+		(at 163.83 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a141fca-ac8a-42ad-8840-abdbbe549d53")
+		(property "Reference" "U2"
+			(at 191.77 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AP2120N-2.5TRG1"
+			(at 191.77 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "22xt_wsg_footprints:2.5_LDO"
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "AP2120N-2.5TRG1"
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7132aa87-61bc-4228-96cb-de3d9ea09d07")
+		)
+		(pin "3"
+			(uuid "97231869-19c9-403d-8ad4-867a63cb13c6")
+		)
+		(pin "2"
+			(uuid "5352add5-9153-4436-ab22-9c6cb7a9211d")
+		)
+		(instances
+			(project ""
+				(path "/a78512c7-96a5-4714-909a-6e7b65d2bdb6/c314ce01-1287-478c-a51f-dfd6c79bca1d"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 26.67 19.05 0)
 		(unit 1)
@@ -6413,7 +6490,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 43.18 0)
+		(at 227.33 26.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6422,7 +6499,7 @@
 		(fields_autoplaced yes)
 		(uuid "717b718d-301b-4dfe-a525-b209ff6a6c49")
 		(property "Reference" "#PWR054"
-			(at 203.2 49.53 0)
+			(at 227.33 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,7 +6508,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 48.26 0)
+			(at 227.33 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,7 +6516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 43.18 0)
+			(at 227.33 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,7 +6525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 43.18 0)
+			(at 227.33 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6457,7 +6534,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 43.18 0)
+			(at 227.33 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6472,129 +6549,6 @@
 			(project "WSG_2.0"
 				(path "/a78512c7-96a5-4714-909a-6e7b65d2bdb6/c314ce01-1287-478c-a51f-dfd6c79bca1d"
 					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "22xt_ICs:AP2120N-5.0TRG1")
-		(at 172.72 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "722dab53-61eb-4eff-a1a9-8becda5403fe")
-		(property "Reference" "PS2"
-			(at 186.69 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP2120N-5.0TRG1"
-			(at 186.69 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "wsg_fp:AP2120N-5.0TRG"
-			(at 196.85 129.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AP2120.pdf"
-			(at 196.85 229.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC REG LINEAR 5V 150MA SOT23"
-			(at 172.72 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.2"
-			(at 196.85 429.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-AP2120N-5.0TRG1"
-			(at 196.85 529.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2120N-5.0TRG1?qs=M%2FOdCRO8QQ3JQu49DdtyIA%3D%3D"
-			(at 196.85 629.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 196.85 729.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AP2120N-5.0TRG1"
-			(at 196.85 829.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8115517e-50f8-4232-8fc3-c1baac939ffb")
-		)
-		(pin "1"
-			(uuid "fbe6b7ce-0c3a-4b2f-8891-e544d8601f28")
-		)
-		(pin "3"
-			(uuid "a6eba801-9eb7-4590-988b-e3e4c852e7a9")
-		)
-		(instances
-			(project "WSG_2.0"
-				(path "/a78512c7-96a5-4714-909a-6e7b65d2bdb6/c314ce01-1287-478c-a51f-dfd6c79bca1d"
-					(reference "PS2")
 					(unit 1)
 				)
 			)
@@ -6725,7 +6679,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 203.2 39.37 0)
+		(at 227.33 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6734,7 +6688,7 @@
 		(fields_autoplaced yes)
 		(uuid "7be0fd83-57fb-4e4b-836d-b0698d74c036")
 		(property "Reference" "C26"
-			(at 207.01 38.0999 0)
+			(at 223.52 31.7501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6743,7 +6697,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 207.01 40.6399 0)
+			(at 223.52 29.2101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6752,7 +6706,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 204.1652 43.18 0)
+			(at 226.3648 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6761,7 +6715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 39.37 0)
+			(at 227.33 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,7 +6724,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 203.2 39.37 0)
+			(at 227.33 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6795,7 +6749,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 34.29 270)
+		(at 163.83 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6804,7 +6758,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ec337f0-89f3-44d5-9262-85494f20effd")
 		(property "Reference" "#PWR067"
-			(at 166.37 34.29 0)
+			(at 157.48 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6813,7 +6767,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 34.2899 90)
+			(at 160.02 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6822,7 +6776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 34.29 0)
+			(at 163.83 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +6785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 34.29 0)
+			(at 163.83 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6840,7 +6794,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 34.29 0)
+			(at 163.83 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8949,7 +8903,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 44.45 0)
+		(at 222.25 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8958,7 +8912,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1538293-5228-4399-af8d-347f658d45af")
 		(property "Reference" "#PWR068"
-			(at 167.64 50.8 0)
+			(at 222.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8967,7 +8921,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 49.53 0)
+			(at 222.25 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8975,7 +8929,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 44.45 0)
+			(at 222.25 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,7 +8938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 44.45 0)
+			(at 222.25 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8993,7 +8947,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 44.45 0)
+			(at 222.25 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
