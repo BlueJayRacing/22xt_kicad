@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "jade_moon_footprints")(type "KiCad")(uri "${KIPRJMOD}/jade_moon_footprints.pretty")(options "")(descr ""))
+)
