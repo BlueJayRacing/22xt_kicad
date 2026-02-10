@@ -2842,7 +2842,7 @@
 		)
 		(uuid "6d26d1f5-29ae-4c1b-ae3c-8f80becfb82f")
 	)
-	(text "Resistor math: (820K R/90K R + 1)0.5 = 5.06 V"
+	(text "Resistor math: (820K R/90.9K R + 1)0.5 = 5.01 V"
 		(exclude_from_sim no)
 		(at 214.884 20.066 0)
 		(effects
@@ -2891,6 +2891,16 @@
 			)
 		)
 		(uuid "8ad4efab-01d7-40e4-8fde-86d0c76b9554")
+	)
+	(text "Mode= 0 for power save (H efficiency) mode"
+		(exclude_from_sim no)
+		(at 260.858 54.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e4f55223-bef3-4e3a-91b8-639b17c2f777")
 	)
 	(text "6.5 uA quiescent"
 		(exclude_from_sim no)
@@ -2985,14 +2995,6 @@
 	(no_connect
 		(at 71.12 111.76)
 		(uuid "95e12204-1162-4bc3-b2c3-fb250d1ce648")
-	)
-	(no_connect
-		(at 264.16 33.02)
-		(uuid "ab1c4d0c-d62a-4be6-be30-ccba9ce3e56b")
-	)
-	(no_connect
-		(at 233.68 33.02)
-		(uuid "f4659327-6921-48eb-85d2-f606ddd57146")
 	)
 	(no_connect
 		(at 29.21 36.83)
@@ -3953,7 +3955,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 267.97 63.5 0)
+		(at 267.97 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3962,7 +3964,7 @@
 		(fields_autoplaced yes)
 		(uuid "05c496c8-d0bd-46ee-a0ca-1a947770e615")
 		(property "Reference" "#PWR012"
-			(at 267.97 69.85 0)
+			(at 267.97 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +3973,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 267.97 68.58 0)
+			(at 267.97 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +3982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 63.5 0)
+			(at 267.97 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +3991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 63.5 0)
+			(at 267.97 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +4000,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 63.5 0)
+			(at 267.97 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,7 +4037,7 @@
 				)
 			)
 		)
-		(property "Value" "820K R"
+		(property "Value" "820K"
 			(at 249.936 45.212 90)
 			(effects
 				(font
@@ -4043,7 +4045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "22XT_Main_Peripheral:RESC3116X65N (820K)"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 249.936 41.656 90)
 			(effects
 				(font
@@ -5302,6 +5304,74 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 233.68 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7aae5681-2cc6-4822-87eb-be2dfde742ab")
+		(property "Reference" "#PWR013"
+			(at 227.33 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32e05718-5e2e-4b04-adfb-2fbf5b607963")
+		)
+		(instances
+			(project "main_board_peripheral_v3"
+				(path "/3f673207-cdae-494a-ab60-6e58b06fb202"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 39.37 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5709,6 +5779,74 @@
 			(project "main_board_peripheral_v2"
 				(path "/3f673207-cdae-494a-ab60-6e58b06fb202"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a95b613d-2738-43d6-b546-c208ee121500")
+		(property "Reference" "#PWR014"
+			(at 270.51 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 33.0201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b603180e-45ab-4d2a-9321-aa2065cff355")
+		)
+		(instances
+			(project "main_board_peripheral_v3"
+				(path "/3f673207-cdae-494a-ab60-6e58b06fb202"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6341,73 +6479,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 267.97 59.69 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc1a14e9-0d6b-40b3-9dd6-1f75b0f50748")
-		(property "Reference" "R5"
-			(at 265.684 60.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "30K R"
-			(at 263.652 60.452 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "22XT_Main_Peripheral:RESC3116X65N (30K)"
-			(at 266.954 59.436 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 267.97 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb1543df-960f-4dfb-9cf1-db1e0cd5ad9a")
-		)
-		(pin "2"
-			(uuid "7c1db128-29d2-42a9-9348-1d92b9efcf2a")
-		)
-		(instances
-			(project "main_board_peripheral_v2"
-				(path "/3f673207-cdae-494a-ab60-6e58b06fb202"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 80.01 143.51 90)
 		(unit 1)
@@ -6625,7 +6696,7 @@
 				)
 			)
 		)
-		(property "Value" "500R"
+		(property "Value" "500"
 			(at 201.168 80.01 90)
 			(effects
 				(font
@@ -6746,73 +6817,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 267.97 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e15fea8d-e2a9-48a3-9089-65dd3d3e8dd7")
-		(property "Reference" "R4"
-			(at 265.684 52.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "30K R"
-			(at 263.652 52.832 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "22XT_Main_Peripheral:RESC3116X65N (30K)"
-			(at 266.954 51.816 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 267.97 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "beb4fd45-01e1-45fd-b442-157345159d9e")
-		)
-		(pin "2"
-			(uuid "e34a296d-2176-4cc9-ac09-fdae08d0c66f")
-		)
-		(instances
-			(project "main_board_peripheral_v2"
-				(path "/3f673207-cdae-494a-ab60-6e58b06fb202"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 233.68 30.48 270)
 		(unit 1)
@@ -6897,7 +6901,7 @@
 				)
 			)
 		)
-		(property "Value" "30K R"
+		(property "Value" "90.9K"
 			(at 263.652 45.212 90)
 			(effects
 				(font
@@ -6905,7 +6909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "22XT_Main_Peripheral:RESC3116X65N (30K)"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 266.954 44.196 90)
 			(effects
 				(font
