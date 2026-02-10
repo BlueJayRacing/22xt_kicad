@@ -443,13 +443,13 @@
 		(embedded_fonts no)
 		(model "${BJR_KICAD}/21xt/00-3dmodels/c-t4040014041-000-a-3d.stp"
 			(offset
-				(xyz 1.7 0.5 17)
+				(xyz 1.7 0.5 15.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
