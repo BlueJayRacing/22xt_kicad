@@ -1110,7 +1110,7 @@
 		(uuid "aadaa18f-ebd3-40d9-9dd8-00822776ed77")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Gwenyth/Desktop/Baja/2205/22xt_kicad/01-main_board/00-3dmodels/Teensy 4.1--3DModel-STEP-269445.STEP"
+	(model "${XT22_KICAD}/01-main_board/00-3dmodels/Teensy 4.1--3DModel-STEP-269445.STEP"
 		(offset
 			(xyz 0 0 0.762)
 		)
