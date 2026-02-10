@@ -3822,7 +3822,17 @@
 		)
 		(uuid "03946404-905b-4c00-8e11-fb678441ed59")
 	)
-	(text "|V_DS| < |V_GS -V_TH| for triode\n|4.7| < |0-5.5+1|"
+	(text "V_in_min = 3.3V + 0.7 V = 4V"
+		(exclude_from_sim no)
+		(at 244.856 52.578 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "066c02d7-4a48-4ab8-b804-b35f5184e7dd")
+	)
+	(text "|V_DS| < |V_GS -V_TH| for triode\n|4.4| < |0-5.5+0.8|"
 		(exclude_from_sim no)
 		(at 160.02 38.862 0)
 		(effects
@@ -3842,7 +3852,7 @@
 		)
 		(uuid "460af9c7-aa5d-45df-9d12-1c536d6a12b5")
 	)
-	(text "V_fwd = 300 mV at 500 mA"
+	(text "V_fwd_max = 600 mV at 400 mA"
 		(exclude_from_sim no)
 		(at 195.326 59.944 0)
 		(effects
@@ -3852,7 +3862,7 @@
 		)
 		(uuid "5bb6022c-239f-4321-8b8d-be708d1727f8")
 	)
-	(text "V_TH = -1V"
+	(text "V_TH_max = -0.8V"
 		(exclude_from_sim no)
 		(at 153.162 32.258 0)
 		(effects
@@ -7575,7 +7585,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMP2120U-7"
+		(property "Value" "SI1317DL-T1-GE3"
 			(at 163.322 32.766 0)
 			(effects
 				(font
@@ -9085,7 +9095,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "NHP120SFT3G"
 			(at 185.42 45.72 0)
 			(effects
 				(font
@@ -9093,7 +9103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "22xt_wsg_footprints:DIO_RB161QS_ROM(diode)"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 185.42 49.53 0)
 			(effects
 				(font
