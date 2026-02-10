@@ -3600,7 +3600,7 @@
 	)
 	(global_label "RX_P"
 		(shape bidirectional)
-		(at 80.01 161.29 0)
+		(at 80.01 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3610,7 +3610,7 @@
 		)
 		(uuid "8f2a6e39-e68f-427b-9e16-438951ea95b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.8236 161.29 0)
+			(at 88.8236 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +3666,7 @@
 	)
 	(global_label "RX_N"
 		(shape bidirectional)
-		(at 80.01 158.75 0)
+		(at 80.01 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3676,7 +3676,7 @@
 		)
 		(uuid "9c70eb9c-7174-4897-8769-39c400cf15e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.8841 158.75 0)
+			(at 88.8841 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4876,6 +4876,73 @@
 			(project ""
 				(path "/3f673207-cdae-494a-ab60-6e58b06fb202"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "677494c3-9304-4a05-bc1f-0324b3e8de53")
+		(property "Reference" "#PWR010"
+			(at 48.26 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8026a2f-6764-4f09-ba5d-d128852c945c")
+		)
+		(instances
+			(project "main_board_peripheral_v3"
+				(path "/3f673207-cdae-494a-ab60-6e58b06fb202"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
