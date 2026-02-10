@@ -1,0 +1,25 @@
+### Footprint positions - created on 2026-02-10T02:05:20-0500 ###
+### Printed by KiCad version 9.0.3
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                Package                      PosX       PosY       Rot  Side
+C2        1uF                C_0603_1608Metric        121.0000   -96.8600  -90.0000  bottom
+C13       1uF                C_0402_1005Metric        118.4300   -90.6900  180.0000  bottom
+C14       0.1uF              C_0402_1005Metric        118.4200   -91.6100  180.0000  bottom
+C28       1uF                C_0402_1005Metric        110.4000   -85.1900  -90.0000  bottom
+C29       1uF                C_0402_1005Metric        116.4200   -84.7100    0.0000  bottom
+C30       2.2uF              C_0402_1005Metric        120.6500   -84.6100  -90.0000  bottom
+D1        LED                D_0402_1005Metric        128.0000  -100.8600    0.0000  bottom
+D2        NHP120SFT3G        D_SOD-123F               120.2500   -90.9800  -90.0000  bottom
+IC1       W25N04KVZEIR       SON127P800X600X80-9N-D   133.8878   -88.8300   90.0000  bottom
+IC3       MIC5504-3.3YM5-TR  MIC5501234_(3.3v_ref)    113.1300   -85.6200  180.0000  bottom
+IC8       SPX3819S-L_TR      SOIC127P600X175-8N       125.1428   -87.5600    0.0000  bottom
+MOSFET1   SI1317DL-T1-GE3    SOT-23_DMP2120U_DIO-L    119.4500   -87.1600   90.0000  bottom
+R3        2.1k               R_0402_1005Metric        121.0000   -99.3600  180.0000  bottom
+R4        1.5k               R_0402_1005Metric        128.5000   -99.0000   90.0000  bottom
+R6        100k               R_0402_1005Metric        129.6100   -92.5800  180.0000  bottom
+R7        10k                R_0402_1005Metric        130.5000   -98.0000    0.0000  bottom
+R25       36.5k              R_0402_1005Metric        122.3500   -84.1900    0.0000  bottom
+R45       22k                R_0402_1005Metric        123.7600   -83.4800   90.0000  bottom
+U1        BQ21040DBVR        BQ21040DBVR              125.0000   -97.8600  180.0000  bottom
+## End
