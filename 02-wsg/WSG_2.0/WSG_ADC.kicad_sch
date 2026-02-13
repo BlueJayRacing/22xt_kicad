@@ -1696,6 +1696,16 @@
 		)
 		(uuid "c3064ed4-66f6-40bf-badd-c209f27439e7")
 	)
+	(text "G=1000 (max)"
+		(exclude_from_sim no)
+		(at 45.974 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d5e46677-5be9-46bc-a6f8-2dd0461e61fe")
+	)
 	(text "check it out again"
 		(exclude_from_sim no)
 		(at 269.24 35.306 0)
@@ -4821,7 +4831,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "80.6"
 			(at 25.4 173.9899 0)
 			(effects
 				(font
@@ -5836,7 +5846,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "80.6"
 			(at 25.4 134.6199 0)
 			(effects
 				(font
@@ -8049,7 +8059,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "80.6"
 			(at 25.4 92.7099 0)
 			(effects
 				(font
