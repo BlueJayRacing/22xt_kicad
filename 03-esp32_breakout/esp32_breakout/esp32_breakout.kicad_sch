@@ -5172,28 +5172,6 @@
 			)
 		)
 	)
-	(global_label "USB_D+"
-		(shape output)
-		(at 49.53 173.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2769a16d-5f41-4f79-ac9a-4bc206142ca2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.9248 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3v3"
 		(shape input)
 		(at 33.02 139.7 270)
@@ -5322,6 +5300,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D+"
+		(shape output)
+		(at 49.53 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "478c3a85-dd04-4bf5-a588-bbf0f132154e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.9248 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D-"
+		(shape output)
+		(at 49.53 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bef5084-bc7e-46be-9b74-523d8fb9bb79")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.9248 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5801,28 +5823,6 @@
 		(uuid "f42ea803-43ae-4708-bc52-e25c92a84622")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 26.67 97.0256 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_D-"
-		(shape output)
-		(at 49.53 176.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f6ebdeeb-df67-4bc3-a6f2-f5c96ad8e633")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.9248 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
