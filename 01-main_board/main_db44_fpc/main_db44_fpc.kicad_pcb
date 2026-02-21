@@ -1987,7 +1987,7 @@
 			(net 20 "GNDD")
 			(pinfunction "MH")
 			(pintype "passive")
-			(uuid "fd36b1fd-7a6a-4f48-827d-b574b199dc05")
+			(uuid "17c38a69-b900-4369-b23b-ba6ca881cea7")
 		)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
@@ -2486,7 +2486,8 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "C:/Users/mnjeo/22xt_kicad/01-main_board/DB44_ Breakout/780-M44-213R001.STEP"
+		(model "${XT22_KICAD}/01-main_board/DB44_ Breakout/780-M44-213R001.STEP"
+			(hide yes)
 			(offset
 				(xyz 12.2 -8 -8.5)
 			)
