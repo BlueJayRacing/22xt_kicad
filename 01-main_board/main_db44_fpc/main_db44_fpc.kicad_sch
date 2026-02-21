@@ -6055,7 +6055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jade_moon_footprints:female-DB44-TE-2311770-1-"
+		(property "Footprint" "ip67_db44_hd_socket_vertical:DSUB-44-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles"
 			(at 167.64 87.63 0)
 			(effects
 				(font
