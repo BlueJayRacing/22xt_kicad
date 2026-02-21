@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "00-footprints")(type "KiCad")(uri "C:/Users/ebgok/Documents/22xt_kicad/01-main_board/00-footprints")(options "")(descr ""))
+)
