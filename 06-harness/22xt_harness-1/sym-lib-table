@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "harness_library")(type "KiCad")(uri "${KIPRJMOD}/harness_library.kicad_sym")(options "")(descr ""))
+)
