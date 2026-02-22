@@ -3998,7 +3998,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "5V_ref"
 		(shape output)
 		(at 181.61 99.06 0)
 		(fields_autoplaced yes)
@@ -4010,7 +4010,7 @@
 		)
 		(uuid "c4da5369-7494-4d69-8a0b-06553cc0ac88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.8933 99.06 0)
+			(at 190.4614 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
