@@ -576,7 +576,7 @@
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "export_3d/main_board_peripheral_v2.step",
+      "step": "export_3d/main_board_peripheral_v3.step",
       "svg": "",
       "vrml": ""
     },
