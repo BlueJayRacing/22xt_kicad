@@ -4056,7 +4056,7 @@
 		)
 		(uuid "9e102486-6a76-4988-8a42-4aeaa9994e1d")
 	)
-	(text_box "Flash"
+	(text_box "NAND Flash: data storage"
 		(exclude_from_sim no)
 		(at 186.69 72.39 0)
 		(size 93.98 41.91)
@@ -4076,7 +4076,7 @@
 		)
 		(uuid "b30d1d1c-f412-479e-8e85-c0368e2e1c53")
 	)
-	(text_box "5V_USB to Lithium Charger"
+	(text_box "5V_USB to Lithium Charger (3.7 V, 850 mAh): charging at 0.29 C"
 		(exclude_from_sim no)
 		(at 17.78 156.21 0)
 		(size 152.4 39.37)
@@ -4878,7 +4878,7 @@
 			)
 		)
 	)
-	(global_label "CS_FLASH"
+	(global_label "CS_NAND_FLASH"
 		(shape input)
 		(at 205.74 86.36 180)
 		(fields_autoplaced yes)
@@ -4890,7 +4890,7 @@
 		)
 		(uuid "22bbc541-0ad5-4589-bf68-ef8b9f6e38ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.5624 86.36 0)
+			(at 187.5752 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,7 +4924,7 @@
 	)
 	(global_label "ESP_USB_D-"
 		(shape bidirectional)
-		(at 115.57 30.48 90)
+		(at 115.57 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4934,7 +4934,7 @@
 		)
 		(uuid "250f5b2b-06e5-427b-8626-fa2978fd8356")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 14.1674 90)
+			(at 131.8826 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5142,7 +5142,7 @@
 			)
 		)
 	)
-	(global_label "SCLK_FLASH"
+	(global_label "SCLK_NAND_FLASH"
 		(shape input)
 		(at 259.08 91.44 0)
 		(fields_autoplaced yes)
@@ -5154,7 +5154,7 @@
 		)
 		(uuid "9936d43e-29e3-47cd-be9c-03a27008071c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.5557 91.44 0)
+			(at 279.5429 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,7 +5318,7 @@
 			)
 		)
 	)
-	(global_label "MISO_FLASH"
+	(global_label "MISO_NAND_FLASH"
 		(shape output)
 		(at 207.01 88.9 180)
 		(fields_autoplaced yes)
@@ -5330,7 +5330,7 @@
 		)
 		(uuid "dbc1008a-e40e-4574-b763-bbd44e2cb35b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.7157 88.9 0)
+			(at 186.7285 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5384,7 +5384,7 @@
 			)
 		)
 	)
-	(global_label "MOSI_FLASH"
+	(global_label "MOSI_NAND_FLASH"
 		(shape input)
 		(at 259.08 93.98 0)
 		(fields_autoplaced yes)
@@ -5396,7 +5396,7 @@
 		)
 		(uuid "eb2b22fa-50df-44c3-9128-111544d1b8fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.3743 93.98 0)
+			(at 279.3615 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
