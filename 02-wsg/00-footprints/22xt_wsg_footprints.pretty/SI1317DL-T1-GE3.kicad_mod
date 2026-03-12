@@ -1,0 +1,218 @@
+(footprint "SI1317DL-T1-GE3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SC-70: 3-LEQADS")
+	(tags "MOSFET (P-Channel)")
+	(property "Reference" "Q**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "1a54476c-c948-4839-ab4e-ecb955ef618b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SI1317DL-T1-GE3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "08515d60-7381-4f61-96e4-6140402aa8fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bb1281a-8f95-4b86-9c72-785c5016b328")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2b1c693-518f-452a-92e5-234d0e43ba9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.575 -1.15)
+		(end -0.525 -1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f704bccd-8fb0-41f7-9985-3bc0201c490b")
+	)
+	(fp_line
+		(start -0.175 -1)
+		(end 0.175 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff423ea4-7344-4ffe-a217-fd1c830c6e34")
+	)
+	(fp_line
+		(start -0.175 1)
+		(end -0.175 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "277b7684-89e6-45cd-8311-e80c3e83a586")
+	)
+	(fp_line
+		(start 0.175 -1)
+		(end 0.175 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18102183-5e98-4be2-9487-64866eacea43")
+	)
+	(fp_line
+		(start 0.175 1)
+		(end -0.175 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13052c37-369a-4d9d-830c-374108576fc5")
+	)
+	(fp_line
+		(start -1.825 -1.35)
+		(end 1.825 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "28d50bef-c658-4991-b59d-51e1a9b546c6")
+	)
+	(fp_line
+		(start -1.825 1.35)
+		(end -1.825 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7681687e-9619-4bcd-9614-c886478c6de0")
+	)
+	(fp_line
+		(start -0.625 -1)
+		(end 0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "fb9be74d-33c0-4806-aebd-8639a31a00b4")
+	)
+	(fp_line
+		(start -0.625 -0.35)
+		(end 0.025 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d03a96d4-3c71-4c7b-9c97-f0aff2f5e83e")
+	)
+	(fp_line
+		(start -0.625 1)
+		(end -0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "2a0317c8-48ea-4ad8-bebd-e0195698771d")
+	)
+	(fp_line
+		(start 0.625 -1)
+		(end 0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "fe16158a-139a-44e9-9ab5-6d881f244a0b")
+	)
+	(fp_line
+		(start 0.625 1)
+		(end -0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "78bd79bd-a580-4aee-accc-f7ab1886a9e0")
+	)
+	(fp_line
+		(start 1.825 -1.35)
+		(end 1.825 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "2d6304e3-8adb-4a35-a331-433b93bd38c4")
+	)
+	(fp_line
+		(start 1.825 1.35)
+		(end -1.825 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f9b1c1a7-e7a8-4027-892f-866cf3576870")
+	)
+	(pad "1" smd rect
+		(at -1.05 -0.65 90)
+		(size 0.5 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "97c2b989-2ae3-40ff-9dd1-dfe8444663af")
+	)
+	(pad "2" smd rect
+		(at -1.05 0.65 90)
+		(size 0.5 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "78265856-d423-400d-8a91-9f59db972f1c")
+	)
+	(pad "3" smd rect
+		(at 1.05 0 90)
+		(size 0.5 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "7218b9f5-8e7f-46c6-9cca-fa8d32bda666")
+	)
+	(embedded_fonts no)
+)

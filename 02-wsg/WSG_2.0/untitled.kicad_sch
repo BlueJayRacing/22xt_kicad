@@ -7594,7 +7594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "22xt_wsg_footprints:SOT-23_DMP2120U_DIO-L"
+		(property "Footprint" "22xt_wsg_footprints:SI1317DL-T1-GE3"
 			(at 180.34 31.75 0)
 			(effects
 				(font
