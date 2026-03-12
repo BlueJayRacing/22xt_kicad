@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -505,6 +505,16 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.47,
+        "name": "50Ohm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.34,
+        "via_diameter": 0.44,
+        "via_drill": 0.34
+      },
+      {
         "clearance": 0.1,
         "diff_pair_gap": 0.21,
         "diff_pair_width": 0.36,
@@ -512,7 +522,7 @@
         "microvia_drill": 0.1,
         "name": "ESP USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.45,
@@ -526,7 +536,7 @@
         "microvia_drill": 0.1,
         "name": "USB Data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.45,
@@ -540,12 +550,24 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
+        "netclass": "USB Data",
         "pattern": "USB"
       },
       {
-        "netclass": "Default",
+        "netclass": "ESP USB",
         "pattern": "ESP_USB"
+      },
+      {
+        "netclass": "50Ohm",
+        "pattern": "/ESP32_flash/50_Ohm_UFL"
+      },
+      {
+        "netclass": "50Ohm",
+        "pattern": "/ESP32_flash/50_Ohm_LNAIN"
+      },
+      {
+        "netclass": "50Ohm",
+        "pattern": "Net-(C1-Pad1)"
       }
     ]
   },

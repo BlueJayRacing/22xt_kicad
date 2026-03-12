@@ -4611,6 +4611,36 @@
 		)
 		(uuid "fe9da68c-a163-4644-8178-f22e5f570ea5")
 	)
+	(label "50_Ohm_UFL"
+		(at 52.07 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "136e3cf1-f5e4-4673-98ad-8429aad85b2b")
+	)
+	(label "50_Ohm_UFL"
+		(at 52.07 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7843510c-2760-441d-bb28-c1999183aa81")
+	)
+	(label "50_Ohm_LNAIN"
+		(at 91.44 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8277a667-d4c1-4972-8cea-fcb91b8e4831")
+	)
 	(global_label "SCLK_ADC"
 		(shape output)
 		(at 266.7 97.79 270)
