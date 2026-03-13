@@ -2991,16 +2991,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "CC0402FRNPO9BN120"
-		(exclude_from_sim no)
-		(at 124.714 32.258 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3b38b71b-9026-4032-a3ef-aa8246006333")
-	)
 	(text "^				^\n|				|\nGRM0335C1H1R5BA01D"
 		(exclude_from_sim no)
 		(at 45.974 133.604 0)
