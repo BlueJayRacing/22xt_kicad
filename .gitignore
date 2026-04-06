@@ -23,6 +23,7 @@ fp-info-cache
 *.DS_Store
 # gerbers
 # cplfiles
+.history/
 
 # Netlist files (exported from Eeschema)
 *.net
