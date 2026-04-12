@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.0066,
-          "width": 2.159
+          "drill": 2.5,
+          "height": 3.5,
+          "width": 3.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.15,
+          "via_gap": 0.0,
+          "width": 0.2
         }
       ],
       "drc_exclusions": [],
@@ -80,8 +85,7 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_near_hole": "error",
-        "hole_to_hole": "error",
+        "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -89,7 +93,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -102,10 +106,10 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "ignore",
+        "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -132,15 +136,15 @@
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.15,
-        "min_text_height": 0.1,
+        "min_text_height": 1.0,
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.16,
-        "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.005,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.45,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -189,11 +193,7 @@
       ],
       "track_widths": [
         0.0,
-        0.13,
-        0.15,
-        0.16,
-        0.2,
-        0.34
+        0.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -227,19 +227,11 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.35,
-          "drill": 0.2
-        },
-        {
-          "diameter": 0.4,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.45,
+          "diameter": 0.6,
           "drill": 0.3
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -436,6 +428,7 @@
       "bus_entry_needed": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
@@ -479,17 +472,19 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "22XT_Main"
+    ]
   },
   "meta": {
-    "filename": "WSG_3.0.kicad_pro",
+    "filename": "main_board_v3.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -506,58 +501,55 @@
         "wire_width": 6
       },
       {
-        "bus_width": 12,
-        "clearance": 0.47,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "50Ohm",
+        "diff_pair_gap": 0.178906,
+        "diff_pair_width": 0.181631,
+        "name": "CAN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.34,
-        "via_diameter": 0.44,
-        "via_drill": 0.34,
-        "wire_width": 6
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.21,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.36,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "ESP USB",
+        "clearance": 0.2,
+        "diff_pair_gap": 0.1906,
+        "diff_pair_width": 0.2888,
+        "name": "Ethernet",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2888,
+        "via_diameter": 0.45,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.45,
+        "via_drill": 0.3
+      },
+      {
+        "diff_pair_gap": 0.1234,
+        "diff_pair_width": 0.3,
+        "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.45,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.21,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.36,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "USB Data",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.45,
-        "via_drill": 0.3,
-        "wire_width": 6
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -567,24 +559,128 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "USB Data",
-        "pattern": "USB"
+        "netclass": "GND",
+        "pattern": "GNDA"
       },
       {
-        "netclass": "ESP USB",
-        "pattern": "ESP_USB"
+        "netclass": "GND",
+        "pattern": "GNDD"
       },
       {
-        "netclass": "50Ohm",
-        "pattern": "/ESP32_flash/50_Ohm_UFL"
+        "netclass": "GND",
+        "pattern": "PGND"
       },
       {
-        "netclass": "50Ohm",
-        "pattern": "/ESP32_flash/50_Ohm_LNAIN"
+        "netclass": "GND",
+        "pattern": "B-"
       },
       {
-        "netclass": "50Ohm",
-        "pattern": "Net-(C1-Pad1)"
+        "netclass": "Power",
+        "pattern": "5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "3V3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "3V3_teensy"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "5V_buck"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "5V_usb"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "3V3_to_buff"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "3V3_out"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "2V5_ref"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "2V5"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "11.1V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "5V_ref"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "TX-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "TX+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "RX-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "RX+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "TD+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "TD-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "RD+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "RD-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "usb+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "usb-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "usb_teensy+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "usb_teensy-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "usb_esp+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "usb_esp-"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "CRX, CTX, CANH, CANL"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "3V3_esp"
       }
     ]
   },
@@ -593,10 +689,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/sophi/Documents/22xt_kicad/02-wsg/WSG_2.0/gerbers/",
-      "pos_files": "emmatake/",
+      "plot": "gerbers/",
+      "pos_files": "/Users/emma/Documents/JHU/22xt_kicad/01-main_board/main_board_v3/cpl_files/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "export_3d/main_board_v3.step",
       "svg": "",
       "vrml": ""
     },
@@ -723,18 +819,6 @@
         },
         {
           "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Height",
           "name": "Height",
           "show": false
@@ -801,20 +885,32 @@
   },
   "sheets": [
     [
-      "a78512c7-96a5-4714-909a-6e7b65d2bdb6",
+      "12c2237c-5932-49af-9119-92b28c846ae7",
       "Root"
     ],
     [
-      "ed498e37-cbbe-46d1-a235-95d4b1ded704",
-      "WSG_ADC"
+      "3932ebef-992a-45fd-a214-7d9aa3b763ff",
+      "Analog Processing"
     ],
     [
-      "c314ce01-1287-478c-a51f-dfd6c79bca1d",
-      "Power and Memory"
+      "e4bc29b2-554a-4b47-958f-0b5bb716dd19",
+      "Power"
     ],
     [
-      "ce807aaa-cf62-4ae2-83b5-ecb168adba99",
-      "ESP32_flash"
+      "f7990d3b-6f19-4c8f-ba4f-28eb9e1a3c51",
+      "Teensy"
+    ],
+    [
+      "2f086c3e-45d9-4d10-b4a9-28dcf0b29962",
+      "SG Processing"
+    ],
+    [
+      "1c0fa17f-7333-433d-8099-fbcba82c3572",
+      "Digital Processing"
+    ],
+    [
+      "e5005576-746e-4110-9aa7-21d70d5867f0",
+      "ESP32S3"
     ]
   ],
   "text_variables": {}
