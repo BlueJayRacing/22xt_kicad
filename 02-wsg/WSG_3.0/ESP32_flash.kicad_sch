@@ -7366,7 +7366,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1pF"
+		(property "Value" "1.2pF"
 			(at 77.724 87.884 0)
 			(effects
 				(font
@@ -8498,7 +8498,7 @@
 				)
 			)
 		)
-		(property "Value" "2.7nH"
+		(property "Value" "2.4nH"
 			(at 76.2 77.47 90)
 			(effects
 				(font
