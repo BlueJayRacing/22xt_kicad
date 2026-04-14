@@ -3203,10 +3203,6 @@
 		(uuid "97c61880-0339-4357-9585-9016c1c4b6c4")
 	)
 	(no_connect
-		(at 181.61 46.99)
-		(uuid "b11d01aa-50e2-4fd0-b36a-54affb23d613")
-	)
-	(no_connect
 		(at 238.76 97.79)
 		(uuid "ba217e5a-d0dd-4ed4-9d76-5752edcad62a")
 	)
@@ -4218,7 +4214,7 @@
 			)
 		)
 	)
-	(global_label "MOSI1"
+	(global_label "MOSI0"
 		(shape output)
 		(at 181.61 69.85 180)
 		(fields_autoplaced yes)
@@ -4416,7 +4412,7 @@
 			)
 		)
 	)
-	(global_label "MISO1"
+	(global_label "MISO0"
 		(shape input)
 		(at 181.61 72.39 180)
 		(fields_autoplaced yes)
@@ -4517,6 +4513,28 @@
 		(uuid "d58b929c-9761-4775-b1f2-f3af000ff32a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 169.372 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "handshake"
+		(shape bidirectional)
+		(at 181.61 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da97c1d3-8548-47c1-9897-a6c19480f109")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.4747 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,7 +4676,7 @@
 			)
 		)
 	)
-	(global_label "SCLK1"
+	(global_label "SCLK0"
 		(shape output)
 		(at 238.76 72.39 0)
 		(fields_autoplaced yes)

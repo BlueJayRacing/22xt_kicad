@@ -844,10 +844,6 @@
 		(uuid "7ab6e48d-1a6a-4e5d-9a94-0cb3b9c8eee9")
 	)
 	(no_connect
-		(at 129.54 88.9)
-		(uuid "a165fcb9-5314-4eb1-b5b0-3332d6f736b9")
-	)
-	(no_connect
 		(at 129.54 96.52)
 		(uuid "c5e102a6-8748-47b3-be78-79b9c7f7dde6")
 	)
@@ -957,6 +953,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "handshake"
+		(shape bidirectional)
+		(at 129.54 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "895ed1d1-5a47-46a0-bf9b-0355c474d2bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.4047 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

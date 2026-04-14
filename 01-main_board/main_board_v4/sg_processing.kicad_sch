@@ -2174,7 +2174,7 @@
 			)
 		)
 	)
-	(global_label "SCLK1"
+	(global_label "SCLK0"
 		(shape input)
 		(at 132.08 127 0)
 		(fields_autoplaced yes)
@@ -2504,7 +2504,7 @@
 			)
 		)
 	)
-	(global_label "MISO1"
+	(global_label "MISO0"
 		(shape output)
 		(at 86.36 134.62 180)
 		(fields_autoplaced yes)
@@ -2746,7 +2746,7 @@
 			)
 		)
 	)
-	(global_label "MOSI1"
+	(global_label "MOSI0"
 		(shape input)
 		(at 132.08 121.92 0)
 		(fields_autoplaced yes)
