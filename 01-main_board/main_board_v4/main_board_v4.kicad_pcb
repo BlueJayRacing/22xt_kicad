@@ -529,7 +529,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 3.5 3.5)
-			(drill 2.5)
+			(drill 3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GNDA")
@@ -2659,6 +2659,135 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "MountingHole:ToolingHole_1.152mm"
+		(layer "F.Cu")
+		(uuid "2490cffc-870d-4625-b695-765f2c743c6d")
+		(at 132 20)
+		(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
+		(tags "mounting")
+		(property "Reference" "H6"
+			(at 0 -1.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "93eae6ab-e5eb-4439-b60e-0c92a26f08a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1.6 0)
+			(layer "F.Fab")
+			(uuid "be62f806-0885-4046-b4b1-4eb8799ae0b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d992c502-7ca0-4112-8819-c266a6d12776")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ef250b4-ab74-42e9-baea-b9a32856e8f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/ddbcd52c-f255-4c20-822c-2d00d97aa756")
+		(sheetname "/")
+		(sheetfile "main_board_v4.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.7 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "9ce88057-f3ba-45cc-916e-d80b4d433b00")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "71649ce5-5da0-4574-8533-0dcddb5e4325")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.152 1.152)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 0.074)
+			(uuid "ee586f3c-4f94-4eb7-8b9a-6fc2398bdeba")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
+			(uuid "c4ec5c20-d233-4daa-b0ee-b1dab313ff40")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks not_allowed)
+				(vias allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+			)
+			(polygon
+				(pts
+					(xy 132.7 20) (xy 132.679659 19.832479) (xy 132.619819 19.674694) (xy 132.523958 19.535814) (xy 132.397645 19.423911)
+					(xy 132.248223 19.345489) (xy 132.084376 19.305104) (xy 131.915624 19.305104) (xy 131.751777 19.345489)
+					(xy 131.602355 19.423911) (xy 131.476042 19.535814) (xy 131.380181 19.674694) (xy 131.320341 19.832479)
+					(xy 131.3 20) (xy 131.320341 20.167521) (xy 131.380181 20.325306) (xy 131.476042 20.464186) (xy 131.602355 20.576089)
+					(xy 131.751777 20.654511) (xy 131.915624 20.694896) (xy 132.084376 20.694896) (xy 132.248223 20.654511)
+					(xy 132.397645 20.576089) (xy 132.523958 20.464186) (xy 132.619819 20.325306) (xy 132.679659 20.167521)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -4836,7 +4965,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 3.5 3.5)
-			(drill 2.5)
+			(drill 3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 42 "GNDD")
@@ -6679,7 +6808,7 @@
 			(layer "Dwgs.User")
 			(uuid "55aec29e-2110-49ee-9357-d1b41a0f5e64")
 			(pts
-				(xy 53.75 17) (xy 56.25 17)
+				(xy 53.5 17) (xy 56.5 17)
 			)
 			(height 2.5)
 			(orientation 0)
@@ -6700,7 +6829,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "2.5"
+			(gr_text "3"
 				(at 55 18.35 0)
 				(layer "Dwgs.User")
 				(uuid "55aec29e-2110-49ee-9357-d1b41a0f5e64")
@@ -6753,7 +6882,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 3.5 3.5)
-			(drill 2.5)
+			(drill 3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 23 "PGND")
@@ -8628,6 +8757,135 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "MountingHole:ToolingHole_1.152mm"
+		(layer "F.Cu")
+		(uuid "b47d83b1-4eee-4ab8-aa3c-3900870ff7d1")
+		(at 132 82)
+		(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
+		(tags "mounting")
+		(property "Reference" "H5"
+			(at 0 -1.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "45422644-d89b-492d-8523-45b79b42664a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1.6 0)
+			(layer "F.Fab")
+			(uuid "b1c3035c-b234-442e-9654-3a4faab80ede")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4aa3a66a-0e5a-42f6-9522-e339ddcffcd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "771be829-a442-43a5-8a54-b6ffda319c40")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/51e4ac83-c194-4309-b197-b9c3a02deb36")
+		(sheetname "/")
+		(sheetfile "main_board_v4.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.7 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "3599af1b-8637-415a-aae3-ec5b21091d0e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "aa3b80f1-9518-4de7-8cec-a9ece3d71093")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.152 1.152)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 0.074)
+			(uuid "0a5c4b2c-a47b-4705-96ef-44fc0b79bda1")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
+			(uuid "4cb3c8f1-5d73-4f6d-95af-82dca5f08f27")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks not_allowed)
+				(vias allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+			)
+			(polygon
+				(pts
+					(xy 132.7 82) (xy 132.679659 81.832479) (xy 132.619819 81.674694) (xy 132.523958 81.535814) (xy 132.397645 81.423911)
+					(xy 132.248223 81.345489) (xy 132.084376 81.305104) (xy 131.915624 81.305104) (xy 131.751777 81.345489)
+					(xy 131.602355 81.423911) (xy 131.476042 81.535814) (xy 131.380181 81.674694) (xy 131.320341 81.832479)
+					(xy 131.3 82) (xy 131.320341 82.167521) (xy 131.380181 82.325306) (xy 131.476042 82.464186) (xy 131.602355 82.576089)
+					(xy 131.751777 82.654511) (xy 131.915624 82.694896) (xy 132.084376 82.694896) (xy 132.248223 82.654511)
+					(xy 132.397645 82.576089) (xy 132.523958 82.464186) (xy 132.619819 82.325306) (xy 132.679659 82.167521)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -11474,6 +11732,135 @@
 			)
 		)
 	)
+	(footprint "MountingHole:ToolingHole_1.152mm"
+		(layer "F.Cu")
+		(uuid "d7d0c28b-359f-44b7-867d-4767e824aa4a")
+		(at 55 82)
+		(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
+		(tags "mounting")
+		(property "Reference" "H7"
+			(at 0 -1.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c4ae0b96-cd91-45fe-9c0c-50158c0729f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1.6 0)
+			(layer "F.Fab")
+			(uuid "5baaacda-8746-40b2-92ee-ca30b61b861c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65897de6-71bf-4f6d-b47f-ab329295bca3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4538bbe5-a348-41cd-9d3e-298625fac9f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/d2a94d17-68f6-4b44-a60c-e7da38141e91")
+		(sheetname "/")
+		(sheetfile "main_board_v4.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.7 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "1fe315db-9f5a-4c62-86bb-765ceaab1ecb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "dc638eaf-96f8-470d-8f77-5e24336cf29b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.152 1.152)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 0.074)
+			(uuid "95a719d2-49d0-4f4e-aa49-cc414d1911c5")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
+			(uuid "ac013ec9-4dac-4f36-baf2-bc19d2d72fa9")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks not_allowed)
+				(vias allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+			)
+			(polygon
+				(pts
+					(xy 55.7 82) (xy 55.679659 81.832479) (xy 55.619819 81.674694) (xy 55.523958 81.535814) (xy 55.397645 81.423911)
+					(xy 55.248223 81.345489) (xy 55.084376 81.305104) (xy 54.915624 81.305104) (xy 54.751777 81.345489)
+					(xy 54.602355 81.423911) (xy 54.476042 81.535814) (xy 54.380181 81.674694) (xy 54.320341 81.832479)
+					(xy 54.3 82) (xy 54.320341 82.167521) (xy 54.380181 82.325306) (xy 54.476042 82.464186) (xy 54.602355 82.576089)
+					(xy 54.751777 82.654511) (xy 54.915624 82.694896) (xy 55.084376 82.694896) (xy 55.248223 82.654511)
+					(xy 55.397645 82.576089) (xy 55.523958 82.464186) (xy 55.619819 82.325306) (xy 55.679659 82.167521)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "22XT_Main:NRS4012T150MDGJ"
 		(layer "F.Cu")
 		(uuid "de75d25e-4fee-4303-860c-ad1a0ee154c1")
@@ -11822,6 +12209,135 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "409b891a-0afe-460b-b811-ecfaa9533a24")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:ToolingHole_1.152mm"
+		(layer "F.Cu")
+		(uuid "e4e151b3-cce0-477a-a008-32ee36857ae6")
+		(at 55 20)
+		(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
+		(tags "mounting")
+		(property "Reference" "H8"
+			(at 0 -1.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "50051076-87be-472f-95eb-4d2a34185e95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1.6 0)
+			(layer "F.Fab")
+			(uuid "f8331b99-c1cd-42b8-ad4b-bafb027765b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "734bd7fa-c4ee-403a-a835-53176a1cd2cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a981390-a0d9-4d2e-9067-729144796357")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/6fd47b1d-8938-45b4-918e-a8dc99973429")
+		(sheetname "/")
+		(sheetfile "main_board_v4.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.7 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "7d0798d9-a066-4202-aec7-77a374036cf8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fa6dcea4-9692-4da3-8d9e-3576a9141dfa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.152 1.152)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 0.074)
+			(uuid "a78f646f-fb33-4c7d-b926-d4b32d70927f")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
+			(uuid "6f96fcfd-d2bc-4456-9cd3-acfe5a39db70")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks not_allowed)
+				(vias allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+			)
+			(polygon
+				(pts
+					(xy 55.7 20) (xy 55.679659 19.832479) (xy 55.619819 19.674694) (xy 55.523958 19.535814) (xy 55.397645 19.423911)
+					(xy 55.248223 19.345489) (xy 55.084376 19.305104) (xy 54.915624 19.305104) (xy 54.751777 19.345489)
+					(xy 54.602355 19.423911) (xy 54.476042 19.535814) (xy 54.380181 19.674694) (xy 54.320341 19.832479)
+					(xy 54.3 20) (xy 54.320341 20.167521) (xy 54.380181 20.325306) (xy 54.476042 20.464186) (xy 54.602355 20.576089)
+					(xy 54.751777 20.654511) (xy 54.915624 20.694896) (xy 55.084376 20.694896) (xy 55.248223 20.654511)
+					(xy 55.397645 20.576089) (xy 55.523958 20.464186) (xy 55.619819 20.325306) (xy 55.679659 20.167521)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -13016,7 +13532,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 3.5 3.5)
-			(drill 2.5)
+			(drill 3)
 			(layers "*.Cu" "*.Mask" "B.SilkS")
 			(remove_unused_layers no)
 			(net 23 "PGND")
@@ -23860,7 +24376,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "2V5"
+		(property "Value" "2V5 TP"
 			(at 0 -1.55 0)
 			(layer "B.SilkS")
 			(uuid "1bf36e89-bdc5-4dd6-bfb1-cfd2a443c478")
@@ -34322,8 +34838,8 @@
 		)
 	)
 	(gr_rect
-		(start 119.5 22.5)
-		(end 134.5 26)
+		(start 119.5 24.5)
+		(end 134.5 28.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -34484,7 +35000,7 @@
 		)
 	)
 	(gr_text "SN:"
-		(at 116.5 25 0)
+		(at 116.5 27 0)
 		(layer "F.SilkS")
 		(uuid "59e10263-067d-422f-8ba8-5fe4143e5b23")
 		(effects
@@ -34497,7 +35013,7 @@
 		)
 	)
 	(gr_text "Gwenyth Tran"
-		(at 115.9 17.7 0)
+		(at 116.5 17.7 0)
 		(layer "F.SilkS")
 		(uuid "5d4eb2ba-885b-4265-9e75-4f497f2b52ef")
 		(effects
@@ -34521,7 +35037,7 @@
 		)
 	)
 	(gr_text "85 x 73 mm\n"
-		(at 58 17.5 0)
+		(at 116.5 23.5 0)
 		(layer "F.SilkS")
 		(uuid "89beb13c-0e2a-467b-af6a-3f1d177806f5")
 		(effects
@@ -35793,6 +36309,44 @@
 			(at 53 10.25 0)
 			(layer "Cmts.User")
 			(uuid "21acd3a6-0c32-48c3-b7f9-bbb9ca149890")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "3fd7bf00-bd4e-4ea4-a1ef-54a2890c3b64")
+		(pts
+			(xy 53.5 17) (xy 56.5 17)
+		)
+		(height -3.25)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "3"
+			(at 55 12.6 0)
+			(layer "Cmts.User")
+			(uuid "3fd7bf00-bd4e-4ea4-a1ef-54a2890c3b64")
 			(effects
 				(font
 					(size 1 1)

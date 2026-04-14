@@ -91,5 +91,5 @@ SCL_ESP,TP18,TestPoint_Pad_1.0x1.0mm,,1
 SDA_ESP,TP17,TestPoint_Pad_1.0x1.0mm,,1
 RX_ESP,TP16,TestPoint_Pad_1.0x1.0mm,,1
 TX_ESP,TP15,TestPoint_Pad_1.0x1.0mm,,1
-2V5,TP9,TestPoint_Pad_1.0x1.0mm,,1
+2V5 TP,TP9,TestPoint_Pad_1.0x1.0mm,,1
 100k,R10,R_0402_1005Metric,,1

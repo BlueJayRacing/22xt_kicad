@@ -4085,7 +4085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP50P490X110-11N"
+		(property "Footprint" ""
 			(at 76.2 195.25 0)
 			(effects
 				(font
