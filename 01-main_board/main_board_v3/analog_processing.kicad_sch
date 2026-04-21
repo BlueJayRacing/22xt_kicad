@@ -1572,6 +1572,27 @@
 		)
 		(uuid b3f1e2e1-6678-4155-9b5f-80a3a98c78a2)
 	)
+	(text "Squid Pinout:\n- FL:\n- FR: ADC_AIN6 (AN3)\n- BL:\n- BR: ADC_AIN7 (AN4, but this should be AN8..?)"
+		(exclude_from_sim no)
+		(at 165.1 40.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08bcad5d-2c7b-492b-890f-154d353b6c24")
+	)
+	(text "ADC_AIN8"
+		(exclude_from_sim no)
+		(at 190.754 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "38890b3b-4c3b-400f-8afe-d0cbf1f19293")
+	)
 	(text "ADC"
 		(exclude_from_sim no)
 		(at 74.93 140.462 0)
@@ -1614,6 +1635,26 @@
 		)
 		(uuid "83067448-2c50-4b28-8a0a-7f51638350aa")
 	)
+	(text "ADC_AIN5"
+		(exclude_from_sim no)
+		(at 191.008 80.772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "894b4223-5c0e-4382-8fba-01495e4e19f9")
+	)
+	(text "ADC_AIN7"
+		(exclude_from_sim no)
+		(at 191.008 122.174 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "89578939-9584-4cfa-a3b5-3c4dd3bca06e")
+	)
 	(text "5V_ref and 5V pins should detect\naround 4.35V from the voltage divider\n"
 		(exclude_from_sim no)
 		(at 113.792 33.02 0)
@@ -1624,6 +1665,26 @@
 			(justify top)
 		)
 		(uuid "99455457-0960-401f-992e-f30d4e9fb307")
+	)
+	(text "ADC_AIN4"
+		(exclude_from_sim no)
+		(at 190.754 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b95c21db-5668-4571-8274-36eca5869ec4")
+	)
+	(text "ADC_AIN6"
+		(exclude_from_sim no)
+		(at 191.008 102.108 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d61acb9b-4fdc-4d20-b4f3-a01a2882a5e8")
 	)
 	(junction
 		(at 107.95 92.71)
