@@ -1785,6 +1785,16 @@
 		)
 		(uuid "734d24bc-8d71-419f-862e-fbefc7f577b7")
 	)
+	(text "I=500/RLIM, 730 mA"
+		(exclude_from_sim no)
+		(at 138.176 128.524 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7aa4ad93-dbe6-403b-ba8a-9277a64b9422")
+	)
 	(text "ESP32 recommends 3.3V power supply with >= 500 mA supply current, \n\nESP32C6 or ESP32S3 specifically, dobule check datasheets\n"
 		(exclude_from_sim no)
 		(at 255.27 141.732 0)
@@ -5193,7 +5203,7 @@
 				)
 			)
 		)
-		(property "Value" "400R"
+		(property "Value" "680"
 			(at 138.43 124.46 90)
 			(effects
 				(font

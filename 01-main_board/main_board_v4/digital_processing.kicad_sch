@@ -1545,6 +1545,16 @@
 		)
 		(uuid "d0cc1dd9-943a-402a-bd2b-270a756e3b90")
 	)
+	(text "Pin 19 should just be 5V"
+		(exclude_from_sim no)
+		(at 145.288 38.608 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dc83cf28-71b7-4739-a0d8-a0cfc474590d")
+	)
 	(junction
 		(at 163.83 43.18)
 		(diameter 0)
