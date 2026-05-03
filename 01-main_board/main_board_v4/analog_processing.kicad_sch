@@ -1625,6 +1625,16 @@
 		)
 		(uuid "99455457-0960-401f-992e-f30d4e9fb307")
 	)
+	(text "edit:\nsampling at 1 kHz\nneed cutoff frequency <= 500 Hz\n\n0.1 uF, 3.183K ohm"
+		(exclude_from_sim no)
+		(at 156.972 170.688 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d9e208b3-fcb6-40f4-b8b3-47716d8bdae0")
+	)
 	(junction
 		(at 107.95 92.71)
 		(diameter 0)
